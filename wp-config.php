@@ -19,10 +19,10 @@
 define('DB_NAME', 'mikesbq90_wp2');
 
 /** MySQL database username */
-define('DB_USER', 'mikesbq90_wp2');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'JDK5JKGqU1n^7');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -42,16 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-
-define('AUTH_KEY',         'V0e1q2YHb7JTgYX19VJI4WnE2NyabV0hRTxiytO9qvELy37bHq5DdUL0K3cgGjVD');
-define('SECURE_AUTH_KEY',  'E1xICTFs4qwIZJEHsVIhv2hda2Xmp0DWtQAC0QcU5BRXguDPVGb4BJZD3e0Gdu7R');
-define('LOGGED_IN_KEY',    'IhfAw6kNYPIpOxFxoIHGFRMV6Eoq2gFNHhoSDf9Xd3BtPqzEb5wjUZsuFNZk397e');
-define('NONCE_KEY',        'ktxOFAVrbgg1Q8uvSnV5EkgyrWylDO1K3iZwYgGv8NjvGNpweMpeWH1NzG2jxUUy');
-define('AUTH_SALT',        '57uMWspGGn76lU8KbUCJ5SebHJSqoGEMAGFREMCn7iDghhlPmIQtlVjiCrLLvlrw');
-define('SECURE_AUTH_SALT', 'mN8PAgK3yd8JJKoLyHof1WJ59KnNITX66J2EiiYY3UQ4pPIsU6AYLOi8gMcXKgvy');
-define('LOGGED_IN_SALT',   'arV1CzjzjEp3in0xcMwVI6EQ38YKIMRtBuV7W5w404m3FWv1XP3OxyhmuVgmnqhN');
-define('NONCE_SALT',       'Nz4MZVfVbBhORtkFbNBJKHZEqRIW4zwWcFaPzrNDwt7fdvMXJccSIC7TScP42pUk');
-define('WP_TEMP_DIR',      '/home/mikesbq90/domains/getdeals.nl/public_html/wp-content/uploads');
+define('AUTH_KEY',         ';8*|jix1snf^B~+#1UcNJ;Q1aUg=(FPDNo;FJhZ.<g}$Qtlhp(>SBgmCJm 2Blqf');
+define('SECURE_AUTH_KEY',  '_l3PO+~+&JY,-q`b$A$G:C,a2CIWkV._/:|+y 2_TBs|}iD`2G)Jple{bW$)K1E^');
+define('LOGGED_IN_KEY',    'YK $..P-4Up-(2^7}-ES4a!UHHqOh|jmmp9<.IEU]+9eBuLeO&pP9O0 <EcrTf(5');
+define('NONCE_KEY',        'YH8=+IO,DODEMz-A]Nv2;HrOTw^E}qb&EW5n[d<e+m|_t:|_(V!Z&jN+]{wzg|d-');
+define('AUTH_SALT',        'MgN)nB&^e_HZ-V^J}3mN>tC:G(-1w]|NT sNH0$fQ||.1&TWed1]Ny,NT-F9zZ1K');
+define('SECURE_AUTH_SALT', '-M=RjZ$8cD=:Ltzcm?>UWYxo,^Lb)wdMU</aYCB9j1`DRf&4%++Jjm`lae2Vy@_k');
+define('LOGGED_IN_SALT',   'J|:T)w9r2S<-cZ |z{;3<%:jXK;!7GZ9%a]P:L+unw5-+.Sbf;+HH2`|{g($JB/k');
+define('NONCE_SALT',       'GjX+Y2Z@q(kGizfEJ*F:tZROS9zjFR+W(h5~_}JDTbvpb!xBQ^5Z#{j~g_`AjzY3');
 
 /**#@-*/
 
@@ -80,13 +78,7 @@ define('WPLANG', 'nl_NL');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-if(false)//$_SERVER['REMOTE_ADDR'] == '113.170.22.160' || $_SERVER['REMOTE_ADDR'] == '113.170.13.86')
-{
-	define('WP_DEBUG', true);
-}
-else{
-	define('WP_DEBUG', false);
-}
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -96,18 +88,3 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
-function d($data,$die=false)
-{
-	if($_SERVER['REMOTE_ADDR'] == '113.170.22.160' || $_SERVER['REMOTE_ADDR'] == '113.170.13.86' || $_SERVER['REMOTE_ADDR'] == '123.22.28.242')
-	{
-		echo '<pre>';
-		print_r($data);
-		echo '<pre/>';
-		
-		if($die){
-			echo "------------------------\n";
-			die('exit by debug');
-		} 
-	}
-}
