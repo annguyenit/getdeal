@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: find-duplicates\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-15 18:48+0100\n"
+"PO-Revision-Date: 2013-01-15 18:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../fd-options-page.php:53
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../fd-options-page.php:56
+#: ../find-duplicates-page.php:71
+msgid "Say \"Thank you\""
+msgstr "Sag \"Danke\""
+
+#: ../fd-options-page.php:57
+#: ../find-duplicates-page.php:72
+msgid "Say \"Thank you\" and further more free plugins!"
+msgstr "Sag \"Danke\" und fördere damit weitere kostenlose Plugins!"
+
+#: ../fd-options-page.php:69
+msgid "Automatic duplicate handling"
+msgstr "Automatisch Behandlung von Duplikaten"
+
+#: ../fd-options-page.php:72
+msgid "Activate automatic post handling"
+msgstr "Automatische Behandlung aktivieren"
+
+#: ../fd-options-page.php:73
+msgid "Set all posts matching the following criteria as \"pending\" directly after publishing it."
+msgstr "Neu veröffentlichte Artikel mit folgenden Kriterien als \"Ausstehend\" kennzeichnen"
+
+#: ../fd-options-page.php:74
+#: ../fd-options-page.php:131
+msgid "Activate for these <strong>types</strong>:"
+msgstr "Berücksichtige diese <strong>Typen</strong>:"
+
+#: ../fd-options-page.php:85
+msgid "Delete all posts with an <strong>content-similarity</strong> of more than:"
+msgstr "Suche nach Artikeln mit einer <strong>Ähnlichkeit</strong> von mehr als:"
+
+#: ../fd-options-page.php:91
+#: ../fd-options-page.php:148
+#: ../find-duplicates-page.php:109
+msgid "Include these <strong>statuses</strong>:"
+msgstr "Berücksichtige diesen <strong>Status</strong>:"
+
+#: ../fd-options-page.php:103
+#: ../fd-options-page.php:160
+#: ../find-duplicates-page.php:121
+msgid "Limit by <strong>post date</strong>:"
+msgstr "Begrenze mit <strong>Datum</strong>:"
+
+#: ../fd-options-page.php:104
+#: ../fd-options-page.php:161
+#: ../find-duplicates-page.php:122
+msgid "from"
+msgstr "von"
+
+#: ../fd-options-page.php:105
+#: ../fd-options-page.php:162
+#: ../find-duplicates-page.php:123
+msgid "until"
+msgstr "bis"
+
+#: ../fd-options-page.php:109
+#: ../fd-options-page.php:166
+#: ../find-duplicates-page.php:127
+msgid "Compare post's titles instead of contents"
+msgstr "Vergleiche Titel anstatt Inhalt"
+
+#: ../fd-options-page.php:110
+#: ../fd-options-page.php:167
+#: ../find-duplicates-page.php:128
+msgid "Filter out HTML-Tags while comparing"
+msgstr "HTML-Tags beim Vergleich ignorieren"
+
+#: ../fd-options-page.php:126
+msgid "Manual duplicate handling"
+msgstr "Manuelle Überprüfung"
+
+#: ../fd-options-page.php:129
+msgid "Activate manual post handling"
+msgstr "Manuelle Überprüfung aktivieren"
+
+#: ../fd-options-page.php:130
+msgid "Allows you to check for similar entries before publishing an post."
+msgstr "Erlaubt die manuelle Prüfung auf Duplikate während der Bearbeitung"
+
+#: ../fd-options-page.php:142
+msgid "Include all posts with an <strong>content-similarity</strong> of more than:"
+msgstr "Suche nach Artikeln mit einer <strong>Ähnlichkeit</strong> von mehr als:"
+
+#: ../fd-options-page.php:175
+msgid "Save settings"
+msgstr "Speichern"
+
+#: ../find-duplicates-page.php:89
+msgid "Search settings"
+msgstr "Einstellungen"
+
+#: ../find-duplicates-page.php:91
+msgid "Get all posts with an <strong>content-similarity</strong> of more than:"
+msgstr "Suche nach Artikeln mit einer <strong>Ähnlichkeit</strong> von mehr als:"
+
+#: ../find-duplicates-page.php:98
+msgid "Compare this <strong>type</strong>:"
+msgstr "Berücksichtige diese <strong>Typen</strong>:"
+
+#: ../find-duplicates-page.php:133
+#: ../find-duplicates.php:362
+msgid "loading"
+msgstr "suche"
+
+#: ../find-duplicates-page.php:136
+msgid "Start new search"
+msgstr "Neue Suche"
+
+#: ../find-duplicates-page.php:137
+msgid "cancel"
+msgstr "abbrechen"
+
+#: ../find-duplicates-page.php:144
+msgid "Continue old search"
+msgstr "alte Suche fortsetzen"
+
+#: ../find-duplicates-page.php:154
+#, php-format
+msgid "Compared %2$s of %3$s posts<br />Found %1$s duplicates"
+msgstr "%2$s von %3$s Elementen verglichen<br />%1$s Duplikate gefunden"
+
+#: ../find-duplicates-page.php:156
+msgid "Delete newer posts (to trash)"
+msgstr "Lösche neuere Artikel (Papierkorb)"
+
+#: ../find-duplicates-page.php:157
+msgid "Delete older posts (to trash)"
+msgstr "Lösche ältere Artikel (Papierkorb)"
+
+#: ../find-duplicates-page.php:161
+msgid "similarity"
+msgstr "Ähnlichkeit"
+
+#: ../find-duplicates-page.php:162
+msgid "newer post"
+msgstr "Neuerer Artikel"
+
+#: ../find-duplicates-page.php:163
+msgid "older post"
+msgstr "Älterer Artikel"
+
+#: ../find-duplicates.php:63
+#: ../find-duplicates.php:72
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du hast keine ausreichenden Rechte für diese Seite."
+
+#: ../find-duplicates.php:361
+msgid "Similarity"
+msgstr "Ähnlichkeit"
+
+#: ../find-duplicates.php:361
+msgid "Date"
+msgstr "Datum"
+
+#: ../find-duplicates.php:361
+msgid "Status"
+msgstr "Status"
+
+#: ../find-duplicates.php:361
+msgid "only compare title"
+msgstr "nur Titel vergleichen"
+
+#~ msgid "Save settings for post-editing"
+#~ msgstr "für Artikelbearbeitung speichern"
+
+#~ msgid "Compare posts of the following types:"
+#~ msgstr "Vergleiche Artikel der folgenden Typen:"
+
+#~ msgid "Found %1$s duplicates in %2$s of %3$s posts"
+#~ msgstr "%1$s Duplikate in %2$s von %3$s Artikeln gefunden"

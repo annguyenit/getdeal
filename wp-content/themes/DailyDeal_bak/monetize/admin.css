@@ -1,0 +1,12 @@
+.divright{
+text-align:right; margin-top:-40px; margin-bottom:15px;
+}
+.pagination span, .pagination a{ padding:5px;}
+.pagination .current{ font-weight:bold; background-color:#CCC;}
+.color_schedule{ color:#000; }
+.color_expire{ color:red; }
+.color_active{ color:green; }
+.color_reject{ color:#999; }
+.color_terminate{ color:#999; }
+.color_pending{ color:#E66F00; }
+a.i_export { background:url(export.png) no-repeat left top; padding-left:22px; padding-top:1px; text-decoration:none; }

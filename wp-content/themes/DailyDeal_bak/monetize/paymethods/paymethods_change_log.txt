@@ -1,0 +1,13 @@
+/*  
+Framework Name: Payment Options Module
+Framework URI:  http://templatic.com/
+Description:   	Developed by Templatic Team.
+Version:       	1.0.0
+*/
+
+
+
+1st  April - 2011 (v:1.0.0)
+----------------------------------------
+Fresh Release
+

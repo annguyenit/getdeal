@@ -1,0 +1,12 @@
+.row { padding:15px 0 15px 0; border-bottom:1px dotted #dfdfdf;  }
+.row p { margin:0; padding:0; }
+.row label { font-size:14px; font-weight:bold; }
+.row p.note { font-size:11px; color:#777; clear:both; }
+.row p.value { font-size:11px; color:#333; clear:both; }
+.multicheckbox, .input_radio { float:left; margin:0 10px 10px 5px; width:130px; }
+.element { width:245px; }
+.calendar_img { margin-left:10px; }
+.row input { padding:5px; }
+
+
+.widefat td br { display:none; }

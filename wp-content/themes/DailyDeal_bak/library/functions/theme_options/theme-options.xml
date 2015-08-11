@@ -1,0 +1,656 @@
+<?xml version="1.0"?>
+<wp_option_tree>
+  <row>
+    <id>1</id>
+    <item_id>general_settings</item_id>
+    <item_title>General Settings</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>1</item_sort>
+  </row>
+  <row>
+    <id>2</id>
+    <item_id>ptthemes_alt_stylesheet</item_id>
+    <item_title>Theme Skin</item_title>
+    <item_desc>Select the color skin of your site from here</item_desc>
+    <item_type>select</item_type>
+    <item_options>1-default,2-green,3-orange,4-purple,5-black</item_options>
+    <item_sort>2</item_sort>
+  </row>
+  <row>
+    <id>3</id>
+    <item_id>ptthemes_favicon</item_id>
+    <item_title>Favicon</item_title>
+    <item_desc>Enter the full URL of your favicon image. &amp;lt;a href=&amp;quot;http://www.favicon.cc/&amp;quot;&amp;gt;Create one here&amp;lt;/a&amp;gt;</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>3</item_sort>
+  </row>
+  <row>
+    <id>4</id>
+    <item_id>ptthemes_logo_url</item_id>
+    <item_title>Custom Logo</item_title>
+    <item_desc>Enter the full URL of your logo image or add a new logo by clicking on Browse</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>4</item_sort>
+  </row>
+  <row>
+    <id>5</id>
+    <item_id>ptthemes_show_blog_title</item_id>
+    <item_title>Display Title  instead of Logo</item_title>
+    <item_desc>This option will overwrite your logo selection above - You can &amp;lt;a href=&amp;quot;options-general.php&amp;quot;&amp;gt;change your settings here&amp;lt;/a&amp;gt;</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>5</item_sort>
+  </row>
+  <row>
+    <id>6</id>
+    <item_id>ptthemes_feedburner_url</item_id>
+    <item_title>Syndication / Feed URL</item_title>
+    <item_desc>Enter RSS URL (if you are using Feedburner, else leave this blank)</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>6</item_sort>
+  </row>
+  <row>
+    <id>7</id>
+    <item_id>ptthemes_tweet_button</item_id>
+    <item_title>&amp;quot;Tweet&amp;quot; button</item_title>
+    <item_desc>Show &amp;quot;Tweet&amp;quot; button</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>7</item_sort>
+  </row>
+  <row>
+    <id>67</id>
+    <item_id>ptttheme_currency_symbol</item_id>
+    <item_title>Currency symbol</item_title>
+    <item_desc>Enter currency symbol like($)</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>68</item_sort>
+  </row>
+  <row>
+    <id>68</id>
+    <item_id>ptthemes_default_currency</item_id>
+    <item_title>Currency code</item_title>
+    <item_desc>Enter currency code like(USD)</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>8</item_sort>
+  </row>
+  
+   <row>
+    <id>88</id>
+    <item_id>ptthemes_time_offset</item_id>
+    <item_title>Time zone offset</item_title>
+    <item_desc> Offset for your timezone in hours from UTC e.g. -5,8 etc</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>88</item_sort>
+  </row>
+  
+  <row>
+    <id>8</id>
+    <item_id>ptthemes_facebook_button</item_id>
+    <item_title>&amp;quot;Facebook Like&amp;quot; button</item_title>
+    <item_desc>Show &amp;quot;Facebook Like&amp;quot; button</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>9</item_sort>
+  </row>
+
+  <row>
+    <id>10</id>
+    <item_id>pttheme_contact_email</item_id>
+    <item_title>Contact Form Email</item_title>
+    <item_desc>Enter your Email address for Contact Form</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>11</item_sort>
+  </row>
+  <row>
+    <id>11</id>
+    <item_id>ptthemes_breadcrumbs</item_id>
+    <item_title>Breadcrumbs Navigation</item_title>
+    <item_desc>Display Breadcrumbs navigation. i.e. Home &amp;gt; Blog &amp;gt; Title - &amp;lt;a href=options-general.php?page=yoast-breadcrumbs.php&amp;gt;Change options here&amp;lt;/a&amp;gt;</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>12</item_sort>
+  </row>
+  <row>
+    <id>12</id>
+    <item_id>ptthemes_auto_install</item_id>
+    <item_title>Disable Auto Install</item_title>
+    <item_desc>Want to disable Auto Install ?</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>13</item_sort>
+  </row>
+  <row>
+    <id>13</id>
+    <item_id>ptthemes_postcontent_full</item_id>
+    <item_title>Content Display</item_title>
+    <item_desc>Instead of default Post excerpts display Full Post Content in Category Listing</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Full Content,Excerpt</item_options>
+    <item_sort>14</item_sort>
+  </row>
+  <row>
+    <id>14</id>
+    <item_id>ptthemes_content_excerpt_count</item_id>
+    <item_title>Content Excerpt Word Count</item_title>
+    <item_desc>Enter Content Excerpt Word Count.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>15</item_sort>
+  </row>
+  <row>
+    <id>15</id>
+    <item_id>ptthemes_content_excerpt_readmore</item_id>
+    <item_title>Content Excerpt "Read More" Link Text</item_title>
+    <item_desc>Enter Content Excerpt "Read More" Link Text</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>16</item_sort>
+  </row>
+  <row>
+    <id>16</id>
+    <item_id>ptthemes_notification_type</item_id>
+    <item_title>Email Notifications Type</item_title>
+    <item_desc>Select Email Notifications options</item_desc>
+    <item_type>radio</item_type>
+    <item_options>PHP Mail, WP SMTP Mail</item_options>
+    <item_sort>17</item_sort>
+  </row>
+  <row>
+    <id>17</id>
+    <item_id>ptthemes_timthumb</item_id>
+    <item_title>Enable Image Auto Resize (via Tim Thumb)</item_title>
+    <item_desc>Wish to Enable Image Auto Resize (via Tim Thumb)?</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>18</item_sort>
+  </row>
+  <row>
+    <id>18</id>
+    <item_id>pttthemes_captcha</item_id>
+    <item_title>Captcha Settings</item_title>
+    <item_desc>Select option to enable or disable Captcha</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Enable, Disable</item_options>
+    <item_sort>19</item_sort>
+  </row>
+  <row>
+    <id>19</id>
+    <item_id>pttheme_google_map_api</item_id>
+    <item_title>Google Map API</item_title>
+    <item_desc>Enter Google API Key. &amp;lt;a href=&amp;quot;http://code.google.com/apis/maps/signup.html&amp;quot;&amp;gt;Get one from here&amp;lt;/a&amp;gt;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>20</item_sort>
+  </row>
+  <row>
+    <id>20</id>
+    <item_id>ptttheme_google_map_opt</item_id>
+    <item_title>Google Map Display</item_title>
+    <item_desc>Do you want to display Google Map?</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Enable,Disable</item_options>
+    <item_sort>21</item_sort>
+  </row>
+  <row>
+    <id>71</id>
+    <item_id>ptthemes_latitute</item_id>
+    <item_title>Latitude </item_title>
+    <item_desc>Enter Default Latitude </item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>22</item_sort>
+  </row>
+  <row>
+    <id>72</id>
+    <item_id>ptthemes_longitute</item_id>
+    <item_title>Longitute</item_title>
+    <item_desc>Enter Default Longitute</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>23</item_sort>
+  </row>
+  <row>
+    <id>73</id>
+    <item_id>ptthemes_scaling_factor</item_id>
+    <item_title>Scaling Factor</item_title>
+    <item_desc>Default scaling factor</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>24</item_sort>
+  </row>
+  
+  <row>
+    <id>21</id>
+    <item_id>pttthemes_send_mail</item_id>
+    <item_title>Send Emails from site</item_title>
+    <item_desc>Do you want to send emails from site? If yes, then select Enable and if no, then select Disable</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Enable,Disable</item_options>
+    <item_sort>22</item_sort>
+  </row>
+  <row>
+    <id>22</id>
+    <item_id>ptttheme_fb_opt</item_id>
+    <item_title>Facebook Plugin Support</item_title>
+    <item_desc>Select if you want to enable Facebook Connect plugin support. If you enable this option, then you will need to &amp;lt;a href=&amp;quot;http://wordpress.org/extend/plugins/wp-facebookconnect/&amp;quot;&amp;gt;install this plugin&amp;lt;/a&amp;gt;</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Enable,Disable</item_options>
+    <item_sort>23</item_sort>
+  </row>
+  <row>
+    <id>23</id>
+    <item_id>ptthemes_dealcomments</item_id>
+    <item_title>Enable Comments on Deal detail page</item_title>
+    <item_desc>Do you want to enable comments on Deal detail page?</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>24</item_sort>
+  </row>
+  <row>
+    <id>24</id>
+    <item_id>ptttheme_view_opt</item_id>
+    <item_title>Switch view for listing</item_title>
+    <item_desc>Switch view for listing page</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Grid View,List View</item_options>
+    <item_sort>25</item_sort>
+  </row>
+  <row>
+    <id>25</id>
+    <item_id>navigation_settings</item_id>
+    <item_title>Navigation Settings</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>26</item_sort>
+  </row>
+  <row>
+    <id>26</id>
+    <item_id>ptthemes_top_pages_nav_enable</item_id>
+    <item_title>Top Header Navigation Settings</item_title>
+    <item_desc>Wish to activate Top Header Navigation?</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Activate,Deactivate</item_options>
+    <item_sort>27</item_sort>
+  </row>
+  <row>
+    <id>27</id>
+    <item_id>pttthemes_submit_deal_link</item_id>
+    <item_title>&amp;#039;Submit Deal&amp;#039; link settings</item_title>
+    <item_desc>Note : You can use the following URL to make a custom link to the &amp;quot;Submit Deal&amp;quot;Page. 
+http://www.yousite.com/?ptype=dealform</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Enable,Disable</item_options>
+    <item_sort>28</item_sort>
+  </row>
+  <row>
+    <id>28</id>
+    <item_id>header_footer_scripts</item_id>
+    <item_title>Add Scripts</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>29</item_sort>
+  </row>
+  <row>
+    <id>29</id>
+    <item_id>ptthemes_scripts_header</item_id>
+    <item_title>Header Scripts</item_title>
+    <item_desc>If you need to add scripts to your header (like &amp;lt;a href=&amp;quot;http://haveamint.com/&amp;quot;&amp;gt;Mint&amp;lt;/a&amp;gt; tracking code), do so here.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>30</item_sort>
+  </row>
+  <row>
+    <id>30</id>
+    <item_id>ptthemes_scripts_footer</item_id>
+    <item_title>Footer Scripts</item_title>
+    <item_desc>If you need to add scripts to your footer (like &amp;lt;a href=&amp;quot;http://www.google.com/analytics/&amp;quot;&amp;gt;Google Analytics&amp;lt;/a&amp;gt; tracking code), do so here.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>31</item_sort>
+  </row>
+  <row>
+    <id>31</id>
+    <item_id>seo_options</item_id>
+    <item_title>SEO Options</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>32</item_sort>
+  </row>
+  <row>
+    <id>32</id>
+    <item_id>ptthemes_home_title_seo</item_id>
+    <item_title>Home Title</item_title>
+    <item_desc>Home Title for SEO</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>3</item_options>
+    <item_sort>33</item_sort>
+  </row>
+  <row>
+    <id>33</id>
+    <item_id>ptthemes_home_desc_seo</item_id>
+    <item_title>Home Description</item_title>
+    <item_desc>Home description for SEO</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>34</item_sort>
+  </row>
+  <row>
+    <id>34</id>
+    <item_id>ptthemes_home_keyword_seo</item_id>
+    <item_title>Home Keywords</item_title>
+    <item_desc>Home keywords for SEO (comma separated)</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>10</item_options>
+    <item_sort>35</item_sort>
+  </row>
+  <row>
+    <id>35</id>
+    <item_id>ptthemes_category_noindex</item_id>
+    <item_title>Use noindex for Categories</item_title>
+    <item_desc>Check this box for excluding category pages from being crawled</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>36</item_sort>
+  </row>
+  <row>
+    <id>36</id>
+    <item_id>ptthemes_archives_noindex</item_id>
+    <item_title>Use noindex for Archives</item_title>
+    <item_desc>Do you want to index Archives ? This helps in removing duplicate content from being indexed</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>37</item_sort>
+  </row>
+  <row>
+    <id>37</id>
+    <item_id>ptthemes_tag_archives_noindex</item_id>
+    <item_title>Use noindex for Tag Archives</item_title>
+    <item_desc>Do you want to index Tags ? This helps in removing duplicate content from being indexed</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>38</item_sort>
+  </row>
+  <row>
+    <id>38</id>
+    <item_id>pttheme_seo_hide_fields</item_id>
+    <item_title>Hide SEO Custom Fields</item_title>
+    <item_desc>Check this to hide the custom SEO fields created in post and page screens</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>39</item_sort>
+  </row>
+  <row>
+    <id>39</id>
+    <item_id>ptthemes_use_third_party_data</item_id>
+    <item_title>Use Third Party SEO Plugin</item_title>
+    <item_desc>Data added to custom fields in post &amp;amp; pages will be used where applicable</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>40</item_sort>
+  </row>
+  <row>
+    <id>40</id>
+    <item_id>post_settings</item_id>
+    <item_title>Posts</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>41</item_sort>
+  </row>
+  <row>
+    <id>41</id>
+    <item_id>ptthemes_home_page</item_id>
+    <item_title>Home Page</item_title>
+    <item_desc>Enter Number of post in home page</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>42</item_sort>
+  </row>
+  <row>
+    <id>42</id>
+    <item_id>ptthemes_cat_page</item_id>
+    <item_title>Archive Page</item_title>
+    <item_desc>Enter Number of post in Archive Page</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>43</item_sort>
+  </row>
+  <row>
+    <id>43</id>
+    <item_id>ptthemes_search_page</item_id>
+    <item_title>Search Page</item_title>
+    <item_desc>Enter Number of post in search page</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>44</item_sort>
+  </row>
+  <row>
+    <id>44</id>
+    <item_id>ptthemes_listing_date</item_id>
+    <item_title>Listing Post Date</item_title>
+    <item_desc>Display post date in listing pages</item_desc>
+    <item_type>select</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>45</item_sort>
+  </row>
+  <row>
+    <id>45</id>
+    <item_id>ptthemes_listing_tags</item_id>
+    <item_title>Listing Post Tags</item_title>
+    <item_desc>Display post tags in listing pages</item_desc>
+    <item_type>select</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>46</item_sort>
+  </row>
+  <row>
+    <id>46</id>
+    <item_id>ptthemes_listing_category</item_id>
+    <item_title>Listing Post Category</item_title>
+    <item_desc>Display post category in listing pages</item_desc>
+    <item_type>select</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>47</item_sort>
+  </row>
+  <row>
+    <id>47</id>
+    <item_id>ptthemes_listing_comment</item_id>
+    <item_title>Listing Post Comment</item_title>
+    <item_desc>Display post comment in listing pages</item_desc>
+    <item_type>select</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>48</item_sort>
+  </row>
+  <row>
+    <id>48</id>
+    <item_id>ptthemes_listing_author</item_id>
+    <item_title>Listing Post Author</item_title>
+    <item_desc>Display post author in listing pages</item_desc>
+    <item_type>select</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>49</item_sort>
+  </row>
+  <row>
+    <id>49</id>
+    <item_id>ptthemes_details_date</item_id>
+    <item_title>Detail Post Date</item_title>
+    <item_desc>Display post date in detail page</item_desc>
+    <item_type>select</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>50</item_sort>
+  </row>
+  <row>
+    <id>50</id>
+    <item_id>ptthemes_details_tags</item_id>
+    <item_title>Detail Post Tags</item_title>
+    <item_desc>Display post tags in detail pages</item_desc>
+    <item_type>select</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>51</item_sort>
+  </row>
+  <row>
+    <id>51</id>
+    <item_id>ptthemes_details_category</item_id>
+    <item_title>Detail Post Category</item_title>
+    <item_desc>Display post category in detail pages</item_desc>
+    <item_type>select</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>52</item_sort>
+  </row>
+  <row>
+    <id>52</id>
+    <item_id>ptthemes_details_comment</item_id>
+    <item_title>Detail Post Comment</item_title>
+    <item_desc>Display post comment in detail pages</item_desc>
+    <item_type>select</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>53</item_sort>
+  </row>
+  <row>
+    <id>53</id>
+    <item_id>ptthemes_details_author</item_id>
+    <item_title>Detail Post Author</item_title>
+    <item_desc>Display post author in detail pages</item_desc>
+    <item_type>select</item_type>
+    <item_options>Yes,No</item_options>
+    <item_sort>54</item_sort>
+  </row>
+  <row>
+    <id>54</id>
+    <item_id>ptthemes_pagination</item_id>
+    <item_title>Pagination</item_title>
+    <item_desc></item_desc>
+    <item_type>radio</item_type>
+    <item_options>Default + WP Page-Navi support, AJAX-fetching posts</item_options>
+    <item_sort>55</item_sort>
+  </row>
+  <row>
+    <id>55</id>
+    <item_id>ptthemes_common_settings</item_id>
+    <item_title>Style &amp; Color Settings</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>56</item_sort>
+  </row>
+  <row>
+    <id>56</id>
+    <item_id>ptthemes_fonts</item_id>
+    <item_title>Fonts</item_title>
+    <item_desc>Choose your site fonts</item_desc>
+    <item_type>select</item_type>
+    <item_options>Verdana, Geneva, Arial, Arial Black, Trebuchet MS, Helvetica, sans-serif, Georgia, Times New Roman, Times, serif,</item_options>
+    <item_sort>57</item_sort>
+  </row>
+  <row>
+    <id>57</id>
+    <item_id>ptthemes_body_background_color</item_id>
+    <item_title>Body Background Color</item_title>
+    <item_desc>Choose your site background color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>58</item_sort>
+  </row>
+  <row>
+    <id>58</id>
+    <item_id>ptthemes_body_background_image</item_id>
+    <item_title>Body Background Image</item_title>
+    <item_desc>Upload background image from here</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>59</item_sort>
+  </row>
+  <row>
+    <id>60</id>
+    <item_id>ptthemes_link_color_normal</item_id>
+    <item_title>Link Color Normal</item_title>
+    <item_desc>Select link color normal</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>60</item_sort>
+  </row>
+  <row>
+    <id>59</id>
+    <item_id>ptthemes_body_bg_postions</item_id>
+    <item_title>Body Background Image Postions</item_title>
+    <item_desc>Select body background image postion</item_desc>
+    <item_type>select</item_type>
+    <item_options>no-repeat,repeat,repeat-x,repeat-y,repeat-y center top,repeat-y left top</item_options>
+    <item_sort>61</item_sort>
+  </row>
+  <row>
+    <id>62</id>
+    <item_id>ptthemes_main_title_color</item_id>
+    <item_title>Main Title Color</item_title>
+    <item_desc>Select main title color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>62</item_sort>
+  </row>
+  <row>
+    <id>61</id>
+    <item_id>ptthemes_link_color_hover</item_id>
+    <item_title>Link Color Hover</item_title>
+    <item_desc>Select Hover link color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>63</item_sort>
+  </row>
+  <row>
+    <id>63</id>
+    <item_id>ptthemes_customcss</item_id>
+    <item_title>Use Custom Stylesheet</item_title>
+    <item_desc>If you want to make custom design changes using CSS enable this and &amp;lt;a href=&amp;quot;theme-editor.php&amp;quot;&amp;gt;edit custom.css file here&amp;lt;/a&amp;gt;</item_desc>
+    <item_type>radio</item_type>
+    <item_options>Activate, Deactivate</item_options>
+    <item_sort>64</item_sort>
+  </row>
+  <row>
+    <id>64</id>
+    <item_id>ptthemes_page_layouts</item_id>
+    <item_title>Page Layout</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>65</item_sort>
+  </row>
+  <row>
+    <id>65</id>
+    <item_id>ptthemes_page_layout</item_id>
+    <item_title>Page Layout</item_title>
+    <item_desc>Select page layout</item_desc>
+    <item_type>select</item_type>
+    <item_options>Full Page, Page 2 column - Right Sidebar, Page 2 column - Left Sidebar</item_options>
+    <item_sort>66</item_sort>
+  </row>
+   <row>
+    <id>66</id>
+    <item_id>ptthemes_sumit_post_layout</item_id>
+    <item_title>Submit Deal Layout</item_title>
+    <item_desc>Select page layout</item_desc>
+    <item_type>select</item_type>
+    <item_options>Full Page, Page 2 column - Right Sidebar, Page 2 column - Left Sidebar</item_options>
+    <item_sort>96</item_sort>
+  </row>
+  <row>
+    <id>66</id>
+    <item_id>ptthemes_bottom_options</item_id>
+    <item_title>Select footer top</item_title>
+    <item_desc>Select footer widget section settings</item_desc>
+    <item_type>select</item_type>
+    <item_options>Two Column - Right(one third), Two Column - Left(one third), Equal Column, Three Column, Four Column, Full Width</item_options>
+    <item_sort>67</item_sort>
+  </row>
+</wp_option_tree>

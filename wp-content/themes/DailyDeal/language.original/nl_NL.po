@@ -1,0 +1,4727 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dutch Lang For Getdeals.nl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-09 23:51+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mike Slaats <mike.slaats87@gmail.com>\n"
+"Language-Team: PhuHM <hmphu.it@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: .\n"
+"Language: nl_NL\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:13
+msgid "Oh, Oh. Deze pagina kunnen we helaas niet vinden."
+msgstr ""
+
+# @ templatic
+#: ../404.php:51 ../language.php:97
+msgid "Posts"
+msgstr ""
+
+# @ templatic
+#: ../404.php:58
+msgid "0 comment"
+msgstr ""
+
+# @ templatic
+#: ../404.php:58
+msgid "1 comment"
+msgstr ""
+
+# @ templatic
+#: ../404.php:58
+#, php-format
+msgid "% comments"
+msgstr ""
+
+# @ templatic
+#: ../archive.php:13
+#, php-format
+msgid "%s"
+msgstr ""
+
+# @ templatic
+#: ../archive.php:15
+#, php-format
+msgid "Posts tagged &quot;%s&quot;"
+msgstr ""
+
+# @ templatic
+#: ../archive.php:17
+#, php-format
+msgid "Daily archive %s"
+msgstr ""
+
+# @ templatic
+#: ../archive.php:19
+#, php-format
+msgid "Monthly archive %s"
+msgstr ""
+
+# @ templatic
+#: ../archive.php:21
+#, php-format
+msgid "Yearly archive %s"
+msgstr ""
+
+# @ templatic
+#: ../archive.php:23
+msgid "Author Archive"
+msgstr ""
+
+# @ templatic
+#: ../archive.php:25
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:27
+msgid "Seller Archives"
+msgstr ""
+
+#: ../comments.php:12
+msgid "1 Reviews"
+msgstr ""
+
+#: ../comments.php:12
+#, php-format
+msgid "%1$s Reviews"
+msgstr ""
+
+#: ../language.php:2
+msgid "Today&rsquo;s Deal &middot;"
+msgstr ""
+
+#: ../language.php:3
+msgid "Provided by"
+msgstr ""
+
+#: ../language.php:4
+msgid "Buy now!"
+msgstr ""
+
+#: ../language.php:5
+msgid "CURRENT PRICE"
+msgstr ""
+
+#: ../language.php:6
+msgid "SHIPPING COST"
+msgstr ""
+
+#: ../language.php:7
+msgid "OUR PRICE"
+msgstr ""
+
+#: ../language.php:8
+msgid "YOU SAVE"
+msgstr ""
+
+#: ../language.php:9
+msgid "ITEMS SOLD"
+msgstr ""
+
+#: ../language.php:10 ../language.php:24
+msgid "Mail to a friend"
+msgstr ""
+
+#: ../language.php:11
+msgid "No recent deal"
+msgstr ""
+
+#: ../language.php:12
+msgid "View All Deals &raquo;"
+msgstr ""
+
+#: ../language.php:13
+msgid "Our Price : "
+msgstr ""
+
+#: ../language.php:14
+msgid "Offer Price : "
+msgstr ""
+
+#: ../language.php:15
+msgid "Preview deal"
+msgstr ""
+
+#: ../language.php:16
+msgid "1. Add new deal information"
+msgstr ""
+
+#: ../language.php:17
+msgid "2. Preview deal"
+msgstr ""
+
+#: ../language.php:18
+msgid "3. Deal submitted"
+msgstr ""
+
+#: ../language.php:19
+msgid "Deal will start from"
+msgstr ""
+
+#: ../language.php:20
+msgid "Deal start from"
+msgstr ""
+
+#: ../language.php:21
+msgid "This deal"
+msgstr ""
+
+#: ../language.php:22
+msgid " expired"
+msgstr ""
+
+#: ../language.php:23
+msgid "on"
+msgstr ""
+
+#: ../language.php:25
+msgid "Previous Deal"
+msgstr ""
+
+#: ../language.php:26
+msgid "Next Deal"
+msgstr ""
+
+#: ../language.php:27
+msgid "Previous post"
+msgstr ""
+
+#: ../language.php:28
+msgid "Next post"
+msgstr ""
+
+#: ../language.php:29
+msgid "Seller's location : "
+msgstr ""
+
+#: ../language.php:30
+msgid "Related Deals"
+msgstr ""
+
+#: ../language.php:31
+msgid "by"
+msgstr ""
+
+#: ../language.php:32
+msgid "Deals"
+msgstr ""
+
+#: ../language.php:33
+msgid "All Deals"
+msgstr ""
+
+#: ../language.php:34
+msgid "Live Deals"
+msgstr ""
+
+#: ../language.php:35
+msgid "Expired Deals"
+msgstr ""
+
+# @ templatic
+#: ../language.php:36 ../pagination.php:3
+msgid "Previous Page"
+msgstr ""
+
+# @ templatic
+#: ../language.php:37 ../pagination.php:4
+msgid "Next Page"
+msgstr ""
+
+#: ../language.php:38
+msgid "About Us"
+msgstr ""
+
+#: ../language.php:39
+msgid "Sign Up"
+msgstr ""
+
+#: ../language.php:40
+msgid "Submit deal"
+msgstr ""
+
+# @ templatic
+#: ../language.php:41 ../language.php:166
+msgid "Sign In"
+msgstr ""
+
+#: ../language.php:42
+msgid "next &raquo;"
+msgstr ""
+
+#: ../language.php:43
+msgid "&laquo; previous"
+msgstr ""
+
+#: ../language.php:45
+msgid "Dear"
+msgstr ""
+
+# @ templatic
+#: ../language.php:46 ../language.php:282
+msgid "Name"
+msgstr ""
+
+# @ templatic
+#: ../language.php:47 ../language.php:345
+msgid "Email"
+msgstr ""
+
+# @ templatic
+#: ../language.php:48
+msgid "Subject"
+msgstr ""
+
+# @ templatic
+#: ../language.php:49
+msgid "Message"
+msgstr ""
+
+#: ../language.php:50
+msgid "For further inquiry, fill out the form below"
+msgstr ""
+
+#: ../language.php:51
+msgid "Your message is sent successfully."
+msgstr ""
+
+#: ../language.php:54
+msgid "Search through all deals"
+msgstr "zoek naar deals"
+
+# @ templatic
+#: ../language.php:55 ../language.php:117 ../language.php:195
+msgid "Search"
+msgstr ""
+
+# @ templatic
+#: ../language.php:56
+msgid "Archives"
+msgstr ""
+
+# @ templatic
+#: ../language.php:57
+msgid "Categories"
+msgstr ""
+
+# @ templatic
+#: ../language.php:58
+msgid "Search Result for category"
+msgstr ""
+
+# @ templatic
+#: ../language.php:59
+msgid "Search Result for author"
+msgstr ""
+
+# @ templatic
+#: ../language.php:60
+msgid "Search Result for date"
+msgstr ""
+
+# @ templatic
+#: ../language.php:61
+msgid "Search Result for "
+msgstr ""
+
+# @ templatic
+#: ../language.php:62
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Sorry, deze zoekopdracht leverde geen resultaat op. Probeer te zoeken door "
+"onze categorieën"
+
+# @ templatic
+#: ../language.php:65
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../language.php:66
+msgid "You must be"
+msgstr ""
+
+#: ../language.php:67
+msgid "logged in"
+msgstr ""
+
+#: ../language.php:68
+msgid "to post a comment."
+msgstr ""
+
+# @ templatic
+#: ../language.php:69
+msgid "Logged in as"
+msgstr ""
+
+# @ templatic
+#: ../language.php:70
+msgid "Log out &raquo;"
+msgstr ""
+
+# @ templatic
+#: ../language.php:71
+msgid "Logout"
+msgstr "Uitloggen"
+
+# @ templatic
+#: ../language.php:72
+msgid "Welcome "
+msgstr "Welkom"
+
+#: ../language.php:73
+msgid "Welcome Guest"
+msgstr ""
+
+#: ../language.php:74
+msgid "Post Your Review"
+msgstr ""
+
+#: ../language.php:75
+msgid "Review"
+msgstr ""
+
+# @ templatic
+#: ../language.php:76
+msgid "Website"
+msgstr ""
+
+#: ../language.php:77
+msgid "Comment"
+msgstr ""
+
+# @ templatic
+#: ../language.php:78 ../language.php:217 ../language.php:256
+msgid "Submit"
+msgstr ""
+
+#: ../language.php:81
+msgid "Home"
+msgstr ""
+
+#: ../language.php:82
+msgid "Visit Website "
+msgstr ""
+
+#: ../language.php:83
+msgid "Twitter "
+msgstr ""
+
+#: ../language.php:84
+msgid "Facebook "
+msgstr ""
+
+#: ../language.php:85
+msgid "Deals Purchased"
+msgstr ""
+
+#: ../language.php:86
+msgid "Deals Provided"
+msgstr ""
+
+#: ../language.php:87
+msgid "&laquo; Back to My Dashboard"
+msgstr ""
+
+#: ../language.php:88
+msgid "'s Deals"
+msgstr ""
+
+#: ../language.php:91
+msgid "2011"
+msgstr ""
+
+#: ../language.php:92
+msgid "All Rights Reserved."
+msgstr ""
+
+#: ../language.php:93
+msgid "Designed by"
+msgstr ""
+
+#: ../language.php:94
+msgid "Templatic"
+msgstr ""
+
+# @ templatic
+#: ../language.php:98
+msgid "Pages"
+msgstr ""
+
+# @ templatic
+#: ../language.php:99
+msgid "Meta"
+msgstr ""
+
+#: ../language.php:100
+msgid "RDF/RSS"
+msgstr ""
+
+#: ../language.php:103
+msgid "Display Options:"
+msgstr ""
+
+#: ../language.php:104
+msgid "Show all deals"
+msgstr ""
+
+#: ../language.php:105
+msgid "Hide expired deals"
+msgstr ""
+
+# @ templatic
+#: ../language.php:106
+msgid "Title:"
+msgstr ""
+
+# @ templatic
+#: ../language.php:107
+msgid "Categories (<code>IDs</code> separated by commas):"
+msgstr ""
+
+#: ../language.php:108
+msgid "Number of posts :"
+msgstr ""
+
+# @ templatic
+#: ../language.php:109
+msgid "Slider delay time :"
+msgstr ""
+
+# @ templatic
+#: ../language.php:110
+msgid "Slider animation time :"
+msgstr ""
+
+# @ templatic
+#: ../language.php:111
+msgid "Slider Banner Height (i.e.400):"
+msgstr ""
+
+#: ../language.php:112
+msgid "Post Type :"
+msgstr ""
+
+#: ../language.php:113
+msgid "Categories (<code>IDs</code> separated by commas)"
+msgstr ""
+
+# @ templatic
+#: ../language.php:116
+msgid "Search this website"
+msgstr ""
+
+# @ templatic
+#: ../language.php:118 ../language.php:197 ../language.php:291
+#: ../language.php:315
+msgid "Date"
+msgstr ""
+
+# @ templatic
+#: ../language.php:121
+msgid "Exact author"
+msgstr ""
+
+# @ templatic
+#: ../language.php:122
+msgid "Please enter word you want to search"
+msgstr ""
+
+#: ../language.php:125
+msgid "Send To Friend"
+msgstr ""
+
+#: ../language.php:126
+msgid "Friend Name"
+msgstr ""
+
+#: ../language.php:127
+msgid "Friend Email"
+msgstr ""
+
+#: ../language.php:128
+msgid "Your Name"
+msgstr ""
+
+#: ../language.php:129
+msgid "Your Email"
+msgstr ""
+
+#: ../language.php:131
+msgid "Comments"
+msgstr ""
+
+#: ../language.php:132
+msgid ""
+"Hi there, check out the information about this Deal. I think this might "
+"interest you."
+msgstr ""
+
+# @ templatic
+#: ../language.php:133
+msgid "Send"
+msgstr ""
+
+#: ../language.php:135
+msgid "Continue deal"
+msgstr ""
+
+# @ templatic
+#: ../language.php:136 ../language.php:279
+msgid "My Account"
+msgstr ""
+
+# @ templatic
+#: ../language.php:137 ../language.php:284
+msgid "Edit Profile"
+msgstr ""
+
+#: ../language.php:138
+msgid "About you"
+msgstr ""
+
+# @ templatic
+#: ../language.php:139 ../language.php:258
+msgid "Cancel"
+msgstr ""
+
+#: ../language.php:143
+msgid "Affiliates"
+msgstr ""
+
+#: ../language.php:144
+msgid "Affiliate Login"
+msgstr ""
+
+#: ../language.php:145
+msgid "Affiliate Registration"
+msgstr ""
+
+# @ templatic
+#: ../language.php:146 ../language.php:239
+msgid "Title"
+msgstr ""
+
+#: ../language.php:148
+msgid ""
+"Please enter your username or e-mail address. You will receive a new "
+"password via e-mail."
+msgstr ""
+
+# @ templatic
+#: ../language.php:149
+msgid "You are now logged out."
+msgstr ""
+
+#: ../language.php:150
+msgid "Affiliate registration is currently not allowed."
+msgstr ""
+
+#: ../language.php:151
+msgid "Check your e-mail for the confirmation link."
+msgstr ""
+
+# @ templatic
+#: ../language.php:152
+msgid "Check your e-mail for your new password."
+msgstr ""
+
+#: ../language.php:154
+msgid "A password will be e-mailed to you for future use."
+msgstr ""
+
+#: ../language.php:155
+msgid "already a member?"
+msgstr ""
+
+#: ../language.php:156
+msgid "new user?"
+msgstr ""
+
+# @ templatic
+#: ../language.php:157
+msgid "Register Now"
+msgstr ""
+
+#: ../language.php:158
+msgid "Forget password?"
+msgstr ""
+
+# @ templatic
+#: ../language.php:159
+msgid "Password"
+msgstr ""
+
+#: ../language.php:161
+msgid "Activate Affiliates"
+msgstr ""
+
+#: ../language.php:162
+msgid "Affiliate Registration Page URL"
+msgstr ""
+
+#: ../language.php:163
+msgid "Affiliate Login Page URL"
+msgstr ""
+
+#: ../language.php:165
+msgid "Already a member?"
+msgstr ""
+
+#: ../language.php:169
+msgid "Affiliates Share Amount"
+msgstr ""
+
+#: ../language.php:170
+msgid "(Default Share Amount is 0%)"
+msgstr ""
+
+#: ../language.php:171
+msgid "Affiliates Cookie Alive time (in Days)"
+msgstr ""
+
+#: ../language.php:172
+msgid "(Default alive time is 1 day)"
+msgstr ""
+
+#: ../language.php:173
+msgid "Registration Page Message (above form)"
+msgstr ""
+
+#: ../language.php:174
+msgid ""
+"(This content will show at top in affiliate registration page content area)"
+msgstr ""
+
+#: ../language.php:175
+msgid "Registration Page Message (below form)"
+msgstr ""
+
+#: ../language.php:176
+msgid ""
+"(This content will show at bottom in affiliate registration page content "
+"area)"
+msgstr ""
+
+#: ../language.php:177
+msgid "Terms &amp; Conditions text"
+msgstr ""
+
+#: ../language.php:178
+msgid ""
+"Set Terms &amp; Conditions text beside checkbox on affiliate registration "
+"page"
+msgstr ""
+
+#: ../language.php:179
+msgid "Affiliate share approval Email notification from wp-admin"
+msgstr ""
+
+#: ../language.php:180
+msgid ""
+"In case of wp-admin order approval, Email Notification is sent to Affiliate "
+"member for the affiliate share approval"
+msgstr ""
+
+#: ../language.php:183
+msgid ""
+"I accept the Terms &amp; Conditions of the [#$store_name#] affiliate program"
+msgstr ""
+
+# @ templatic
+#: ../language.php:184
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+# @ templatic
+#: ../language.php:185
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+# @ templatic
+#: ../language.php:186
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+# @ templatic
+#: ../language.php:187
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr ""
+
+# @ templatic
+#: ../language.php:188
+msgid ""
+"<strong>ERROR</strong>: This username is invalid.  Please enter a valid "
+"username."
+msgstr ""
+
+# @ templatic
+#: ../language.php:189
+msgid "ERROR: Please enter a username."
+msgstr ""
+
+#: ../language.php:190
+msgid "Please accept Terms and Conditions"
+msgstr ""
+
+#: ../language.php:191
+msgid "Record updated successfully."
+msgstr ""
+
+#: ../language.php:194
+msgid "My Sale Report"
+msgstr ""
+
+#: ../language.php:196
+msgid "Default"
+msgstr ""
+
+#: ../language.php:198 ../language.php:263
+msgid "Transaction ID"
+msgstr ""
+
+#: ../language.php:199
+msgid "Payment Status"
+msgstr ""
+
+#: ../language.php:200
+msgid "Item Name"
+msgstr ""
+
+#: ../language.php:201
+msgid "Qty"
+msgstr ""
+
+# @ templatic
+#: ../language.php:202 ../language.php:313
+msgid "Amount"
+msgstr ""
+
+#: ../language.php:203 ../language.php:292
+msgid "Currency"
+msgstr ""
+
+#: ../language.php:204
+msgid "Affiliate Share"
+msgstr ""
+
+#: ../language.php:205
+msgid "Not record available."
+msgstr ""
+
+#: ../language.php:206
+msgid "Total"
+msgstr ""
+
+#: ../language.php:207
+msgid "Export to Excel"
+msgstr ""
+
+#: ../language.php:208 ../language.php:273 ../language.php:294
+msgid "Search By"
+msgstr ""
+
+#: ../language.php:209 ../language.php:295
+msgid "Date From"
+msgstr ""
+
+#: ../language.php:212
+msgid "Affiliate Information"
+msgstr ""
+
+#: ../language.php:213
+msgid "Affiliate Code"
+msgstr ""
+
+#: ../language.php:214
+msgid "Paypal Account"
+msgstr ""
+
+#: ../language.php:215
+msgid "Not Specified"
+msgstr ""
+
+#: ../language.php:216
+msgid "Change"
+msgstr ""
+
+#: ../language.php:218
+msgid "Sale Summary"
+msgstr ""
+
+#: ../language.php:219
+msgid "Number of Transactions"
+msgstr ""
+
+#: ../language.php:220
+msgid "Items Sold"
+msgstr ""
+
+#: ../language.php:221 ../language.php:228 ../language.php:234
+msgid "Total Sale Amount"
+msgstr ""
+
+#: ../language.php:222
+msgid "Your Total Earning"
+msgstr ""
+
+#: ../language.php:223
+msgid "View Detail"
+msgstr ""
+
+#: ../language.php:226 ../language.php:232
+msgid "Affiliates Members"
+msgstr ""
+
+#: ../language.php:227 ../language.php:233
+msgid "User Name"
+msgstr ""
+
+#: ../language.php:229 ../language.php:235
+msgid "Total Share Amount"
+msgstr ""
+
+#: ../language.php:240
+msgid "Link title"
+msgstr ""
+
+#: ../language.php:241
+msgid "Link URL"
+msgstr ""
+
+#: ../language.php:242
+msgid "Link key"
+msgstr ""
+
+#: ../language.php:243
+msgid "No record available."
+msgstr ""
+
+#: ../language.php:244
+msgid "Are you sure want to delete the link?"
+msgstr ""
+
+#: ../language.php:245
+msgid "Manage Affiliate Links"
+msgstr ""
+
+#: ../language.php:251
+msgid "Affiliate Links"
+msgstr ""
+
+#: ../language.php:252
+msgid "Edit Affiliate Link"
+msgstr ""
+
+#: ../language.php:253
+msgid "Add Affiliate Link"
+msgstr ""
+
+#: ../language.php:254
+msgid "Link status"
+msgstr ""
+
+#: ../language.php:255
+msgid "Percentage should be less than or equal to 100."
+msgstr ""
+
+#: ../language.php:257
+msgid "Save all changes"
+msgstr ""
+
+#: ../language.php:262
+msgid "Affiliates Share"
+msgstr ""
+
+#: ../language.php:264
+msgid "Order Date"
+msgstr ""
+
+#: ../language.php:265
+msgid "Affilate Name"
+msgstr ""
+
+#: ../language.php:266
+msgid "Total order"
+msgstr ""
+
+#: ../language.php:267
+msgid "Comission (%)"
+msgstr ""
+
+#: ../language.php:268
+msgid "Share Total"
+msgstr ""
+
+#: ../language.php:269
+msgid "No affiliates share available."
+msgstr ""
+
+#: ../language.php:270
+msgid "No of Orders"
+msgstr ""
+
+#: ../language.php:271
+msgid "Total Sale Amount : "
+msgstr ""
+
+#: ../language.php:272
+msgid "Total Earn Amount : "
+msgstr ""
+
+#: ../language.php:274
+msgid "Order amount"
+msgstr ""
+
+# @ templatic
+#: ../language.php:278
+msgid "Action"
+msgstr ""
+
+#: ../language.php:280
+msgid "want to become our affiliate?"
+msgstr ""
+
+#: ../language.php:281
+msgid "My Personal Information"
+msgstr ""
+
+#: ../language.php:283
+msgid "Email Address"
+msgstr ""
+
+#: ../language.php:285
+msgid "You don't have purchased any digital product"
+msgstr ""
+
+#: ../language.php:286
+msgid "Affliliate Links"
+msgstr ""
+
+#: ../language.php:287
+msgid "Last Name"
+msgstr ""
+
+#: ../language.php:288
+msgid "Link Title"
+msgstr ""
+
+#: ../language.php:289
+msgid "Affiliate Link"
+msgstr ""
+
+# @ templatic
+#: ../language.php:290 ../language.php:316 ../language.php:341
+msgid "Status"
+msgstr ""
+
+#: ../language.php:293
+msgid "Affiliate Detail Report"
+msgstr ""
+
+#: ../language.php:296
+msgid "Create an account"
+msgstr ""
+
+#: ../language.php:297
+msgid ""
+"<p>Please select one of the options below to continue.</p>\n"
+"\t<p>If you choose to register while checking out an account will be created "
+"for you so next time you can simply Sign In without having to re-enter your "
+"information.</p>"
+msgstr ""
+
+#: ../language.php:301
+msgid "Manage orders"
+msgstr ""
+
+#: ../language.php:302
+msgid "Members"
+msgstr ""
+
+#: ../language.php:303
+msgid "Sale Report"
+msgstr ""
+
+#: ../language.php:304
+msgid "Links"
+msgstr ""
+
+# @ templatic
+#: ../language.php:305
+msgid "Settings"
+msgstr ""
+
+#: ../language.php:307
+msgid "Select Status"
+msgstr ""
+
+#: ../language.php:308
+msgid "Pending"
+msgstr ""
+
+#: ../language.php:309
+msgid "Approve"
+msgstr ""
+
+#: ../language.php:310
+msgid "Canceled"
+msgstr ""
+
+#: ../language.php:311
+msgid "NO."
+msgstr ""
+
+#: ../language.php:312
+msgid "Customer Name"
+msgstr ""
+
+#: ../language.php:314
+msgid "Payment Type"
+msgstr ""
+
+#: ../language.php:317
+msgid "List All Orders"
+msgstr ""
+
+#: ../language.php:318
+msgid "Select Payment Type"
+msgstr ""
+
+#: ../language.php:319
+msgid "Deleted successfully..."
+msgstr ""
+
+#: ../language.php:320
+msgid "Status Updated successfully..."
+msgstr ""
+
+#: ../language.php:321
+msgid "No Orders Available"
+msgstr ""
+
+# @ templatic
+#: ../language.php:322
+msgid "Delete"
+msgstr ""
+
+#: ../language.php:323
+msgid "Set Status to"
+msgstr ""
+
+#: ../language.php:324
+msgid "Order Status"
+msgstr ""
+
+#: ../language.php:327
+msgid ""
+"The page you are looking for does not exist. It appears you&rsquo;ve missed "
+"your intended destination, either through a bad or outdated link, or a typo "
+"in the page you were hoping to reach."
+msgstr ""
+
+#: ../language.php:328
+msgid ""
+"404 Error the page that you are looking for does not exist go back. friend, "
+"go back "
+msgstr ""
+
+#: ../language.php:330
+msgid "Page Templates"
+msgstr ""
+
+#: ../language.php:331
+msgid "Advanced Search"
+msgstr ""
+
+#: ../language.php:332
+msgid "Full Width"
+msgstr ""
+
+#: ../language.php:333
+msgid "Left Sidebar Page"
+msgstr ""
+
+#: ../language.php:334
+msgid "Shortcodes"
+msgstr ""
+
+#: ../language.php:335
+msgid "Sitemap"
+msgstr ""
+
+#: ../language.php:336
+msgid "Contact Us"
+msgstr ""
+
+#: ../language.php:337
+msgid "Shipping &amp; Handling"
+msgstr ""
+
+#: ../language.php:342
+msgid "Other information"
+msgstr ""
+
+# @ templatic
+#: ../language.php:344
+msgid "Username"
+msgstr ""
+
+# @ templatic
+#: ../language.php:346
+msgid "Get New Password"
+msgstr ""
+
+# @ templatic
+#: ../language.php:347
+msgid "New User Register Here"
+msgstr ""
+
+#: ../language.php:350
+msgid "Subscribe"
+msgstr ""
+
+# @ templatic
+#: ../language.php:351
+msgid "Enter Email Address"
+msgstr ""
+
+#: ../language.php:352
+msgid "Facebook Title"
+msgstr ""
+
+#: ../language.php:353
+msgid "Twitter Title"
+msgstr ""
+
+# @ templatic
+#: ../language.php:354
+msgid "Twitter Full URL"
+msgstr ""
+
+# @ templatic
+#: ../language.php:355
+msgid "Facebook Full URL"
+msgstr ""
+
+#: ../language.php:356
+msgid "RSS Title"
+msgstr ""
+
+#: ../language.php:357
+msgid "RSS Full URL"
+msgstr ""
+
+#: ../loop.php:41
+msgid "F jS, Y"
+msgstr ""
+
+# @ templatic
+#: ../pagination.php:8
+msgid "LOAD MORE"
+msgstr ""
+
+# @ templatic
+#: ../single-seller.php:85 ../single_blog.php:63
+msgid "More "
+msgstr ""
+
+#: ../single-seller.php:102
+msgid "Email to Friend sent successfully"
+msgstr ""
+
+# @ templatic
+#: ../single_blog.php:56 ../tpl_archives.php:56
+msgid "No Comments"
+msgstr ""
+
+# @ templatic
+#: ../single_blog.php:56 ../tpl_archives.php:56
+msgid "1 Comment"
+msgstr ""
+
+# @ templatic
+#: ../single_blog.php:56 ../tpl_archives.php:56
+msgid "% Comments"
+msgstr ""
+
+# @ templatic
+#: ../single_blog.php:56 ../tpl_archives.php:56
+msgid "Comments Closed"
+msgstr ""
+
+#: ../tpl_archives.php:56
+msgid "M j, Y"
+msgstr ""
+
+# @ templatic
+#: ../tpl_sitemap.php:57
+msgid "1.0 feed"
+msgstr ""
+
+# @ templatic
+#: ../tpl_sitemap.php:58 ../tpl_sitemap.php:59
+msgid "RSS"
+msgstr ""
+
+# @ templatic
+#: ../tpl_sitemap.php:58
+msgid "0.92 feed"
+msgstr ""
+
+# @ templatic
+#: ../tpl_sitemap.php:59
+msgid "2.0 feed"
+msgstr ""
+
+# @ templatic
+#: ../tpl_sitemap.php:60
+msgid "Atom feed"
+msgstr ""
+
+# @ templatic
+#: ../admin/admin_menu.php:14 ../admin/theme_options/option_settings.php:60
+msgid "Theme Settings"
+msgstr ""
+
+# @ templatic
+#: ../admin/constants.php:15
+msgid "Top Header Navigation"
+msgstr ""
+
+# @ templatic
+#: ../admin/seo_settings.php:26 ../admin/seo_settings.php:27
+msgid "SEO Settings"
+msgstr ""
+
+# @ templatic
+#: ../admin/seo_settings.php:34
+msgid "Page Title"
+msgstr ""
+
+# @ templatic
+#: ../admin/seo_settings.php:37
+msgid "Page Description"
+msgstr ""
+
+# @ templatic
+#: ../admin/seo_settings.php:40
+msgid "Keywords <br />(comma separated)"
+msgstr ""
+
+# @ templatic
+#: ../admin/seo_settings.php:43
+msgid "Update"
+msgstr ""
+
+# @ templatic
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:47
+msgid "You cannot edit the Yoast Breadcrumbs options."
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:82
+msgid "Separator between breadcrumbs"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:87
+msgid "Anchor text for the Homepage"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:92
+msgid "Anchor text for the Blog"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:97
+msgid "Prefix for the breadcrumb path"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:102
+msgid "Prefix for Archive breadcrumbs"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:107
+msgid "Prefix for Search Page breadcrumbs"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:112
+msgid "Show category in post breadcrumbs?"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:113
+msgid "Shows the category inbetween Home and the blogpost"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:118
+msgid "Show Parent Page for Blog posts"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:119
+msgid "Adds another page inbetween Home and the blogpost"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:124
+msgid "Bold the last page in the breadcrumb"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:129
+msgid "Nofollow the link to the home page"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:134
+msgid "Try to add automatically"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:135
+msgid ""
+"If you're using Hybrid, Thesis or Thematic, check this box for some lovely "
+"simple action"
+msgstr ""
+
+#: ../admin/breadcrumbs/yoast-breadcrumbs.php:141
+msgid "Setting for Yoast Breadcrumbs"
+msgstr ""
+
+# @ templatic
+#: ../admin/breadcrumbs/yoast-posts.php:23
+msgid "Yoast - Tweaking Websites"
+msgstr ""
+
+#: ../admin/breadcrumbs/yst_plugin_tools.php:138
+msgid "Why not do any or all of the following:"
+msgstr ""
+
+#: ../admin/breadcrumbs/yst_plugin_tools.php:140
+msgid "Link to it so other folks can find out about it."
+msgstr ""
+
+#: ../admin/breadcrumbs/yst_plugin_tools.php:141
+msgid "Give it a good rating on WordPress.org."
+msgstr ""
+
+#: ../admin/breadcrumbs/yst_plugin_tools.php:142
+msgid "Donate a token of your appreciation."
+msgstr ""
+
+#: ../admin/breadcrumbs/yst_plugin_tools.php:151
+msgid ""
+"If you have any problems with this plugin or good ideas for improvements or "
+"new features, please talk about them in the"
+msgstr ""
+
+#: ../admin/breadcrumbs/yst_plugin_tools.php:151
+msgid "Support forums"
+msgstr ""
+
+# @ templatic
+#: ../admin/functions/custom_functions.php:401
+msgid "read more"
+msgstr ""
+
+# @ templatic
+#: ../admin/functions/custom_functions.php:508
+msgid "Search Result "
+msgstr ""
+
+# @ templatic
+#: ../admin/functions/custom_functions.php:523
+msgid "Author Archives"
+msgstr ""
+
+# @ templatic
+#: ../admin/functions/custom_functions.php:624
+msgid "Tweet"
+msgstr ""
+
+# @ templatic
+#: ../admin/theme_options/options.php:9
+msgid "Theme Guide"
+msgstr ""
+
+# @ templatic
+#: ../admin/theme_options/options.php:11
+msgid "Support Forum"
+msgstr ""
+
+# @ templatic
+#: ../admin/theme_options/options.php:19 ../admin/theme_options/options.php:72
+msgid "Save All Changes"
+msgstr ""
+
+# @ templatic
+#: ../admin/theme_options/options.php:71
+msgid "Reset Options"
+msgstr ""
+
+# @ templatic
+#: ../admin/theme_options/option_settings.php:36
+msgid ""
+"\"simplexmlelement\" is not supported under PHP 4.x. Please use version 5 or "
+"higher"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/ads.php:36
+msgid ""
+"Advertisement (ex.&lt;a href=\"#\"&gt;&lt;img src=\"http://templatic.com/"
+"banner.png\" /&gt;&lt;/a&gt; and google ads code here )"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/featured_video.php:93
+#, php-format
+msgid "First Please Create Custom Field \"video\" in Post From %s"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/flickr.php:66
+msgid "Flickr"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/flickr.php:74
+msgid "eg. : Flickr"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/flickr.php:79
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>)"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/flickr.php:89
+msgid "Photo Width"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/flickr.php:94
+msgid "Photo Height"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/google_map.php:82
+msgid "View Large Map"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/google_map.php:86
+msgid "Get Direction on Map &raquo;"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/google_map.php:123
+msgid ""
+"Address <small>(eg: 230 Vine Street And locations throughout Old City, "
+"Philadelphia, PA 19106)</small>"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/google_map.php:126
+msgid "Address Latitude <small>(eg: 39.955823048131286)</small>"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/google_map.php:128
+msgid "Address Longitude <small>(eg: -75.14408111572266)</small>"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/google_map.php:131
+msgid "Map Width in pixcels <small>(eg: 200)</small>"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/google_map.php:134
+msgid "Map Height in pixcels <small>(eg: 200)</small>"
+msgstr ""
+
+#: ../admin/widgets/google_map.php:138
+msgid "Map Zooming Factor"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/google_map.php:152
+msgid "Select Map Type"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/google_map.php:154
+msgid "Road Map"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/google_map.php:155
+msgid "Satellite Map"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/google_map.php:156
+msgid "Terrain Map"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/latest_posts.php:58
+msgid "more..."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:11
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:13
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:39
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:52
+msgid ""
+"[SUBJECT-STR]Registration Email[SUBJECT-END]<p>Dear [#user_name#],</p>\n"
+"\t\t\t<p>Your login information:</p>\n"
+"\t\t\t<p>Username: [#user_login#]</p>\n"
+"\t\t\t<p>Password: [#user_password#]</p>\n"
+"\t\t\t<p>You can login from [#site_login_url#] or the URL is : "
+"[#site_login_url_link#].</p>\n"
+"\t\t\t<p>We hope you enjoy. Thanks!</p>\n"
+"\t\t\t<p>[#site_name#]</p>"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:64
+msgid "Registration Email"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:69
+#, php-format
+msgid "<a href=\"%s/?ptype=login\">Click Login</a>"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:85
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:90
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:102
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:119
+msgid "Invalid key"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:127
+msgid "Your login Information :"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:128
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:129
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:136
+#, php-format
+msgid "[%s] Your new password"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:192
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href='http://www.google.com/cookies.html'>enable "
+"cookies</a> to use WordPress."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:206
+msgid "User registration is currently not allowed."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:217
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:225
+msgid "Check your e-mail for the new password."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/login.php:273
+msgid "Dashboard"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/my_bio.php:59
+msgid "Author Photo (ex.http://templatic.com/photo.png)"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/my_bio.php:61
+msgid "Short Description"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/my_bio.php:63
+msgid "Description :  (html tag use ex.&lt;p&gt;text &lt;/p&gt;)"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/my_bio.php:65
+msgid "Read More Text"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/my_bio.php:67
+msgid "Read More Link URL (ex.http://templatic.com/mybio)"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/social_media.php:74 ../admin/widgets/subscribe.php:48
+msgid "Widget Title:"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/social_media.php:77
+msgid "Digg Full URL"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/social_media.php:78
+msgid "Linkedin Full URL"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/social_media.php:79
+msgid "Myspace Full URL"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/social_media.php:80
+msgid "Rss Full URL"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/subscribe.php:49
+msgid "Feedburner ID (ex :- templatic):"
+msgstr ""
+
+#: ../admin/widgets/subscribe.php:50
+msgid "Short Description:"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:149
+msgid "Show Fade In Time Set:"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:150
+msgid "Show Fade Out Time Set:"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:152
+msgid "Quote text 1"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:153
+msgid "Author name 1"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:155
+msgid "Quote text 2"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:156
+msgid "Author name 2"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:158
+msgid "Quote text 3"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:159
+msgid "Author name 3"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:161
+msgid "Quote text 4"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:162
+msgid "Author name 4"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:164
+msgid "Quote text 5"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/testimonials.php:165
+msgid "Author name 5"
+msgstr ""
+
+#: ../admin/widgets/twitter.php:8
+msgid ""
+"Enter your Twitter login ID and it will show latest tweet at your site. One "
+"time use per page."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/twitter.php:9
+msgid "T &rarr; Twitter Feed"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/twitter.php:47
+msgid "Live Tweet"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/twitter.php:60
+msgid "Twitter Account ID"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/twitter.php:65
+msgid "Show Twitter Posts"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/twitter.php:70
+msgid "Twitter Button Text"
+msgstr ""
+
+#: ../admin/widgets/twitter.php:74
+msgid ""
+"You should user this widget <b>once on the page</b>. As it will not display "
+"tweet for more than one ID."
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:10
+msgid "Top Navigation"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:16
+msgid "Main Navigation"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:22
+msgid "Header Logo Right Side"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:28
+msgid "Home Slider"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:34
+msgid "Single Post Below Content"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:41
+msgid "Sidebar 1"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:43
+msgid "Sidebar 2"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:45
+msgid "Sidebar 2col Merge"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:51
+msgid "First Footer Widget Area"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:53
+msgid "Second Footer Widget Area"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:55
+msgid "Third Footer Widget Area"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/widgets_sidebar.php:57
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/anything_slider.php:157
+msgid "Read More"
+msgstr ""
+
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:6
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:7
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:8
+msgid "Slider"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:9
+msgid "Add Post"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:10
+msgid "Add New Post"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:11
+msgid "Edit"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:12
+msgid "Edit Post"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:13
+msgid "New Post"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:14
+msgid "View Post"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:15
+msgid "Search Post"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:16
+msgid "No Post found"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:17
+msgid "No Post found in trash"
+msgstr ""
+
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:19
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:20
+msgid "Slider Categories"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:21
+msgid "Category"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:22
+msgid "Search Category"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:23
+msgid "Popular Categories"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:24
+msgid "All Categories"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:25
+msgid "Parent Category"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:26
+msgid "Parent Category:"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:27
+msgid "Edit Category"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:28
+msgid "Update Category"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:29
+msgid "Add New Category"
+msgstr ""
+
+# @ templatic
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:30
+msgid "New Category Name"
+msgstr ""
+
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:32
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:33
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:34
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:35
+msgid "Slider Tags"
+msgstr ""
+
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:36
+msgid "Popular Slider Tags"
+msgstr ""
+
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:37
+msgid "All Slider Tags"
+msgstr ""
+
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:38
+msgid "Parent Slider Tags"
+msgstr ""
+
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:39
+msgid "Parent Slider Tags:"
+msgstr ""
+
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:40
+msgid "Edit Slider Tags"
+msgstr ""
+
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:41
+msgid "Update Slider Tags"
+msgstr ""
+
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:42
+msgid "Add New Slider Tags"
+msgstr ""
+
+#: ../admin/widgets/anything_slider/custom_post_type_slider/custom_post_type_slider_lang.php:43
+msgid "New Slider Tags Name"
+msgstr ""
+
+#: ../admin/widgets/contact/contact.php:67
+msgid "Thank you, your information is sent successfully."
+msgstr ""
+
+#: ../admin/widgets/contact/contact.php:72
+msgid "Please fill out all the fields before submitting."
+msgstr ""
+
+#: ../library/functions/custom_filters.php:302
+msgid "Active &rarr; feature on homepage. <br/>"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:305
+msgid "Terminate &rarr; Remove this deal as featured on homepage. <br/>"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:307
+msgid ""
+"Accept or reject the deal here.If you wish to feature this deal on homepage,"
+"select appropriate option."
+msgstr ""
+
+#: ../library/functions/custom_filters.php:315
+msgid "Name of the seller :"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:320
+msgid "Email of the seller :"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:325
+msgid "Seller&rsquo;s website:"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:330
+msgid "Total number of items:"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:335
+msgid "Original price:"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:340
+msgid "Discounted price:"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:346
+msgid "&lsquo;Thank you&rsquo; page (Redirect URL) set by the seller"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:354
+msgid "Deal type selected by the seller"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:382
+msgid "Seller wants to provide"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:399
+msgid "Please enter "
+msgstr ""
+
+#: ../library/functions/custom_filters.php:403
+msgid "Your Affiliate Link:"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:485
+msgid "Deal start date & time:"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:522
+msgid "Deal end date & time:"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:576
+msgid "This deal has expired"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:716
+#, php-format
+msgid ""
+"\n"
+"\t\t\t<p><h3>Deal Details</h3> \r</p>\n"
+"\t\t\t<p><strong>Deal Title: </strong>%s \r\t</p>\n"
+"\t\t\t<p><strong>Deal Desc: </strong>%s \r\t</p>\n"
+"\t\t\t<p><strong>Deal Type: </strong>%s \r\t</p>\n"
+"\t\t\t<p><strong>Original Price: </strong>%s \r\t</p>\n"
+"\t\t\t<p><strong>Current Price: </strong>%s \r\t</p>\n"
+"\t\t\t<p><strong>Store Address:</strong> %s \r\t</p>\n"
+"\t\t\t"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:726
+#, php-format
+msgid ""
+"\n"
+"\t\t\t<p><h3>Deal Details </h3> \r</p>\n"
+"\t\t\t<p><strong>Deal Title:</strong> %s \r</p>\n"
+"\t\t\t<p><strong>Deal Desc:</strong> %s \r\t</p>\n"
+"\t\t\t<p><strong>Deal Type: </strong>%s \r\t</p>\n"
+"\t\t\t<p><strong>Original Price: </strong>%s \r\t</p>\n"
+"\t\t\t<p><strong>Current Price: </strong>%s \r\t</p>\n"
+"\t\t\t"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:737
+#, php-format
+msgid ""
+"\n"
+"\t\t<p><h3>Deal Details </h3>\r</p>\n"
+"\t\t<p><strong>Deal Title:</strong> %s \r</p>\n"
+"\t\t<p><strong>Deal Coupon:</strong> %s \r\t</p>\n"
+"\t\t<p><strong>Deal Type:</strong> %s \r\t</p>\n"
+"\t\t<p><strong>Original Price: </strong>%s \r\t</p>\n"
+"\t\t<p><strong>Current Price: </strong>%s \r\t</p>\n"
+"\t\t"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:763
+#, php-format
+msgid ""
+"\n"
+"\t\t\t\t\t\t<p><h3>Seller Details</h3> \r</p>\n"
+"\t\t\t\t\t\t<p><strong>Name:</strong> %s \r\t</p>\n"
+"\t\t\t\t\t\t<p><strong>Email:</strong> %s \r\t</p>"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:1054
+msgid "Daily Deal"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:1112
+msgid "Custom Title"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:1114
+msgid "Enter Custom Title. eg. : code from youtibe, vimeo, etc"
+msgstr ""
+
+#: ../library/functions/custom_filters.php:1253
+msgid "Facebook Link "
+msgstr ""
+
+#: ../library/functions/custom_filters.php:1260
+msgid "Twitter Link"
+msgstr ""
+
+# @ templatic
+#: ../library/functions/custom_filters.php:1371
+#: ../library/functions/widgets.php:358
+msgid "Select Category"
+msgstr ""
+
+# @ templatic
+#: ../library/functions/custom_functions.php:80
+#, php-format
+msgid "<p class=\"comment-author\"><span>%s</span></p>"
+msgstr ""
+
+# @ templatic
+#: ../library/functions/custom_functions.php:93
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../library/functions/custom_functions.php:482
+#: ../library/functions/general_functions.php:19
+msgid "Pay with "
+msgstr ""
+
+#: ../library/functions/custom_functions.php:509
+msgid "Order Number"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:519
+msgid "User Information"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:530
+msgid "Shipping Address"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:541
+msgid "Payment Information"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:550
+msgid "Shipping Information"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:559
+msgid "Products Information"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:563
+msgid "Image"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:564
+msgid "Product Name"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:566
+msgid "Prsdfice"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:595
+msgid "code : "
+msgstr ""
+
+# @ templatic
+#: ../library/functions/custom_functions.php:609
+msgid "Discount Amount"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:628
+msgid "Total Payable Amount"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:634
+msgid "Order&nbsp;Comments"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:652
+msgid "Please transfer amount of"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:652
+msgid "to out bank with following information"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:653
+msgid "payment for Order Number"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:654
+msgid "Bank Name"
+msgstr ""
+
+#: ../library/functions/custom_functions.php:655
+msgid "Account Number"
+msgstr ""
+
+#: ../library/functions/deal_widget.php:107
+msgid "Image <br />not available"
+msgstr ""
+
+#: ../library/functions/deal_widget.php:115
+msgid "Our Price :"
+msgstr ""
+
+#: ../library/functions/deal_widget.php:115
+msgid "Offer Price :"
+msgstr ""
+
+#: ../library/functions/deal_widget.php:238
+msgid "Image <br /> not available"
+msgstr ""
+
+#: ../library/functions/general_functions.php:425
+msgid "d"
+msgstr ""
+
+#: ../library/functions/general_functions.php:429
+msgid "led"
+msgstr ""
+
+#: ../library/functions/general_functions.php:433
+msgid "ed"
+msgstr ""
+
+#: ../library/functions/theme_ui.php:41
+msgid "Click here"
+msgstr ""
+
+#: ../library/functions/theme_ui.php:54
+msgid "You have"
+msgstr ""
+
+#: ../library/functions/theme_ui.php:112 ../library/functions/theme_ui.php:115
+msgid "Attribute3"
+msgstr ""
+
+#: ../library/functions/theme_ui.php:122 ../library/functions/theme_ui.php:125
+msgid "Attribute4"
+msgstr ""
+
+#: ../library/functions/theme_ui.php:132 ../library/functions/theme_ui.php:135
+msgid "Attribute5"
+msgstr ""
+
+#: ../library/functions/theme_ui.php:142 ../library/functions/theme_ui.php:145
+msgid "Attribute6"
+msgstr ""
+
+#: ../library/functions/theme_ui.php:152 ../library/functions/theme_ui.php:155
+msgid "Attribute7"
+msgstr ""
+
+#: ../library/functions/theme_ui.php:162 ../library/functions/theme_ui.php:165
+msgid "Attribute8"
+msgstr ""
+
+#: ../library/functions/theme_ui.php:172 ../library/functions/theme_ui.php:175
+msgid "Attribute9"
+msgstr ""
+
+#: ../library/functions/theme_ui.php:182 ../library/functions/theme_ui.php:185
+msgid "Attribute10"
+msgstr ""
+
+#: ../library/functions/widgets.php:11
+msgid "Socail Media Bookmark"
+msgstr ""
+
+#: ../library/functions/widgets.php:12
+msgid "T &rarr; Socail Media Bookmark"
+msgstr ""
+
+#: ../library/functions/widgets.php:75
+msgid "Header Login User"
+msgstr ""
+
+#: ../library/functions/widgets.php:76
+msgid "T &rarr; Header Login User"
+msgstr ""
+
+#: ../library/functions/widgets.php:236
+msgid "mailchimp"
+msgstr ""
+
+#: ../library/functions/widgets.php:236
+msgid "Mail Chimp"
+msgstr ""
+
+#: ../library/functions/widgets.php:237
+msgid "constant_contact"
+msgstr ""
+
+#: ../library/functions/widgets.php:237
+msgid "Constant Contact"
+msgstr ""
+
+#: ../library/functions/widgets.php:238
+msgid "default"
+msgstr ""
+
+#: ../library/functions/widgets.php:239
+msgid "<strong>If you select default option then enter ID.</strong>"
+msgstr ""
+
+#: ../library/functions/widgets.php:471
+msgid "Select Taxonomy:"
+msgstr ""
+
+#: ../library/functions/widgets.php:492
+msgid "Show as dropdown"
+msgstr ""
+
+#: ../library/functions/widgets.php:495
+msgid "Show post counts"
+msgstr ""
+
+#: ../library/functions/widgets.php:498
+msgid "Show hierarchy"
+msgstr ""
+
+#: ../library/functions/captcha/captcha_function.php:12
+msgid "Please enter valid text as you shown in captcha."
+msgstr ""
+
+#: ../library/functions/captcha/captcha_function.php:13
+msgid "Enter the text as you see in the image."
+msgstr ""
+
+# @ templatic
+#: ../library/includes/image_uploader.php:125
+msgid "Save Order"
+msgstr ""
+
+# @ templatic
+#: ../library/includes/image_uploader.php:134
+msgid "processing ..."
+msgstr ""
+
+# @ templatic
+#: ../library/includes/image_uploader.php:142
+msgid "Error loading agent favorite property."
+msgstr ""
+
+# @ templatic
+#: ../library/includes/image_uploader.php:171
+msgid "Error loading deletion of property image."
+msgstr ""
+
+#: ../library/includes/auto_install/auto_install_data.php:2357
+msgid "Read More &rarr;"
+msgstr ""
+
+# @ templatic
+#: ../library/map/location_add_map.php:99
+#: ../library/map/location_add_map.php:157
+msgid "Latitude:"
+msgstr ""
+
+# @ templatic
+#: ../library/map/location_add_map.php:99
+#: ../library/map/location_add_map.php:157
+msgid "Longitude:"
+msgstr ""
+
+# @ templatic
+#: ../library/map/location_add_map.php:134
+msgid "Status Code:"
+msgstr ""
+
+#: ../library/map/location_add_map.php:142
+msgid "Lat-Long:"
+msgstr ""
+
+# @ templatic
+#: ../library/map/location_add_map.php:143
+msgid "Address:"
+msgstr ""
+
+# @ templatic
+#: ../library/map/location_add_map.php:170
+msgid "not found"
+msgstr ""
+
+# @ templatic
+#: ../library/map/location_add_map.php:192
+msgid "Set Address on Map"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:280 ../monetize/general_function.php:316
+msgid "Merchant Id"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:283
+msgid "Example : myaccount@paypal.com"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:286
+msgid "Cancel Url"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:289 ../monetize/general_function.php:295
+#: ../monetize/general_function.php:301 ../monetize/general_function.php:393
+#, php-format
+msgid "Example : %s"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:292
+msgid "Return Url"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:298 ../monetize/general_function.php:390
+msgid "Notify Url"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:305
+msgid "Paypal"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:319 ../monetize/general_function.php:344
+msgid "Example : 1234567890"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:323
+msgid "Google Checkout"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:335
+msgid "Login ID"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:338
+msgid "Example : yourname@domain.com"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:341
+msgid "Transaction Key"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:348
+msgid "Authorize.net"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:360
+msgid "Instant Id"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:363
+msgid "Example : 123456"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:366
+msgid "Account Id"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:369
+msgid "Example : 12345"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:373
+msgid "Worldpay"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:384
+msgid "Vendor ID"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:387
+msgid "Enter Vendor ID Example : 1303908"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:397
+msgid "2CO (2Checkout)"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:410
+msgid "Bank Information"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:413
+msgid "Enter the bank name to which you want to transfer payment"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:416
+msgid "Account ID"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:419
+msgid "Enter your bank Account ID"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:423
+msgid "Pre Bank Transfer"
+msgstr ""
+
+# @ templatic
+#: ../monetize/general_function.php:434
+msgid "Pay Cash On Delivery"
+msgstr ""
+
+#: ../monetize/affiliates/admin_affiliates.php:58
+#: ../monetize/affiliates/admin_affiliates_frm.php:77
+msgid "Hide"
+msgstr ""
+
+#: ../monetize/affiliates/admin_affiliates.php:61
+#: ../monetize/affiliates/admin_affiliates_frm.php:76
+msgid "Show"
+msgstr ""
+
+#: ../monetize/affiliates/admin_affiliates_report.php:76
+msgid "paypal ID:"
+msgstr ""
+
+#: ../monetize/affiliates/admin_affiliate_sale_report_default.php:39
+#: ../monetize/affiliates/admin_affiliate_sale_report_detail.php:38
+msgid "To"
+msgstr ""
+
+#: ../monetize/affiliates/admin_affiliate_sale_report_detail.php:21
+msgid "'s Affiliate Detail Report"
+msgstr ""
+
+#: ../monetize/affiliates/admin_manage_orders.php:113
+#: ../monetize/affiliates/admin_order_detail.php:104
+msgid "Your Affiliate Sale"
+msgstr ""
+
+#: ../monetize/affiliates/admin_manage_orders.php:114
+#: ../monetize/affiliates/admin_order_detail.php:105
+msgid ""
+"\n"
+"\t\t\t\t\t<p>Dear "
+msgstr ""
+
+#: ../monetize/affiliates/admin_manage_orders.php:190
+msgid "Please select atleast one record to delete."
+msgstr ""
+
+#: ../monetize/affiliates/admin_manage_orders.php:191
+#: ../monetize/affiliates/admin_manage_orders.php:204
+msgid "Are you sure want to continue?"
+msgstr ""
+
+#: ../monetize/affiliates/admin_manage_orders.php:196
+msgid "Select Status to set"
+msgstr ""
+
+#: ../monetize/affiliates/admin_manage_orders.php:203
+msgid "Please select atleast one record to "
+msgstr ""
+
+#: ../monetize/affiliates/admin_manage_orders.php:256
+msgid "order number"
+msgstr ""
+
+#: ../monetize/affiliates/admin_manage_orders.php:307
+msgid ""
+"<u><b>Note</b></u> : you can search multiple orders by enter \"Order Number"
+"\"  comma seperated. example : 1,2,3,4"
+msgstr ""
+
+#: ../monetize/affiliates/admin_manage_orders.php:427
+msgid "orders"
+msgstr ""
+
+#: ../monetize/affiliates/admin_order_detail.php:135
+msgid "Order Details of Order"
+msgstr ""
+
+#: ../monetize/affiliates/admin_order_detail.php:147
+msgid "Affiliate Info. : "
+msgstr ""
+
+#: ../monetize/affiliates/admin_order_detail.php:150
+msgid "Order Request IP Address : "
+msgstr ""
+
+#: ../monetize/affiliates/admin_order_detail.php:155
+msgid "Order status changed successfuly"
+msgstr ""
+
+#: ../monetize/affiliates/admin_order_detail.php:192
+msgid "Back to Orders Listing"
+msgstr ""
+
+#: ../monetize/affiliates/affiliates_function.php:2
+msgid "Manage Affiliate"
+msgstr ""
+
+# @ templatic
+#: ../monetize/affiliates/affiliates_settings.php:79
+msgid "No"
+msgstr ""
+
+# @ templatic
+#: ../monetize/affiliates/affiliates_settings.php:80
+msgid "Yes"
+msgstr ""
+
+#: ../monetize/affiliates/affiliates_settings.php:109
+msgid "Add Affiliate Links"
+msgstr ""
+
+#: ../monetize/affiliates/affiliate_login.php:72
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: ../monetize/affiliates/affiliate_login.php:97
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: ../monetize/affiliates/affiliate_login.php:97
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+# @ templatic
+#: ../monetize/affiliates/affiliate_login.php:185
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#: ../monetize/affiliates/affiliate_login.php:395
+msgid "Username or E-mail"
+msgstr ""
+
+#: ../monetize/affiliates/export_report_month.php:4
+#: ../monetize/affiliates/export_report_month_4Dec10.php:4
+msgid "Ord ID"
+msgstr ""
+
+#: ../monetize/affiliates/export_report_month.php:5
+#: ../monetize/affiliates/export_report_month_4Dec10.php:5
+msgid "Ord Date"
+msgstr ""
+
+#: ../monetize/affiliates/export_report_month.php:52
+#: ../monetize/affiliates/export_report_month.php:54
+#: ../monetize/affiliates/export_report_month_4Dec10.php:52
+#: ../monetize/affiliates/export_report_month_4Dec10.php:54
+msgid "Total : "
+msgstr ""
+
+#: ../monetize/affiliates/export_report_month_4Dec10.php:7
+msgid "Ord Total"
+msgstr ""
+
+#: ../monetize/affiliates/export_report_user.php:5
+#: ../monetize/affiliates/export_report_user_4Dec10.php:5
+msgid "Order ID"
+msgstr ""
+
+#: ../monetize/affiliates/export_report_user.php:7
+#: ../monetize/affiliates/export_report_user_4Dec10.php:7
+msgid "Comission(%)"
+msgstr ""
+
+#: ../monetize/affiliates/export_report_user.php:43
+#: ../monetize/affiliates/export_report_user_4Dec10.php:43
+msgid "Total Earn : "
+msgstr ""
+
+#: ../monetize/affiliates/export_report_user.php:48
+#: ../monetize/affiliates/export_report_user_4Dec10.php:48
+msgid "No record available"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type.php:107
+msgid "Deal"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type.php:108
+msgid "Start time"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type.php:109
+msgid "End time"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type.php:110
+msgid "Deals sold"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type.php:111
+msgid "Total items"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type.php:114
+msgid "Tags"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type.php:152
+msgid "Unknown"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type.php:184
+#: ../monetize/custom_post_type/custom_post_type.php:222
+msgid "0"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type.php:197
+msgid "Uncategorized"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:9
+#: ../monetize/custom_post_type/custom_post_type_lang.php:10
+msgid "Add New Deal"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:13
+msgid "New Deal"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:14
+msgid "View Deal"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:15
+msgid "Search Deal"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:16
+msgid "No Deal Reaquest found"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:17
+msgid "No Deal Reaquest found in trash"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:20
+msgid "Deal Categories"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:32
+#: ../monetize/custom_post_type/custom_post_type_lang.php:33
+#: ../monetize/custom_post_type/custom_post_type_lang.php:34
+#: ../monetize/custom_post_type/custom_post_type_lang.php:35
+msgid "Deal Tags"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:36
+msgid "Popular Deal Tags"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:37
+msgid "All Deal Tags"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:38
+msgid "Parent Deal Tags"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:39
+msgid "Parent Deal Tags:"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:40
+msgid "Edit Deal Tags"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:41
+msgid "Update Deal Tags"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:42
+msgid "Add New Deal Tags"
+msgstr ""
+
+#: ../monetize/custom_post_type/custom_post_type_lang.php:43
+msgid "New Deal Tags Name"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/image_uploader.php:40
+msgid "Select Images"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/image_uploader.php:40
+msgid "2 MB Max"
+msgstr ""
+
+#: ../monetize/deal/ipn_process.php:91
+#, php-format
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t<p>Payment Details for Deal ID #%s\r</p>\n"
+"\t\t\t\t\t\t\t<p>Deal Title: %s \r\t</p>\n"
+"\t\t\t\t\t\t\t<p>Deal Coupon: %s \r\t</p>\n"
+"\t\t\t\t\t\t\t<p>Store Address: %s \r\t</p>\n"
+"\t\t\t\t\t\t\t<p>Trans ID: %s\r</p> <p>Paypal Trans ID: %s\r</p> <p>Status: "
+"%s\r</p>\t<p>Type: %s\r</p>\t<p>Date: %s\r</p>\t<p>Method: %s\r</p>"
+msgstr ""
+
+#: ../monetize/deal/ipn_process.php:100
+#, php-format
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t<p>Payment Details for Deal ID #%s\r</p>\n"
+"\t\t\t\t\t\t\t<p>Deal Title: %s \r</p>\n"
+"\t\t\t\t\t\t\t<p>Deal Coupon: %s \r\t</p>\n"
+"\t\t\t\t\t\t\t<p>Trans ID: %s\r</p> <p>Paypal Trans ID: %s\r</p> <p>Status: "
+"%s\r</p>\t<p>Type: %s\r</p>\t<p>Date: %s\r</p>\t<p>Method: %s\r</p>"
+msgstr ""
+
+#: ../monetize/deal/ipn_process.php:111
+#, php-format
+msgid ""
+"\n"
+"\t\t\t\t\t\t<p>Payment Details for Deal ID #%s\r\t</p>\n"
+"\t\t\t\t\t\t<p>Deal Title: %s \r</p>\n"
+"\t\t\t\t\t\t<p>Deal Coupon: %s \r\t</p>\n"
+"\t\t\t\t\t\t<p>Deal Coupon Link: %s \r\t</p>\n"
+"\t\t\t\t\t\t<p>Trans ID: %s\r</p> <p>Paypal Trans ID: %s\r</p> <p>Status: %s"
+"\r</p>\t<p>Type: %s\r</p>\t<p>Date: %s\r</p>\t<p>Method: %s\r</p>"
+msgstr ""
+
+#: ../monetize/deal/ipn_process.php:123
+#, php-format
+msgid ""
+"\n"
+"\t\t\t\t\t<p>User Details for Transaction ID #%s\r</p>\n"
+"\t\t\t\t\t<p>Name: %s \r\t</p>\n"
+"\t\t\t\t\t<p>Email: %s \r\t</p>\n"
+"\t\t\t\t\t<p>Billing Details\r\t</p>\n"
+"\t\t\t\t\t<p>Billing Name: %s\r</p> <p>Billing Address: %s\r </p>"
+msgstr ""
+
+#: ../monetize/deal/ipn_process.php:132
+#, php-format
+msgid ""
+"\n"
+"\t\t\t\t\t   <p> Shipping  Details\r\t</p>\n"
+"\t\t\t\t\t\t<p>Shipping Name: %s\r</p> <p>Shipping Address: %s\r </p>"
+msgstr ""
+
+#: ../monetize/deal/ipn_process.php:148
+msgid "Acknowledgment for your Deal"
+msgstr ""
+
+#: ../monetize/deal/ipn_process.php:153
+msgid ""
+"<p>Dear [#to_name#],</p><p>[#deal_details#]</p><br><p>[#user_details#]</"
+"p><br><p>Thanks!</p><p>[#site_name#]</p>"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/ipn_process.php:169
+msgid "Acknowledgment for your Payment"
+msgstr ""
+
+#: ../monetize/deal/ipn_process.php:174
+msgid ""
+"<p>Dear [#to_name#],</p><p>[#deal_details#]</p><br><p>We hope you enjoy. "
+"Thanks!</p><p>[#site_name#]</p>"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/ipn_process.php:191
+msgid "Payment received successfully"
+msgstr ""
+
+#: ../monetize/deal/ipn_process.php:196
+msgid ""
+"<p>Dear [#to_name#],</p><p>[#deal_details#]</p><br><p>[#user_details#]</"
+"p><br><p>. Thanks!</p><p>[#site_name#]</p>"
+msgstr ""
+
+#: ../monetize/deal/ipn_process_.php:132
+#, php-format
+msgid ""
+"--------------------------------------------------\r\n"
+"\t\t\t\tPayment Details for Deal ID #%s\r"
+"\t--------------------------------------------------\r\n"
+"\t\t\t\tDeal Title: %s \r\t--------------------------------------------------"
+"\r\n"
+"\t\t\t\tDeal Coupon: %s \r"
+"\t--------------------------------------------------\r\n"
+"\t\t\t\tStore Address: %s \r"
+"\t--------------------------------------------------\r\n"
+"\t\t\t\tTrans ID: %s\r Paypal Trans ID: %s\r Status: %s\r\tType: %s\r\tDate: "
+"%s\r\tMethod: %s\r\n"
+"\t\t\t\t--------------------------------------------------\r"
+msgstr ""
+
+#: ../monetize/deal/ipn_process_.php:142
+#, php-format
+msgid ""
+"--------------------------------------------------\r\n"
+"\t\t\t\tPayment Details for Deal ID #%s\r"
+"\t--------------------------------------------------\r\n"
+"\t\t\t\tDeal Title: %s \r\t--------------------------------------------------"
+"\r\n"
+"\t\t\t\tDeal Coupon: %s \r"
+"\t--------------------------------------------------\r\n"
+"\t\t\t\tTrans ID: %s\r Paypal Trans ID: %s\r Status: %s\r\tType: %s\r\tDate: "
+"%s\r\tMethod: %s\r\n"
+"\t\t\t\t--------------------------------------------------\r"
+msgstr ""
+
+#: ../monetize/deal/ipn_process_.php:154
+#, php-format
+msgid ""
+"--------------------------------------------------\r\n"
+"\t\t\tPayment Details for Deal ID #%s\r"
+"\t--------------------------------------------------\r\n"
+"\t\t\tDeal Title: %s \r\t--------------------------------------------------"
+"\r\n"
+"\t\t\tDeal Coupon: %s \r\t--------------------------------------------------"
+"\r\n"
+"\t\t\tDeal Coupon Link: %s \r"
+"\t--------------------------------------------------\r\n"
+"\t\t\tTrans ID: %s\r Paypal Trans ID: %s\r Status: %s\r\tType: %s\r\tDate: %s"
+"\r\tMethod: %s\r\n"
+"\t\t\t--------------------------------------------------\r"
+msgstr ""
+
+#: ../monetize/deal/ipn_process_.php:167
+#, php-format
+msgid ""
+"--------------------------------------------------\r\n"
+"\t\tUser Details for Transaction ID #%s\r"
+"\t--------------------------------------------------\r\n"
+"\t\tName: %s \r\t--------------------------------------------------\r\n"
+"\t\tEmail: %s \r\t--------------------------------------------------\r\n"
+"\t\tBilling Details\r\t--------------------------------------------------\r\n"
+"\t\tBilling Name: %s\r Address: %s\r \n"
+"\t\t--------------------------------------------------\r"
+msgstr ""
+
+#: ../monetize/deal/ipn_process_.php:177
+#, php-format
+msgid ""
+"\n"
+"\t\t    Shipping  Details\r"
+"\t--------------------------------------------------\r\n"
+"\t\t\tShipping Name: %s\r Address: %s\r \n"
+"\t\t\t--------------------------------------------------\r"
+msgstr ""
+
+#: ../monetize/deal/ipn_process_2co.php:61
+#, php-format
+msgid ""
+"\n"
+"\t\t\t<p>Payment Details for Deal ID #%s\r</p>\n"
+"\t\t\t<p>Deal Title: %s \r\t</p>\n"
+"\t\t\t<p>Deal Coupon: %s \r\t</p>\n"
+"\t\t\t<p>Store Address: %s \r\t</p>\n"
+"\t\t\t<p>Trans ID: %s\r</p> <p>2co Trans ID: %s\r</p> <p>Response Code: %s"
+"\r</p>\t<p>Response Text: %s\r</p>\t<p>Date: %s\r</p>"
+msgstr ""
+
+#: ../monetize/deal/ipn_process_2co.php:70
+#, php-format
+msgid ""
+"\n"
+"\t\t\t<p>Payment Details for Deal ID #%s\r</p>\n"
+"\t\t\t<p>Deal Title: %s \r</p>\n"
+"\t\t\t<p>Deal Coupon: %s \r\t</p>\n"
+"\t\t\t<p>Trans ID: %s\r</p> <p>2co Trans ID: %s\r</p> <p>Response Code: %s"
+"\r</p>\t<p>Response Text: %s\r</p>\t<p>Date: %s\r</p>"
+msgstr ""
+
+#: ../monetize/deal/ipn_process_2co.php:81
+#, php-format
+msgid ""
+"\n"
+"\t\t<p>Payment Details for Deal ID #%s\r\t</p>\n"
+"\t\t<p>Deal Title: %s \r</p>\n"
+"\t\t<p>Deal Coupon: %s \r\t</p>\n"
+"\t\t<p>Deal Coupon Link: %s \r\t</p>\n"
+"\t\t<p>Trans ID: %s\r</p> <p>2co Trans ID: %s\r</p> <p>Response Code: %s\r</"
+"p>\t<p>Response Text: %s\r</p>\t<p>Date: %s\r</p>"
+msgstr ""
+
+#: ../monetize/deal/ipn_process_2co.php:93
+#, php-format
+msgid ""
+"\n"
+"\t<p>User Details for Transaction ID #%s\r</p>\n"
+"\t<p>Name: %s \r\t</p>\n"
+"\t<p>Email: %s \r\t</p>\n"
+"\t<p>Billing Details\r\t</p>\n"
+"\t<p>Billing Name: %s\r</p> <p>Billing Address: %s\r </p>"
+msgstr ""
+
+#: ../monetize/deal/ipn_process_2co.php:102
+#, php-format
+msgid ""
+"\n"
+"\t   <p> Shipping  Details\r\t</p>\n"
+"\t\t<p>Shipping Name: %s\r</p> <p>Shipping Address: %s\r </p>"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:5
+msgid "Edit Account"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:6
+msgid "Password changed successfully."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:7
+msgid "Your information is updated successfully."
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:8
+msgid "Change Password"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:9
+msgid "New Password"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:10
+msgid "Confirm New Password"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:21
+msgid "Your Facebook URL"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:22
+msgid "Your Twitter URL"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:24
+msgid "Your Website"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:25
+msgid "Provide brief information about yourself"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:31
+msgid ""
+"Do you want to feature your product on our site? Just fill out this form to "
+"post your deal. To get more sales and more earnings, make the title and the "
+"description as exciting as possible. The stage is all yours."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:32
+msgid "Your can edit the deal"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:34
+msgid "Buy Deal"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:35
+msgid "Deal Form"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:39
+msgid "You have purchased this deal for maximum number of times."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:44
+msgid ""
+"Please enter a short description of your product or service. Make it "
+"exciting. "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:46
+msgid "If you have website, enter its URL here."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:49 ../monetize/deal/lang_deal.php:287
+msgid "Billing Address"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:55
+msgid "(Minimum sales not yet reached)<span class=error>*</span>"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:56
+msgid ""
+"The seller of this deal has specified a minimum sales ,then hold which,once "
+"met,will allow access you the product you purchased , please wait."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:59
+msgid "Select Payment Method"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:61
+msgid "None of payment method is active right now."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:65
+msgid "My shipping address is same as billing address"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:67 ../monetize/deal/lang_deal.php:153
+msgid "Address"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:68
+msgid "City"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:69
+msgid "State"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:70
+msgid "Country"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:71
+msgid "Postal Code"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:72
+msgid "Phone Number"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:74
+msgid "Captcha Verification"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:75
+msgid "Word Verification"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:79
+msgid "Deal Duration"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:80
+msgid "Edit Deal"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:81
+msgid "View Transactions "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:82
+msgid "Totat Deals"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:83
+msgid "Active Deals"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:85
+msgid "Coupon expired date"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:87
+msgid "Submit Deal"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:88
+msgid "Submit Deal Form"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:92
+msgid "Deal information"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:93
+msgid "Deal Title"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:94
+msgid "Deal Details"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:97
+msgid "Total number of items"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:98
+msgid "Enter number of products you want to sell."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:99
+msgid "Discounted Price"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:100
+msgid "Regular Price"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:101
+msgid "Deal Image"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:102
+msgid "Deal Details "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:104
+msgid "Deal Description "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:105
+msgid "Post date "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:106
+msgid "Name "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:107
+msgid "Email "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:108
+msgid "Transactions"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:109
+msgid "Website "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:110
+msgid "Deal Price "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:111
+msgid "Original Price "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:112
+msgid "Coupon type "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:113
+msgid "Coupon Code "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:114
+msgid "Total Coupon "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:115
+msgid "No Transaction Available "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:117
+msgid "Deal Type"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:119
+msgid "Custom Link Deal"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:120
+msgid "Digital Product Deal"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:121
+msgid "Coupon Email/Print - Online "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:122
+msgid "Coupon Email/Print - Product"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:124
+msgid "Single coupon"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:125
+msgid " Multiple coupons"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:131
+msgid "Image Order"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:133
+msgid "I am"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:134
+msgid "Login or Register"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:135
+msgid "Existing User"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:136
+msgid "New User? Register Now"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:137
+msgid "Login"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:140
+msgid "Upload product"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:146
+msgid "Payment Date"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:147
+msgid "Details"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:148
+msgid "Resend Email"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:149
+msgid "Paid Amount"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:152
+msgid "Select deal type"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:154
+msgid "Store address"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:155
+msgid "Your affiliate link"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:156
+msgid "Enter your affiliate link for this coupon."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:157
+msgid "Deal start date &amp; time"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:158
+msgid "Deal end date &amp; time"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:159
+msgid "HH:"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:160
+msgid "MM:"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:161
+msgid "SS:"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:163
+msgid "Seperate each coupon with a comma"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:164
+msgid "Enter coupon code"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:165
+msgid "Purchase limits"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:166
+msgid "Minimum purchases required"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:167
+msgid "Maximum purchases"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:168 ../monetize/deal/lang_deal.php:252
+msgid "Maximum purchases per user"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:169
+msgid "Other details"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:170
+msgid "Fine print"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:171
+msgid "I want to provide"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:173
+msgid "Thanks page"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:174
+msgid "Disable deal expiration date"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:175
+msgid "This is the minimum number of sales required to provide a deal."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:176
+msgid "Maximum number of items you can sell"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:177
+msgid "This is the maximum number of items a single user can purchase."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:181
+msgid "Your deal is submitted successfully"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:182
+msgid "Your deal is renewed successfully"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:183
+msgid ""
+"<p>We have received your deal submission.</p><p><a href="
+"\"[#submited_information_link#]\" >View your deal details </a></p> <p>We "
+"will approve your deal if it does not violate our terms and conditions. </"
+"p><p>Thank you for visiting us at [#site_name#].</p>"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:184
+msgid ""
+"<p>We have received your deal submission.</p><p>In order to publish the "
+"listing, kindly transfer amount of <u>[#$order_amt#] </u> to our bank. Our "
+"bank account details are as below:</p>\n"
+"<p>Bank Name : [#$bank_name#]</p><p>Account Number : [#$account_number#]</"
+"p><br><p>Please include the following reference : [#$orderId#]</p><p><a href="
+"\"[#$submited_link#]\" >View your deal details & raquo;</a></p><br><p>Thanks "
+"for submitting the deal at [#$store_name#].</p>"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:187
+msgid "The process has been canceled"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:188
+msgid ""
+"There seems to be an error in processing your request. Please initiate the "
+"payment process again."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:189
+msgid ""
+"Please enter listing address. eg. : <b>230 Vine Street And locations "
+"throughout Old City, Philadelphia, PA 19106</b>"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:190
+msgid ""
+"Click the \"Set Address on Map\" button OR drag the pinpoint to locate the "
+"exact address."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:191
+msgid "Latitude"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:192
+msgid "Enter latitude for precise location plotting. eg. : <b>20.6033</b>"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:193
+msgid "Enter longitude for precise location plotting. eg. : <b>72.9261</b>"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:194
+msgid "Longitude"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:196
+msgid "Payment Success"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:197
+msgid ""
+"Thank you for joining us. Your payment is received and deal is posted."
+"<br>Thank you for becoming our valued member."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:198
+msgid "Processing for PayPal, please wait..."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:202
+msgid "Processing for 2Checkout, please wait..."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:204
+msgid "Processing for Authorize Net, please wait..."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:206
+msgid "Processing for Google Checkout, please wait..."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:208
+msgid "Processing for WorldPay, please wait..."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:210
+msgid ""
+"<p><strong>Thank you for submitting a deal.</strong></p> <p> We will review "
+"your submitted information and publish it if it does not violate our terms "
+"and conditions. </p>\n"
+"<p>We've sent e-mail confirming your deal at : <a href=\"mailto:"
+"[#user_email#]\"><i>[#user_email#]</i></a></p>\n"
+"<p>In case you have any queries, please email us at <a href=\"mailto:"
+"[#admin_email#]\"><i>[#admin_email#]</i></a>. We will be glad to assist you."
+"</p>\n"
+"<p>Thanks for your interest in [#blog_name#].</p>\n"
+"[#deal_detail#]\n"
+"<a href=\""
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:217
+msgid ""
+"<p><strong>Thank you for submitting a deal.</strong></p>\n"
+"<p>We will review your submitted information and publish it if it does not "
+"violate our terms and conditions.<br />Additionally, we have created an "
+"account for you and the login credentials have been sent to your email.</p>\n"
+"<p>You can login to : <a href=\""
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:227
+msgid ""
+"<strong>Your deal is updated successfully.</strong> <p></p><br /><a href=\""
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:228
+msgid "Please enter a suitable title for your deal."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:229
+msgid "Mention the actual price of the product or service. "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:230
+msgid "Mention the discounted price you wish to sell your product or service. "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:232
+msgid ""
+"Please provide your personal details and proceed to complete the purchase."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:233
+msgid ""
+"<p class=\"tool_title\">There are 4 types of Deal :</p> <p class=\"tool_title"
+"\">1. "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:234
+msgid "Now you are required to provide an affiliate link below."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:235
+msgid ""
+"You can now upload your digital product below. Tip: To upload multiple "
+"files, compress them into a single archive (ZIP or RAR file)."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:236
+msgid ""
+"You can enter single or mutiple coupons below. If you select \"Multiple "
+"coupons\" option, make sure the number of coupons are equal to the total "
+"number of items (as mentioned above)."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:237
+msgid ""
+"You can enter single or mutiple coupons below for a physical product. If you "
+"select \"Multiple coupons\" option, make sure the number of coupons are "
+"equal to the total number of items (as mentioned above). Further, you are "
+"required to provide shipping details."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:238
+msgid ""
+"After a successful purchase, users will be taken to this page. This is "
+"usually a 'Thank you' page."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:239
+msgid "You cannot buy this deal."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:240
+msgid "You cannot view this transaction details."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:242 ../monetize/deal/lang_deal.php:268
+msgid "Print"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:243
+msgid "Coupon code"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:244
+msgid "Shipping address"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:245
+msgid "Expire on "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:246
+msgid "Start From "
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:247
+msgid "From"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:250
+msgid "Deal type"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:251
+msgid "Minimum purchases"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:253
+msgid "No deal found."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:254
+msgid "No expired deal found."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:255
+msgid "No live deal found."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:256
+msgid "Upload .pdf,.zip,.mp3,.avi,.rar file to sell online."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:257
+#, php-format
+msgid "Congratulations, a new sale has occured to your deal %s"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:258
+#, php-format
+msgid "A buyer has just bought the deal %s"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:259
+msgid "Click Here to See Your Coupon Details"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:260
+msgid "deal has been deleted"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:261
+msgid "No Deal Provided"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:262 ../monetize/deal/live_deal.php:92
+msgid "Image  <br /> not available"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:263
+msgid " will start"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:264
+msgid "Enter <strong>0</strong> for a free deal offer."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:265
+msgid "Coupon No."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:266
+msgid "Expires"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:267
+msgid "Download"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:269
+msgid "No deals purchased"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:270 ../monetize/deal/pay_form.php:201
+msgid "Please enter valid text as you see in captcha"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:271
+msgid "Word verification"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:273
+msgid "No. Of Item"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:274
+msgid "Seller Details"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:275
+msgid "Go Back and Edit"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:277
+msgid "Registration"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:279
+msgid ""
+"<h3>Your deal is cancelled. Sorry for cancellation.</h3>\n"
+"<h5>Thank you for visiting us at [#site_name#].</h5>"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:283
+msgid ""
+"<p>Additionally, we have created an account for you and the login "
+"credentials have been sent to your email.</p>\n"
+"<p>You can login to : <a href=\""
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:285
+msgid "You just bought a deal"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:286
+msgid "Billing Name"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:288
+msgid "Shipping Name"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:290
+msgid "Payment Mode"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:292
+msgid "Deal coupon"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:293
+msgid "Payment Details for Deal ID"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:294
+msgid "Deal coupon link"
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:295
+msgid ""
+"Below is your transaction detail you will receive coupon after reach to the "
+"min purchases."
+msgstr ""
+
+#: ../monetize/deal/lang_deal.php:296
+msgid "Payable Amount"
+msgstr ""
+
+# @ templatic
+#: ../monetize/deal/lang_deal.php:297
+msgid "Payment Method"
+msgstr ""
+
+#: ../monetize/deal/paynow.php:242
+msgid ""
+"\n"
+"\t\t<p><h3 >"
+msgstr ""
+
+#: ../monetize/deal/paynow.php:254
+msgid ""
+"\n"
+"\t<p><h3 >"
+msgstr ""
+
+#: ../monetize/deal/paynow.php:258
+msgid ""
+"\n"
+"\t<p><h3 >Buyer Details</h3> \r</p>\n"
+"\t<table border='0'>\n"
+"\t\t<tr>\n"
+"\t\t\t<td valign='top'><strong>"
+msgstr ""
+
+#: ../monetize/deal/paynow.php:317
+msgid ""
+"<h4>Your payment received successfully and your Coupon information is as "
+"below</h4><p>[#deal_details#]</p><br>\n"
+"\t\t\t<h5>Thank you for becoming a member at [#site_name#].</h5>"
+msgstr ""
+
+#: ../monetize/deal/pay_form.php:34
+msgid "<p class=\"error_msg\">"
+msgstr ""
+
+#: ../monetize/deal/pay_form.php:68
+msgid "Please Select Payment Method"
+msgstr ""
+
+#: ../monetize/deal/post_deal.php:394
+msgid "0 "
+msgstr ""
+
+#: ../monetize/deal/post_deal.php:394
+msgid " entered"
+msgstr ""
+
+#: ../monetize/deal/post_deal_mail.php:269
+#: ../monetize/deal/post_deal_mail.php:280
+msgid ""
+"\n"
+"\t\t\t<p><strong>"
+msgstr ""
+
+#: ../monetize/deal/post_deal_mail.php:293
+msgid ""
+"\n"
+"\t<p><strong>"
+msgstr ""
+
+#: ../monetize/deal/preview.php:343
+msgid "We have receive your Details Get back to you as soon as possible"
+msgstr ""
+
+#: ../monetize/deal/preview.php:349
+msgid ""
+"This is a preview of your deal and it is not yet published. To edit any "
+"information, click \"Go back and edit\" button or click the \"Submit\" "
+"button to submit the deal. If your submitted information does not violate "
+"our terms and conditions, the administrator will publish your deal."
+msgstr ""
+
+#: ../monetize/deal/response.php:15 ../monetize/deal/return.php:11
+msgid ""
+"<h4>Your payment received successfully and your Coupon information is as "
+"below</h4><p>[#deal_details#]</p><br>\n"
+"<h5>Thank you for becoming a member at [#site_name#].</h5>"
+msgstr ""
+
+#: ../monetize/deal/response.php:40 ../monetize/deal/response.php:93
+#: ../monetize/deal/response.php:100 ../monetize/deal/return.php:36
+#: ../monetize/deal/return.php:89 ../monetize/deal/return.php:96
+msgid ""
+"\n"
+"\t\t<p>"
+msgstr ""
+
+#: ../monetize/deal/response.php:52 ../monetize/deal/response.php:58
+#: ../monetize/deal/return.php:48 ../monetize/deal/return.php:54
+msgid ""
+"\n"
+"\t\t\t<p>"
+msgstr ""
+
+#: ../monetize/deal/submition_validation.php:107
+msgid "Please provide your email address"
+msgstr ""
+
+#: ../monetize/deal/submition_validation.php:114
+msgid "Please provide valid email address"
+msgstr ""
+
+#: ../monetize/deal/success.php:40
+msgid ""
+"<p>Thanks you, your information has been successfully received.</p><p>Kindly "
+"transfer amount of <u>[#payable_amt#] </u> to our bank. Our bank account "
+"details are mentioned below.</p>\n"
+"<p>Bank Name : [#bank_name#]</p><p>Account Number : [#account_number#]</"
+"p><br><p>Please include the following reference : [#submition_Id#]</p><h5 "
+"class=\"title\">View your submitted information : </h5>"
+msgstr ""
+
+#: ../monetize/deal/success.php:47
+msgid "<p>Thank you, your for buying a deal. Now go to your <a href=\""
+msgstr ""
+
+#: ../monetize/deal/success_deal.php:14
+msgid "Success "
+msgstr ""
+
+#: ../monetize/deal/success_deal.php:48 ../monetize/deal/success_deal.php:61
+msgid ""
+"\n"
+"\t\t\t<h5 class='title'>"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:54
+msgid "Edit custom field"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:57
+msgid "Add a new custom field"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:63
+msgid "Saved successfully."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:78
+msgid "Please enter frontend title"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:89
+msgid "Please Enter HTML Variable Name"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:97
+msgid ""
+"You can add a new custom field here. While submitting a post or a deal, "
+"sellers will be required to fill it."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:105
+msgid "Show in post-type: "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:116
+msgid ""
+"Specify whether this custom field is shown while adding/editing a new Post "
+"or while adding/editing a new Deal."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:120
+msgid "Field type: "
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:123
+msgid "Text"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:124
+msgid "Text Editor"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:125
+msgid "Text Heading"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:126
+msgid "Checkbox"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:127
+msgid "Date Picker"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:128
+msgid "Multi Checkbox"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:129
+msgid "Radio"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:130
+msgid "Select"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:131
+msgid "Textarea"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:132
+msgid "Upload"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:133
+msgid "Multiple image uploader"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:136
+msgid "Select the type of this custom field."
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:140
+msgid "Option Values : "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:142
+msgid "Comma seperated values."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:146
+msgid "Field name (for admin only) : "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:148
+msgid ""
+"Name of the field <u>for admin reference only</u>. It won't be displayed in "
+"the front end."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:153
+msgid "Field label (for back-end): "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:155
+msgid "The field label for the custom field displayed in the back-end."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:160
+msgid "Field name (for front-end): "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:162
+msgid ""
+"The name you provide here will be displayed as the field's name (label) in "
+"the front-end."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:167
+msgid "Description: "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:169
+msgid ""
+"Custom field description which will appear in the front-end as well as the "
+"backend."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:174
+msgid "HTML variable Name: "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:176
+msgid ""
+"The HTML variable name for the custom field. IMPORTANT: It should be a "
+"unique name."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:182
+msgid "Default value: "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:184
+msgid "Enter the default value of the custom field."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:188
+msgid "Position (Display order): "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:190
+msgid ""
+"This is a numeric value that determines the position of the custom field in "
+"the front-end and the back-end. e.g. 5"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:194
+msgid "Activated?: "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:200
+msgid ""
+"This setting activates/de-activates the custom field in the front-end and "
+"the back-end."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:204
+msgid "Compulsory?: "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:210
+msgid ""
+"Specify whether or not this field is required to be filled in compulsarily "
+"by users."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:224
+msgid "Show on detail page? : "
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:230
+msgid ""
+"Specify whether or not this field be shown on the &lsquo;Detail page&rsquo;."
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_edit.php:235
+msgid "Save"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:18
+msgid "Are you sure, want to delete this information?"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:32
+msgid ""
+"Custom fields help you gather required information from sellers via the Post "
+"Deal page. They will fill their information in the fields you set here."
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:36
+msgid "Information Deleted successfully."
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:47
+msgid "Field"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:48
+msgid "Post type"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:49
+msgid "Field type"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:50
+msgid "Activated?"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:64
+msgid "Detail"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:71
+msgid "Admin Title"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:74
+msgid "Post Type"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:75
+#: ../monetize/paymethods/admin_paymethods_add.php:84
+msgid "Display Order"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:78
+msgid "Type"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:79
+msgid "Defaule Value"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:80
+msgid "Is Display On Detail?"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:84
+msgid "Front Title"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:85
+msgid "Is Active?"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:86
+msgid "Is Display On listing?"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:90
+msgid "HTML Variable Name"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:92
+msgid "Use at front end"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:92
+msgid "Theme Default Field"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:92
+msgid "Heading"
+msgstr ""
+
+#: ../monetize/manage_custom_fields/admin_manage_custom_fields_list.php:102
+msgid "No custom fields available."
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/db_mange_custom_fields.php:40
+msgid "Manage Custom Fields"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/db_mange_custom_fields.php:40
+msgid "Post Custom Fields"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/manage_post_custom_fields.php:170
+msgid "Geo Address"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/manage_post_custom_fields.php:172
+msgid ""
+"Please enter address. eg. : 230 Vine Street And locations throughout Old "
+"City, Philadelphia, PA 19106"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/manage_post_custom_fields.php:177
+msgid "Geo Latitude"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/manage_post_custom_fields.php:179
+msgid "Enter Geo Latitude. eg. : 38.8225909761771"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/manage_post_custom_fields.php:184
+msgid "Geo Longitude"
+msgstr ""
+
+# @ templatic
+#: ../monetize/manage_custom_fields/manage_post_custom_fields.php:186
+msgid "Enter Geo Longitude. eg. : 12.65625"
+msgstr ""
+
+#: ../monetize/notifications/admin_notification.php:40
+#: ../monetize/notifications/admin_notification.php:93
+msgid ""
+"Notification emails are sent to the administrator and sellers at various "
+"events like submitting a deal, rejecting a deal request, expiration of "
+"deals, etc. You can customize these notification emails and messages here."
+msgstr ""
+
+# @ templatic
+#: ../monetize/notifications/admin_notification.php:43
+msgid "updated successfully."
+msgstr ""
+
+#: ../monetize/notifications/admin_notification.php:51
+msgid "Email type"
+msgstr ""
+
+# @ templatic
+#: ../monetize/notifications/admin_notification.php:100
+msgid "Description"
+msgstr ""
+
+# @ templatic
+#: ../monetize/notifications/notification_functions.php:2
+msgid "Manage Notifications"
+msgstr ""
+
+#: ../monetize/notifications/notification_functions.php:34
+#, php-format
+msgid ""
+"<h4>A new version of Manage Notifications Module is available.</h4>\n"
+"<p>This updater will collect a file from the templatic.com server. It will "
+"download and extract the files to your current theme&prime;s functions "
+"folder. \n"
+"<br />We recommend backing up your theme files before updating. Only upgrade "
+"related module files if necessary.\n"
+"<br />If you are facing any problem in auto updating the framework, then "
+"please download the latest version of the theme from members area and then "
+"just overwrite the \"<b>%s</b>\" folder.\n"
+"<br /><br />&rArr; Your version: %s\n"
+"<br />&rArr; Current Version: %s </p>"
+msgstr ""
+
+# @ templatic
+#: ../monetize/paymethods/admin_paymethods_add.php:66
+msgid "Updated Succesfully"
+msgstr ""
+
+# @ templatic
+#: ../monetize/paymethods/admin_paymethods_add.php:76
+msgid "Is Active"
+msgstr ""
+
+# @ templatic
+#: ../monetize/paymethods/admin_paymethods_add.php:78
+msgid "Activate"
+msgstr ""
+
+# @ templatic
+#: ../monetize/paymethods/admin_paymethods_add.php:79
+msgid "Deactivate"
+msgstr ""
+
+# @ templatic
+#: ../monetize/paymethods/admin_paymethods_add.php:119
+msgid "Please enter Payment Method"
+msgstr ""
+
+#: ../monetize/paymethods/admin_paymethods_list.php:36
+msgid "Edit, activate &amp; deactivate payment gateway options here."
+msgstr ""
+
+# @ templatic
+#: ../monetize/paymethods/admin_paymethods_list.php:45
+msgid "Method Name"
+msgstr ""
+
+#: ../monetize/paymethods/admin_paymethods_list.php:47
+msgid "Display order"
+msgstr ""
+
+#: ../monetize/paymethods/paymethods_functons.php:2
+#: ../monetize/paymethods/paymethods_functons.php:58
+msgid "Payment options"
+msgstr ""
+
+#: ../monetize/paymethods/paymethods_functons.php:34
+#, php-format
+msgid ""
+"<h4>A new version of Payment options Module is available.</h4>\n"
+"<p>This updater will collect a file from the templatic.com server. It will "
+"download and extract the files to your current theme&prime;s functions "
+"folder. \n"
+"<br />We recommend backing up your theme files before updating. Only upgrade "
+"related module files if necessary.\n"
+"<br />If you are facing any problem in auto updating the framework, then "
+"please download the latest version of the theme from members area and then "
+"just overwrite the \"<b>%s</b>\" folder.\n"
+"<br /><br />&rArr; Your version: %s\n"
+"<br />&rArr; Current Version: %s </p>"
+msgstr ""
+
+#: ../monetize/paymethods/paymethods_functons.php:58
+msgid "Manage Payment options"
+msgstr ""
+
+# @ templatic
+#: ../monetize/paymethods/paymethods_functons.php:199
+msgid "Please select payment method on preview page."
+msgstr ""
+
+#: ../monetize/registration/edit_profile.php:503
+msgid " and "
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:57
+msgid "Edit custom user-info field"
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:60
+msgid "Add a custom user-info field"
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:66
+msgid "User-info field saved successfully."
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:81
+msgid "Please enter Frontend title"
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:92
+msgid "Please enter HTML variable name"
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:100
+msgid ""
+"You can add a new custom user-info field here. Users will be able to add / "
+"edit their information on their profile page."
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:114
+msgid "Field type : "
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:132
+msgid "Option values : "
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:134
+msgid "Specify multiple option values seperated by a comma."
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:141
+msgid "Field name: "
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:153
+msgid "HTML variable name: "
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:183
+msgid "Compulsory?:"
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:193
+msgid "Show on registration page?: "
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:199
+msgid ""
+"Specify whether or not this field be shown on the &lsquo;Registration "
+"page&rsquo;."
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:203
+msgid "Show on Profile page ? : "
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_edit.php:209
+msgid ""
+"Specify whether or not this field be shown on the &lsquo;Profile page&rsquo;."
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:32
+msgid ""
+"Custom user-info fields help you gather required information from sellers to "
+"display on their profile page. They will fill their information in the "
+"fields you set here."
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:36
+msgid "Field deleted successfully."
+msgstr ""
+
+# @ templatic
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:77
+msgid "Is Require"
+msgstr ""
+
+# @ templatic
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:82
+msgid "Display On Registration?"
+msgstr ""
+
+# @ templatic
+#: ../monetize/registration/custom_usermeta/admin_custom_usermeta_list.php:83
+msgid "Display On Profile?"
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/db_custom_usermeta.php:33
+msgid "Manage custom user-info fields"
+msgstr ""
+
+#: ../monetize/registration/custom_usermeta/db_custom_usermeta.php:33
+msgid "Custom user-info"
+msgstr ""
+
+# @ templatic
+#: ../monetize/report/admin_deal_report.php:57
+#: ../monetize/report/admin_report_list.php:53
+#: ../monetize/report/admin_transaction_report.php:111
+msgid "ID"
+msgstr ""
+
+#: ../monetize/report/admin_deal_report.php:59
+msgid "Total Transaction"
+msgstr ""
+
+#: ../monetize/report/admin_deal_report.php:85
+#: ../monetize/report/admin_report_list.php:69
+msgid "Export"
+msgstr ""
+
+#: ../monetize/report/admin_deal_report.php:97
+#: ../monetize/report/admin_transaction_report.php:90
+#: ../monetize/report/admin_transaction_report.php:115
+#: ../monetize/report/admin_transaction_report.php:134
+msgid "Deal Coupon"
+msgstr ""
+
+#: ../monetize/report/admin_deal_report.php:98
+#: ../monetize/report/admin_transaction_report.php:135
+msgid "Pay Date"
+msgstr ""
+
+#: ../monetize/report/admin_deal_report.php:101
+#: ../monetize/report/admin_transaction_report.php:138
+msgid "Billing name"
+msgstr ""
+
+#: ../monetize/report/admin_deal_report.php:102
+#: ../monetize/report/admin_transaction_report.php:139
+msgid "Billing address"
+msgstr ""
+
+#: ../monetize/report/admin_deal_report.php:105
+#: ../monetize/report/admin_transaction_report.php:142
+msgid "Shipping name"
+msgstr ""
+
+#: ../monetize/report/admin_deal_report.php:106
+#: ../monetize/report/admin_transaction_report.php:143
+msgid "Shpping address"
+msgstr ""
+
+#: ../monetize/report/admin_deal_report.php:110
+#: ../monetize/report/admin_transaction_report.php:147
+msgid "Pay Method"
+msgstr ""
+
+#: ../monetize/report/admin_deal_report.php:140
+#: ../monetize/report/admin_report_list.php:93
+#: ../monetize/report/admin_transaction_report.php:180
+msgid "No Transaction Available"
+msgstr ""
+
+#: ../monetize/report/admin_report_list.php:18
+msgid "Seller Name"
+msgstr ""
+
+#: ../monetize/report/admin_report_list.php:54
+msgid "Seller"
+msgstr ""
+
+#: ../monetize/report/admin_report_list.php:56
+msgid "Sale"
+msgstr ""
+
+#: ../monetize/report/admin_report_list.php:57
+msgid "Customer"
+msgstr ""
+
+#: ../monetize/report/admin_transaction_report.php:61
+msgid "Search by transaction ID"
+msgstr ""
+
+#: ../monetize/report/admin_transaction_report.php:88
+msgid "Name/Email"
+msgstr ""
+
+#: ../monetize/report/admin_transaction_report.php:94
+msgid "Payment Transaction ID"
+msgstr ""
+
+#: ../monetize/report/admin_transaction_report.php:96
+msgid "Reset"
+msgstr ""
+
+#: ../monetize/report/admin_transaction_report.php:154
+msgid "status"
+msgstr ""
+
+#: ../monetize/report/function_report.php:10
+msgid "Manage Report"
+msgstr ""
+
+#: ../monetize/report/function_report.php:10
+msgid "Report"
+msgstr ""
+
+#: ../monetize/send_to_friend/email_friend_frm.php:31
+msgid ""
+"[SUBJECT-STR]You might be interested in.. [SUBJECT-END]\n"
+"\t\t<p>Dear [#$to_name#],</p>\n"
+"\t\t<p>[#$frnd_comments#]</p>\n"
+"\t\t<p>Link : <b>[#$post_title#]</b> </p>\n"
+"\t\t<p>From, [#$your_name#]</p>"
+msgstr ""
+
+#: ../monetize/send_to_friend/popup_frms.php:34
+msgid "About "
+msgstr ""

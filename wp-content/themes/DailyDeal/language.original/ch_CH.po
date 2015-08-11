@@ -1,0 +1,3231 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: HelpDesk <saqib@templatic.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ templatic
+#: 404.php:7
+msgid "404! We couldn't find the page!"
+msgstr "404！我们无法找到该页！"
+
+#@ templatic
+#: 404.php:12
+msgid "The page you've requested can not be displayed. It appears you've missed your intended destination, either through a bad or outdated link, or a typo in the page you were hoping to reach."
+msgstr "您所请求的页面无法显示。看来你已经错过了通过一个坏或过时的链接，或者在页面你希望达到你的目的地错字。"
+
+#@ templatic
+#: 404.php:38
+#: tpl_sitemap.php:19
+msgid "Pages"
+msgstr "页面"
+
+#@ templatic
+#: 404.php:50
+#: tpl_sitemap.php:26
+msgid "Posts"
+msgstr "贴文"
+
+#@ templatic
+#: 404.php:57
+#: tpl_sitemap.php:33
+msgid "0 comment"
+msgstr "0评论"
+
+#@ templatic
+#: 404.php:57
+#: tpl_sitemap.php:33
+msgid "% comments"
+msgstr "％点评"
+
+#@ templatic
+#: 404.php:69
+#: search.php:49
+#: tpl_sitemap.php:47
+msgid "Categories"
+msgstr "分类"
+
+#@ templatic
+#: 404.php:77
+#: search.php:40
+#: tpl_sitemap.php:40
+msgid "Archives"
+msgstr "档案"
+
+#@ templatic
+#: admin/admin_menu.php:14
+msgid "Theme Settings"
+msgstr "主题设置"
+
+#@ templatic
+#: admin/auto_update_framework.php:47
+#, php-format
+msgid ""
+"<h3>A new version of Templatic Framework is available.</h3>\n"
+"                <p>This updater will collect a file from the templatic.com server. It will download and extract the files to your current theme&prime;s admin folder. </p>\n"
+"                <p>We recommend backing up your theme files before updating. Only upgrade the Templatic Framework if necessary.</p>\n"
+"                <p>If you are facing any problem in auto updating the framework, then please download the latest version of the theme from members area and then just overwrite the \"<u>admin</u>\" folder to the theme root.\n"
+"				<p>&rArr; <strong>Your version:</strong> %s</p>\n"
+"				\n"
+"				<p>&rArr; <strong>Current Version:</strong> %s</p>"
+msgstr "<h3> Templatic框架的新的版本可用。 </h3><p>这个更新将收集来自templatic.com服务器上的文件。它会下载并解压缩文件到你当前主题的admin文件夹。 </p><p>我们建议更新之前备份你的主题文件。只有升级Templatic框架如有必要。 </p><p>如果你面对任何问题更新汽车的框架，那么请下载最新版本从会员区的主题，然后只是简单地覆盖“ <u>管理</u> ”的主题文件夹的根。 <p> ⇒ <strong>你的版本：％s</strong> </p><p> ⇒ <strong>当前版本：％s</strong> </p>"
+
+#@ templatic
+#: admin/auto_update_framework.php:56
+msgid "Updating, It will take few moments. Please wait...."
+msgstr "更新，这将需要一些时间。请稍候...."
+
+#@ templatic
+#: admin/auto_update_framework.php:59
+#, php-format
+msgid ""
+" <h3>You already have the latest version of Templatic Framework</h3>\n"
+"                <p>&rArr; <strong>Your version:</strong> %s "
+msgstr "<h3>你已经拥有了Templatic Framework的最新版本</h3><p> ⇒ <strong>你的版本：％s</strong>"
+
+#@ templatic
+#: admin/breadcrumbs/yoast-breadcrumbs.php:61
+#: modules/paymethods/admin_paymethods_add.php:63
+#: modules/paymethods/admin_paymethods_list.php:228
+#: modules/paymethods/admin_paymethods_list.php:262
+msgid "Settings"
+msgstr "设置"
+
+#@ templatic
+#: admin/breadcrumbs/yoast-breadcrumbs.php:69
+msgid "You cannot edit the Yoast Breadcrumbs options."
+msgstr "您不能编辑Yoast Breadcrumbs的选项。"
+
+#@ templatic
+#: admin/breadcrumbs/yoast-posts.php:23
+msgid "Yoast - Tweaking Websites"
+msgstr "Yoast - 扭捏网站"
+
+#@ templatic
+#: admin/constants.php:15
+msgid "Top Header Navigation"
+msgstr "热门标题导航"
+
+#@ templatic
+#: admin/constants.php:16
+#: admin/widgets/widgets_sidebar.php:16
+msgid "Main Navigation"
+msgstr "主要导航"
+
+#@ templatic
+#: admin/functions/custom_functions.php:365
+msgid "read more"
+msgstr "阅读更多"
+
+#@ templatic
+#: admin/functions/custom_functions.php:472
+msgid "Search Result "
+msgstr "搜索结果"
+
+#@ templatic
+#: admin/functions/custom_functions.php:487
+msgid "Author Archives"
+msgstr "作者档案馆"
+
+#@ templatic
+#: admin/functions/custom_functions.php:643
+msgid "Tweet"
+msgstr "鸣叫"
+
+#@ templatic
+#: admin/functions/custom_functions.php:777
+msgid "Related Article"
+msgstr "相关文章"
+
+#@ templatic
+#: admin/seo_settings.php:26
+#: admin/seo_settings.php:27
+msgid "SEO Settings"
+msgstr "搜索引擎优化设置"
+
+#@ templatic
+#: admin/seo_settings.php:34
+msgid "Page Title"
+msgstr "页面标题"
+
+#@ templatic
+#: admin/seo_settings.php:37
+msgid "Page Description"
+msgstr "页面描述"
+
+#@ templatic
+#: admin/seo_settings.php:40
+msgid "Keywords <br />(comma separated)"
+msgstr "关键词<br /> （逗号分隔）"
+
+#@ templatic
+#: admin/seo_settings.php:43
+#: modules/add_post/lang_add.php:10
+#: modules/add_post/lang_add.php:14
+#: modules/bulk_upload/bulk_upload_function.php:41
+#: modules/coupon/function_coupon.php:39
+#: modules/notifications/notification_functions.php:41
+#: modules/paymethods/paymethods_functons.php:41
+msgid "Update"
+msgstr "更新"
+
+#@ templatic
+#: admin/theme_options/option_settings.php:35
+msgid "\"simplexmlelement\" is not supported under PHP 4.x. Please use version 5 or higher"
+msgstr "“的SimpleXMLElement”是在PHP 4.x的不支持请使用5或更高版本"
+
+#@ templatic
+#: admin/theme_options/option_settings.php:58
+msgid "Design Settings"
+msgstr "设计设置"
+
+#@ templatic
+#: admin/theme_options/options.php:9
+#: admin/tpl/header.php:5
+msgid "Theme Guide"
+msgstr "主题指南"
+
+#@ templatic
+#: admin/theme_options/options.php:11
+#: admin/tpl/header.php:6
+msgid "Support Forum"
+msgstr "支持论坛"
+
+#@ templatic
+#: admin/theme_options/options.php:19
+#: admin/theme_options/options.php:72
+msgid "Save All Changes"
+msgstr "保存所有更改"
+
+#@ templatic
+#: admin/theme_options/options.php:71
+msgid "Reset Options"
+msgstr "复位选项"
+
+#@ templatic
+#: admin/widgets/ads.php:35
+#: admin/widgets/flickr.php:74
+#: admin/widgets/google_map.php:114
+#: admin/widgets/my_bio.php:57
+#: admin/widgets/popularposts.php:57
+#: admin/widgets/twitter.php:54
+#: modules/notifications/admin_notification.php:84
+#: modules/package/admin_package_list.php:30
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:46
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:72
+msgid "Title"
+msgstr "标题"
+
+#@ templatic
+#: admin/widgets/ads.php:36
+msgid "Advertisement (ex.&lt;a href=\"#\"&gt;&lt;img src=\"http://templatic.com/banner.png\" /&gt;&lt;/a&gt; and google ads code here )"
+msgstr "广告（例如的<a href=\"#\"> <img src=\"http://templatic.com/banner.png\" /> </一>和谷歌的广告代码在这里）"
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:160
+#: admin/widgets/featured_video.php:73
+#: admin/widgets/latest_posts.php:92
+msgid "Post Type:"
+msgstr "文章类型："
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:174
+msgid "Categories (<small>Category should have at least one post.</small>):"
+msgstr "类别（ <small>类别应至少有一个帖子。）：</small>"
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:179
+msgid "OR"
+msgstr "或"
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:181
+msgid "Post Tag (<small>ex : gallery,featured</small>):"
+msgstr "文章的标签<small>（</small>例如<small>：多媒体资料，精选</small> ）："
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:186
+#: admin/widgets/latest_posts.php:87
+msgid "Number of posts:"
+msgstr "帖子数："
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:191
+msgid "Slider delay time :"
+msgstr "滑块延迟时间："
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:196
+msgid "Slider animation time :"
+msgstr "滑块动画时间："
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:201
+msgid "Slider Banner Height (i.e.400):"
+msgstr "滑块横幅高（ie400）："
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:229
+#: library/functions/custom_filters.php:188
+msgid "Read More"
+msgstr "阅读更多"
+
+#@ templatic
+#: admin/widgets/contact/contact.php:67
+#: tpl_contact.php:71
+msgid "Thank you, your Information send successfully."
+msgstr "谢谢您，您的信息发送成功。"
+
+#@ templatic
+#: admin/widgets/contact/contact.php:72
+msgid "Please fill all the fields before submit."
+msgstr "请填写之前提交的所有领域。"
+
+#@ templatic
+#: admin/widgets/contact/contact.php:81
+#: comments.php:49
+#: modules/add_post/lang_add.php:49
+#: tpl_contact.php:80
+msgid "Name"
+msgstr "名称"
+
+#@ templatic
+#: admin/widgets/contact/contact.php:86
+#: admin/widgets/login.php:385
+#: admin/widgets/login.php:424
+#: comments.php:53
+#: modules/add_post/lang_add.php:53
+#: tpl_contact.php:86
+msgid "Email"
+msgstr "电邮"
+
+#@ templatic
+#: admin/widgets/contact/contact.php:91
+#: tpl_contact.php:92
+msgid "Subject"
+msgstr "科目"
+
+#@ templatic
+#: admin/widgets/contact/contact.php:96
+#: tpl_contact.php:98
+msgid "Message"
+msgstr "消息"
+
+#@ templatic
+#: admin/widgets/contact/contact.php:100
+msgid "Send"
+msgstr "发送"
+
+#@ templatic
+#: admin/widgets/contact/contact.php:120
+#: admin/widgets/login.php:449
+msgid "Widget Title"
+msgstr "工具标题"
+
+#@ templatic
+#: admin/widgets/featured_video.php:68
+msgid "Title :"
+msgstr "标题："
+
+#@ templatic
+#: admin/widgets/featured_video.php:87
+#: admin/widgets/latest_posts.php:106
+msgid "Categories (<code>IDs</code> separated by commas):"
+msgstr "类别（ <code>IDs</code>逗号分隔）："
+
+#@ templatic
+#: admin/widgets/featured_video.php:92
+msgid "Number of posts"
+msgstr "员额数"
+
+#@ templatic
+#: admin/widgets/featured_video.php:97
+#, php-format
+msgid "First Please Create Custom Field \"video\" in Post From %s"
+msgstr "首先请创建自定义字段“视频”从％s在后"
+
+#@ templatic
+#: admin/widgets/flickr.php:66
+msgid "Flickr"
+msgstr "Flickr的"
+
+#@ templatic
+#: admin/widgets/flickr.php:74
+msgid "eg. : Flickr"
+msgstr "例如。 ：的Flickr"
+
+#@ templatic
+#: admin/widgets/flickr.php:79
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>)"
+msgstr "Flickr的识别码（ <a href=\"http://www.idgettr.com\">idGettr</a> ）"
+
+#@ templatic
+#: admin/widgets/flickr.php:84
+msgid "Number of photos"
+msgstr "照片数量"
+
+#@ templatic
+#: admin/widgets/flickr.php:89
+msgid "Photo Width"
+msgstr "图片宽度"
+
+#@ templatic
+#: admin/widgets/flickr.php:94
+msgid "Photo Height"
+msgstr "图片高度"
+
+#@ templatic
+#: admin/widgets/google_map.php:79
+msgid "View Large Map"
+msgstr "查看大图"
+
+#@ templatic
+#: admin/widgets/google_map.php:83
+msgid "Get Direction on Map &raquo;"
+msgstr "在地图上找»方向"
+
+#@ templatic
+#: admin/widgets/google_map.php:116
+msgid "Address <small>(eg: 230 Vine Street And locations throughout Old City, Philadelphia, PA 19106)</small>"
+msgstr "地址<small>（如：230比涅街和地点遍布老城区，费城，PA 19106）</small>"
+
+#@ templatic
+#: admin/widgets/google_map.php:119
+msgid "Address Latitude <small>(eg: 39.955823048131286)</small>"
+msgstr "地址纬度<small>（如：39.955823048131286）</small>"
+
+#@ templatic
+#: admin/widgets/google_map.php:121
+msgid "Address Longitude <small>(eg: -75.14408111572266)</small>"
+msgstr "地址经度<small>（例如：-75.14408111572266）</small>"
+
+#@ templatic
+#: admin/widgets/google_map.php:124
+msgid "Map Width in pixcels <small>(eg: 200)</small>"
+msgstr "地图宽度<small>200）pixcels（例如：</small>"
+
+#@ templatic
+#: admin/widgets/google_map.php:127
+msgid "Map Height in pixcels <small>(eg: 200)</small>"
+msgstr "地图身高<small>200）pixcels（例如：</small>"
+
+#@ templatic
+#: admin/widgets/google_map.php:131
+msgid "Map Zooming"
+msgstr "地图缩放"
+
+#@ templatic
+#: admin/widgets/google_map.php:145
+msgid "Select Map Type"
+msgstr "选择地图类型"
+
+#@ templatic
+#: admin/widgets/google_map.php:147
+msgid "Road Map"
+msgstr "路线图"
+
+#@ templatic
+#: admin/widgets/google_map.php:148
+msgid "Satellite Map"
+msgstr "卫星地图"
+
+#@ templatic
+#: admin/widgets/google_map.php:149
+msgid "Terrain Map"
+msgstr "地形图"
+
+#@ templatic
+#: admin/widgets/latest_posts.php:56
+#: loop.php:61
+#: single-listing.php:30
+#: single.php:58
+msgid "No Comments"
+msgstr "没有评论"
+
+#@ templatic
+#: admin/widgets/latest_posts.php:56
+#: loop.php:61
+#: single-listing.php:30
+#: single.php:58
+msgid "1 Comment"
+msgstr "1条评论"
+
+#@ templatic
+#: admin/widgets/latest_posts.php:56
+#: loop.php:61
+#: single-listing.php:30
+#: single.php:58
+msgid "% Comments"
+msgstr "％点评"
+
+#@ templatic
+#: admin/widgets/latest_posts.php:56
+#: loop.php:61
+#: single-listing.php:30
+#: single.php:58
+msgid "Comments Closed"
+msgstr "评论关闭"
+
+#@ templatic
+#: admin/widgets/latest_posts.php:58
+msgid "more..."
+msgstr "更多..."
+
+#@ templatic
+#: admin/widgets/latest_posts.php:84
+#: admin/widgets/testimonials.php:148
+msgid "Title:"
+msgstr "标题："
+
+#@ templatic
+#: admin/widgets/login.php:11
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>错误</strong> ：请输入一个用户名。"
+
+#@ templatic
+#: admin/widgets/login.php:13
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr "<strong>错误</strong> ：用户名是无效的，因为它使用非法字符。请输入有效的用户名。"
+
+#@ templatic
+#: admin/widgets/login.php:16
+#: modules/registration/registration.php:112
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>错误</strong> ：此用户名已被注册，请选择另外一个。"
+
+#@ templatic
+#: admin/widgets/login.php:21
+#: modules/add_post/single_page_checkout_insertuser.php:35
+#: modules/registration/registration.php:116
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>错误</strong> ：请输入您的e - mail地址。"
+
+#@ templatic
+#: admin/widgets/login.php:23
+#: modules/add_post/single_page_checkout_insertuser.php:37
+#: modules/registration/registration.php:118
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>错误</strong> ：该电子邮件地址不正确。"
+
+#@ templatic
+#: admin/widgets/login.php:26
+#: modules/registration/registration.php:121
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>错误</strong> ：该电子邮件地址已被注册，请选择另外一个。"
+
+#@ templatic
+#: admin/widgets/login.php:39
+#: modules/add_post/single_page_checkout_insertuser.php:72
+#: modules/registration/registration.php:150
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>错误</strong> ：无法注册你...请联系<a href=\"mailto:%s\">站长</a> ！"
+
+#@ templatic
+#: admin/widgets/login.php:52
+msgid ""
+"[SUBJECT-STR]Registration Email[SUBJECT-END]<p>Dear [#user_name#],</p>\n"
+"			<p>Your login information:</p>\n"
+"			<p>Username: [#user_login#]</p>\n"
+"			<p>Password: [#user_password#]</p>\n"
+"			<p>You can login from [#site_login_url#] or the URL is : [#site_login_url_link#].</p>\n"
+"			<p>We hope you enjoy. Thanks!</p>\n"
+"			<p>[#site_name#]</p>"
+msgstr "[主题- STR基因]注册电子邮件[主题完] <p>亲爱的[＃用户名＃]， </p><p>您的登录信息： </p><p>用户名：[＃user_login＃] </p><p>密码：[＃user_password＃] </p><p>您可以登录从[＃site_login_url＃]或网址是：[＃site_login_url_link＃]。 </p><p>我们希望你喜欢。谢谢！ </p><p> [＃site_name＃] </p>"
+
+#@ templatic
+#: admin/widgets/login.php:64
+msgid "Registration Email"
+msgstr "注册电子邮件"
+
+#@ templatic
+#: admin/widgets/login.php:69
+#, php-format
+msgid "<a href=\"%s/?ptype=login\">Click Login</a>"
+msgstr "<a href=\"%s/?ptype=login\">点击登录</a>"
+
+#@ templatic
+#: admin/widgets/login.php:85
+#: modules/registration/registration.php:33
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>错误</strong> ：输入一个用户名或电子邮件地址。"
+
+#@ templatic
+#: admin/widgets/login.php:90
+#: modules/registration/registration.php:38
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>错误</strong> ：有没有用户的电子邮件地址登记。"
+
+#@ templatic
+#: admin/widgets/login.php:102
+#: modules/registration/registration.php:50
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>错误</strong> ：无效的用户名或电子邮件。"
+
+#@ templatic
+#: admin/widgets/login.php:119
+#: modules/registration/registration.php:67
+msgid "Invalid key"
+msgstr "无效的关键"
+
+#@ templatic
+#: admin/widgets/login.php:128
+#: modules/registration/registration.php:76
+#, php-format
+msgid "Username: %s"
+msgstr "用户名：％s的"
+
+#@ templatic
+#: admin/widgets/login.php:129
+#: modules/registration/registration.php:77
+#, php-format
+msgid "Password: %s"
+msgstr "密码：％s"
+
+#@ templatic
+#: admin/widgets/login.php:136
+#: modules/registration/registration.php:84
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[％s]您的新密码"
+
+#@ templatic
+#: admin/widgets/login.php:192
+#: modules/registration/registration.php:379
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
+msgstr "<strong>错误</strong> ：Cookie是浏览器关闭或者不支持你的。您必须<a href='http://www.google.com/cookies.html'>启用Cookie</a>使用WordPress。"
+
+#@ templatic
+#: admin/widgets/login.php:206
+msgid "User registration is currently not allowed."
+msgstr "用户注册是目前不允许。"
+
+#@ templatic
+#: admin/widgets/login.php:217
+msgid "Registration complete. Please check your e-mail."
+msgstr "注册完成。请检查您的电子邮件。"
+
+#@ templatic
+#: admin/widgets/login.php:228
+msgid "Check your e-mail for the new password."
+msgstr "检查您的新密码的电子邮件。"
+
+#@ templatic
+#: admin/widgets/login.php:276
+msgid "My Account"
+msgstr "我的帐户"
+
+#@ templatic
+#: admin/widgets/login.php:280
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#@ templatic
+#: admin/widgets/login.php:281
+#: modules/registration/registration_language.php:34
+msgid "Edit Profile"
+msgstr "编辑个人资料"
+
+#@ templatic
+#: admin/widgets/login.php:282
+msgid "Change Password"
+msgstr "更改密码"
+
+#@ templatic
+#: admin/widgets/login.php:283
+#: library/functions/custom_functions.php:294
+msgid "Logout"
+msgstr "注销"
+
+#@ templatic
+#: admin/widgets/login.php:313
+#: admin/widgets/login.php:378
+#: modules/registration/registration_language.php:5
+msgid "Username"
+msgstr "用户名"
+
+#@ templatic
+#: admin/widgets/login.php:314
+#: modules/add_post/lang_add.php:21
+#: modules/registration/registration_language.php:6
+#: modules/registration/registration_language.php:35
+msgid "Password"
+msgstr "密码"
+
+#@ templatic
+#: admin/widgets/login.php:319
+#: library/functions/custom_functions.php:300
+#: modules/registration/registration_language.php:16
+#: modules/registration/registration_language.php:18
+#: modules/registration/registration_language.php:19
+msgid "Sign In"
+msgstr "登录"
+
+#@ templatic
+#: admin/widgets/login.php:322
+#: modules/add_post/lang_add.php:19
+msgid "New User? Register Now"
+msgstr "新用户？现在注册"
+
+#@ templatic
+#: admin/widgets/login.php:323
+#: modules/registration/registration_language.php:3
+msgid "Forgot Password?"
+msgstr "忘记密码？"
+
+#@ templatic
+#: admin/widgets/login.php:372
+msgid "New User Register Here"
+msgstr "点击这里注册新用户"
+
+#@ templatic
+#: admin/widgets/login.php:390
+#: library/functions/custom_functions.php:299
+#: modules/registration/registration_language.php:17
+msgid "Register"
+msgstr "注册"
+
+#@ templatic
+#: admin/widgets/login.php:420
+msgid "Forgot Password"
+msgstr "忘记密码"
+
+#@ templatic
+#: admin/widgets/login.php:428
+#: modules/registration/registration_language.php:8
+msgid "Get New Password"
+msgstr "获取新密码"
+
+#@ templatic
+#: admin/widgets/my_bio.php:59
+msgid "Author Photo (ex.http://templatic.com/photo.png)"
+msgstr "作家照片（ex.http：/ / templatic.com / photo.png）"
+
+#@ templatic
+#: admin/widgets/my_bio.php:61
+msgid "Short Description"
+msgstr "简短描述"
+
+#@ templatic
+#: admin/widgets/my_bio.php:63
+msgid "Description :  (html tag use ex.&lt;p&gt;text &lt;/p&gt;)"
+msgstr "说明：（。HTML标记使用前<p>文字</ p>）"
+
+#@ templatic
+#: admin/widgets/my_bio.php:65
+msgid "Read More Text"
+msgstr "阅读更多的文字"
+
+#@ templatic
+#: admin/widgets/my_bio.php:67
+msgid "Read More Link URL (ex.http://templatic.com/mybio)"
+msgstr "阅读更多链接网址（ex.http：/ / templatic.com / mybio）"
+
+#@ templatic
+#: admin/widgets/popularposts.php:59
+msgid "Number of Posts"
+msgstr "职位数目"
+
+#@ templatic
+#: admin/widgets/social_media.php:74
+#: admin/widgets/subscribe.php:48
+msgid "Widget Title:"
+msgstr "工具标题："
+
+#@ templatic
+#: admin/widgets/social_media.php:75
+msgid "Twitter Full URL"
+msgstr "Twitter的完整URL"
+
+#@ templatic
+#: admin/widgets/social_media.php:76
+msgid "Facebook Full URL"
+msgstr "赶快注册Facebook，完整URL"
+
+#@ templatic
+#: admin/widgets/social_media.php:77
+msgid "Digg Full URL"
+msgstr "Digg完整URL"
+
+#@ templatic
+#: admin/widgets/social_media.php:78
+msgid "Linkedin Full URL"
+msgstr "LinkedIn完整URL"
+
+#@ templatic
+#: admin/widgets/social_media.php:79
+msgid "Myspace Full URL"
+msgstr "MySpace的完整URL"
+
+#@ templatic
+#: admin/widgets/social_media.php:80
+msgid "Rss Full URL"
+msgstr "完整的RSS网址"
+
+#@ templatic
+#: admin/widgets/subscribe.php:26
+msgid "Enter Email Address"
+msgstr "输入电子邮件地址"
+
+#@ templatic
+#: admin/widgets/subscribe.php:49
+msgid "Feedburner ID (ex :- templatic):"
+msgstr "Feedburner的编号（例如： - templatic）："
+
+#@ templatic
+#: admin/widgets/subscribe.php:50
+msgid "Sort Description:"
+msgstr "分类说明："
+
+#@ templatic
+#: admin/widgets/testimonials.php:149
+msgid "Show Fade In Time Set:"
+msgstr "显示淡入时间设置："
+
+#@ templatic
+#: admin/widgets/testimonials.php:150
+msgid "Show Fade Out Time Set:"
+msgstr "显示淡出时间设置："
+
+#@ templatic
+#: admin/widgets/testimonials.php:152
+msgid "Quote text 1"
+msgstr "引用文字1"
+
+#@ templatic
+#: admin/widgets/testimonials.php:153
+msgid "Author name 1"
+msgstr "作者姓名1"
+
+#@ templatic
+#: admin/widgets/testimonials.php:155
+msgid "Quote text 2"
+msgstr "引用文字2"
+
+#@ templatic
+#: admin/widgets/testimonials.php:156
+msgid "Author name 2"
+msgstr "作者名称2"
+
+#@ templatic
+#: admin/widgets/testimonials.php:158
+msgid "Quote text 3"
+msgstr "报价案文3"
+
+#@ templatic
+#: admin/widgets/testimonials.php:159
+msgid "Author name 3"
+msgstr "作者名称3"
+
+#@ templatic
+#: admin/widgets/testimonials.php:161
+msgid "Quote text 4"
+msgstr "报价案文4"
+
+#@ templatic
+#: admin/widgets/testimonials.php:162
+msgid "Author name 4"
+msgstr "作者名称4"
+
+#@ templatic
+#: admin/widgets/testimonials.php:164
+msgid "Quote text 5"
+msgstr "引用文字5"
+
+#@ templatic
+#: admin/widgets/testimonials.php:165
+msgid "Author name 5"
+msgstr "作者名称5"
+
+#@ templatic
+#: admin/widgets/twitter.php:46
+msgid "Live Tweet"
+msgstr "现场鸣叫"
+
+#@ templatic
+#: admin/widgets/twitter.php:59
+msgid "Twitter Account ID"
+msgstr "Twitter的帐户ID"
+
+#@ templatic
+#: admin/widgets/twitter.php:64
+msgid "Show Twitter Posts"
+msgstr "查看Twitter的职位"
+
+#@ templatic
+#: admin/widgets/twitter.php:69
+msgid "Twitter Button Text"
+msgstr "Twitter的按钮文本"
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:10
+msgid "Top Navigation"
+msgstr "顶部的导航"
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:22
+msgid "Header Logo Right Side"
+msgstr "右侧头徽标"
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:28
+msgid "Home Slider"
+msgstr "首页滑块"
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:34
+msgid "Single Post Below Content"
+msgstr "单柱下面内容"
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:41
+msgid "Sidebar 1"
+msgstr "补充工具栏1"
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:43
+msgid "Sidebar 2"
+msgstr "附文2"
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:45
+msgid "Sidebar 2col Merge"
+msgstr "补充工具栏2col合并"
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:51
+msgid "First Footer Widget Area"
+msgstr "首先页脚控件区"
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:53
+msgid "Second Footer Widget Area"
+msgstr "第二页脚控件区"
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:55
+msgid "Third Footer Widget Area"
+msgstr "第三页脚控件区"
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:57
+msgid "Fourth Footer Widget Area"
+msgstr "第四页脚控件区"
+
+#@ templatic
+#: archive.php:10
+#: taxonomy.php:10
+#, php-format
+msgid "%s"
+msgstr "％s的"
+
+#@ templatic
+#: archive.php:12
+#: taxonomy.php:12
+#, php-format
+msgid "Posts tagged &quot;%s&quot;"
+msgstr "帖子标记“％s”时"
+
+#@ templatic
+#: archive.php:14
+#: taxonomy.php:14
+#, php-format
+msgid "Daily archive %s"
+msgstr "每日档案％s的"
+
+#@ templatic
+#: archive.php:16
+#: taxonomy.php:16
+#, php-format
+msgid "Monthly archive %s"
+msgstr "每月存档％s的"
+
+#@ templatic
+#: archive.php:18
+#: taxonomy.php:18
+#, php-format
+msgid "Yearly archive %s"
+msgstr "％s的年度归档"
+
+#@ templatic
+#: archive.php:20
+#: taxonomy.php:20
+msgid "Author Archive"
+msgstr "作者存档"
+
+#@ templatic
+#: archive.php:22
+#: taxonomy.php:22
+msgid "Blog Archives"
+msgstr "博客存档"
+
+#@ templatic
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "这是一篇受密码保护。输入密码以查看任何评论。"
+
+#@ templatic
+#@ templatic
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: 404.php:57
+#: comments.php:12
+#: tpl_sitemap.php:33
+#: comments.php:22
+#, php-format
+msgid "1 comment"
+msgstr "1条评论"
+
+#@ templatic
+#: comments.php:29
+msgid "Logged in as"
+msgstr "登录为"
+
+#@ templatic
+#: comments.php:29
+msgid "Log out &raquo;"
+msgstr "登出？"
+
+#@ templatic
+#: comments.php:49
+#: comments.php:53
+msgid "required"
+msgstr "要求"
+
+#@ templatic
+#: comments.php:57
+#: modules/add_post/lang_add.php:54
+msgid "Website"
+msgstr "网站"
+
+#@ templatic
+#: comments.php:65
+#: modules/add_post/lang_add.php:22
+#: modules/bulk_upload/admin_bulk_upload.php:215
+#: modules/coupon/admin_coupon.php:107
+#: modules/manage_city/admin_add_city.php:118
+#: modules/notifications/admin_notification.php:71
+#: modules/notifications/admin_notification.php:108
+#: modules/package/admin_price_add.php:107
+#: modules/paymethods/admin_paymethods_add.php:105
+msgid "Submit"
+msgstr "提交"
+
+#@ templatic
+#: index.php:8
+msgid "Latest entries"
+msgstr "最新作品"
+
+#@ templatic
+#: library/functions/captcha/captcha_function.php:11
+msgid "Please enter valid black colored text only"
+msgstr "请输入有效的黑色纯文字"
+
+#@ templatic
+#: library/functions/captcha/captcha_function.php:12
+msgid "Enter the text as you see in the image. Only enter black colored text"
+msgstr "输入您的文字图像中看到的。只有黑色的文字输入"
+
+#@ templatic
+#: library/functions/custom_filters.php:88
+msgid "Theme Menu"
+msgstr "主题菜单"
+
+#@ templatic
+#: library/functions/custom_functions.php:82
+#, php-format
+msgid "<p class=\"comment-author\"><span>%s</span></p>"
+msgstr "<p class=\"comment-author\"> <span>％s的</span> </p>"
+
+#@ templatic
+#: library/functions/custom_functions.php:83
+#, php-format
+msgid "<p class=\"comment-date\">%s</p>"
+msgstr "<p class=\"comment-date\"> ％s的</p>"
+
+#@ templatic
+#: library/functions/custom_functions.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#@ templatic
+#: library/functions/custom_functions.php:289
+msgid "Welcome "
+msgstr "欢迎"
+
+#@ templatic
+#: library/functions/custom_functions.php:293
+msgid "Profile"
+msgstr "简介"
+
+#@ templatic
+#: library/functions/custom_functions.php:304
+#: modules/add_post/lang_add.php:12
+msgid "Add Listing"
+msgstr "新增上市"
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:12
+msgid "All Dummy data has been removed from your database successfully!"
+msgstr "所有虚拟数据已被删除从您的数据库成功！"
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:20
+msgid "Theme activated successfully."
+msgstr "主题成功激活。"
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:25
+msgid "Sample data has been populated on your site. Wish to delete sample data?"
+msgstr "样本数据已被填充您的网站上。要删除样本数据？"
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:25
+msgid "Yes Delete Please!"
+msgstr "是的，请删除！"
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:28
+msgid "Would you like to auto install this theme and populate sample data on your site?"
+msgstr "你想自动安装这个主题，填入您的网站样本的数据？"
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:28
+msgid "Yes, insert sample data please"
+msgstr "是的，请插入示例数据"
+
+#@ templatic
+#: loop.php:68
+#: single.php:65
+msgid "View "
+msgstr "查看"
+
+#@ templatic
+#: loop.php:68
+#: single.php:65
+msgid "More "
+msgstr "更多"
+
+#@ templatic
+#: loop.php:74
+msgid "Edit entry"
+msgstr "编辑条目"
+
+#@ templatic
+#: loop.php:181
+#: search.php:36
+msgid "Sorry, deze zoekopdracht leverde geen resultaten op. Probeer eens te zoeken binnen onze categorieën."
+msgstr "道歉，但没有结果发现请求的存档。也许寻找有助于找到相关文章。"
+
+#@ templatic
+#: modules/add_post/functions_add.php:162
+#, php-format
+msgid "New place listing of ID:#%s"
+msgstr "新身份证的地方列表：＃％s的"
+
+#@ templatic
+#: modules/add_post/functions_add.php:166
+msgid "<p>Dear [#to_name#],</p><p>You Submitted below information. The email if for your knowledge of information submition.</p>[#information_details#]<br><p>We hope you enjoy. Thanks!</p><p>[#site_name#]</p>"
+msgstr "<p>亲爱的[＃to_name＃]， </p><p>您提交以下信息。如果您的电子邮件信息submition知识。 </p> [＃information_details＃] <br><p>我们希望你喜欢。谢谢！ </p><p> [＃site_name＃] </p>"
+
+#@ templatic
+#: modules/add_post/functions_add.php:169
+msgid "ID"
+msgstr "身份证"
+
+#@ templatic
+#: modules/add_post/functions_add.php:170
+msgid "View more detail from"
+msgstr "查看更详细的"
+
+#@ templatic
+#: modules/add_post/functions_add.php:510
+#: modules/coupon/admin_manage_coupon.php:48
+#: modules/coupon/admin_manage_coupon.php:66
+#: modules/custom_post_type/custom_post_type_lang.php:11
+#: modules/manage_city/admin_manage_city.php:56
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:64
+#: modules/package/admin_package_list.php:35
+#: modules/package/admin_package_list.php:52
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:64
+#: modules/registration/registration_language.php:37
+msgid "Edit"
+msgstr "编辑"
+
+#@ templatic
+#: modules/add_post/functions_add.php:511
+#: modules/add_post/lang_add.php:11
+#: modules/coupon/admin_manage_coupon.php:49
+#: modules/coupon/admin_manage_coupon.php:67
+#: modules/manage_city/admin_manage_city.php:56
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:65
+#: modules/package/admin_package_list.php:36
+#: modules/package/admin_package_list.php:53
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:65
+msgid "Delete"
+msgstr "删除"
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:103
+#: modules/add_post/google_map/location_add_map.php:189
+msgid "Latitude:"
+msgstr "纬度："
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:103
+#: modules/add_post/google_map/location_add_map.php:189
+msgid "Longitude:"
+msgstr "经度："
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:139
+msgid "Status Code:"
+msgstr "状态代码："
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:147
+msgid "latlng:"
+msgstr "latlng："
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:148
+msgid "Address:"
+msgstr "地址："
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:201
+msgid "not found"
+msgstr "未找到"
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:225
+#: modules/add_post/preview.php:173
+msgid "Address"
+msgstr "地址"
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:228
+msgid "Please enter listing address. eg. : <b>230 Vine Street And locations throughout Old City, Philadelphia, PA 19106"
+msgstr "请输入列表的地址。例如。 <b>：230比涅街和19106个地点旧市，费城，宾州</b>"
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:233
+msgid "Set Address on Map"
+msgstr "在地图上设置地址"
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:237
+msgid "Address Latitude"
+msgstr "地址纬度"
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:241
+msgid "Address Longitude"
+msgstr "地址经度"
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:50
+#: modules/add_post/lang_add.php:24
+msgid "Select Images"
+msgstr "选择图像"
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:50
+msgid "2 MB Max"
+msgstr "2 MB的最大"
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:133
+msgid "Save Order"
+msgstr "保存订单"
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:142
+msgid "processing ..."
+msgstr "处理中..."
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:150
+msgid "Error loading agent favorite property."
+msgstr "错误加载代理喜爱的财产。"
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:179
+msgid "Error loading deletion of property image."
+msgstr "错误载入图像删除的财产。"
+
+#@ templatic
+#: modules/add_post/ipn_process.php:72
+#: modules/add_post/ipn_process_2co.php:47
+msgid "Payment received successfully"
+msgstr "已收到付款成功"
+
+#@ templatic
+#: modules/add_post/ipn_process.php:73
+msgid "<p>Dear [#to_name#],</p><p>[#transaction_details#]</p><br><p>We hope you enjoy . Thanks!</p>			<p>[#site_name#]</p>"
+msgstr "<p>亲爱的[＃to_name＃]， </p><p> [＃transaction_details＃] </p><br><p>我们希望你喜欢。谢谢！ </p><p> [＃site_name＃] </p>"
+
+#@ templatic
+#: modules/add_post/ipn_process.php:116
+msgid "Acknowledgment for your Payment"
+msgstr "您的付款确认书"
+
+#@ templatic
+#: modules/add_post/ipn_process.php:117
+msgid ""
+"<p>Dear [#to_name#],</p><p>[#transaction_details#]</p><br><p>We hope you enjoy. Thanks!</p>\n"
+"			<p>[#site_name#]</p>"
+msgstr "<p>亲爱的[＃to_name＃]， </p><p> [＃transaction_details＃] </p><br><p>我们希望你喜欢。谢谢！ </p><p> [＃site_name＃] </p>"
+
+#@ templatic
+#: modules/add_post/ipn_process_2co.php:48
+msgid ""
+"<p>Dear [#to_name#],</p><p>[#transaction_details#]</p><br><p>We hope you enjoy . Thanks!</p>\n"
+"		<p>[#site_name#]</p>"
+msgstr "<p>亲爱的[＃to_name＃]， </p><p> [＃transaction_details＃] </p><br><p>我们希望你喜欢。谢谢！ </p><p> [＃site_name＃] </p>"
+
+#@ templatic
+#: modules/add_post/ipn_process_2co.php:52
+#, php-format
+msgid ""
+"<p>Dear %s,</p>\n"
+"			<p>payment for ID #$postid confirmation.<br></p>\n"
+"			<p><b>You may find detail below:</b></p>\n"
+"			<p>----</p>\n"
+"			<p>ID : %s</p>\n"
+"			<p>Title : %s</p>\n"
+"			<p>User Name : %s</p>\n"
+"			<p>User Email : %s</p>\n"
+"			<p>Paid Amount :       %s</p>\n"
+"			<p>Transaction ID :       %s</p>\n"
+"			<p>Result Code : %s</p>\n"
+"			<p>Response Message : %s</p>\n"
+"			<p>----</p><br><br>\n"
+"			<p>Thank you.</p>\n"
+"			"
+msgstr "<p>亲爱的％秒， </p><p>付款编号＃$ postid确认。 <br></p><p> <b>您可能会发现细节如下：</b> </p><p> ---- </p><p>编号：％s的</p><p>标题：％s的</p><p>用户名称：％s </p><p>用户电子邮件：％s的</p><p>支付金额：％s的</p><p>交易ID：％s的</p><p>结果代码：％s的</p><p>响应消息：％s的</p><p> ---- </p><br><br><p>谢谢。 </p>"
+
+#@ templatic
+#: modules/add_post/ipn_process_2co.php:79
+msgid ""
+"<p>Dear [#to_name#],</p>\n"
+"			<p>[#transaction_details#]</p>\n"
+"			<br>\n"
+"			<p>We hope you enjoy. Thanks!</p>\n"
+"			<p>[#site_name#]</p>"
+msgstr "<p>亲爱的[＃to_name＃]， </p><p> [＃transaction_details＃] </p><br><p>我们希望你喜欢。谢谢！ </p><p> [＃site_name＃] </p>"
+
+#@ templatic
+#: modules/add_post/ipn_process_2co.php:95
+#, php-format
+msgid ""
+"<p>Dear %s,</p>\n"
+"			<p>payment for the Listing ID #$postid incompleted.<br>\n"
+"			because of $respmsg</p>\n"
+"			<p><b>You may find detail below:</b></p>\n"
+"			<p>----</p>\n"
+"			<p>ID : %s</p>\n"
+"			<p>Title : %s</p>\n"
+"			<p>User Name : %s</p>\n"
+"			<p>User Email : %s</p>\n"
+"			<p>Paid Amount :   %s</p>\n"
+"			<p>Transaction ID : %s</p>\n"
+"			<p>Result Code : %s</p>\n"
+"			<p>Response Message : %s</p>\n"
+"			<p>----</p><br><br>\n"
+"			<p>Thank you.</p>\n"
+"			"
+msgstr "<p>亲爱的％秒， </p><p>上市编号为＃$ postid未完成付款。 <br>因为美元respmsg </p><p> <b>您可能会发现细节如下：</b> </p><p> ---- </p><p>编号：％s的</p><p>标题：％s的</p><p>用户名称：％s </p><p>用户电子邮件：％s的</p><p>支付金额：％s的</p><p>交易ID：％s的</p><p>结果代码：％s的</p><p>响应消息：％s的</p><p> ---- </p><br><br><p>谢谢。 </p>"
+
+#@ templatic
+#: modules/add_post/lang_add.php:7
+#: modules/registration/registration_language.php:9
+msgid "Indicates mandatory fields"
+msgstr "表示必填字段"
+
+#@ templatic
+#: modules/add_post/lang_add.php:8
+msgid "Add Event"
+msgstr "新增事件"
+
+#@ templatic
+#: modules/add_post/lang_add.php:9
+#: modules/add_post/lang_add.php:13
+msgid "Renew"
+msgstr "更新"
+
+#@ templatic
+#: modules/add_post/lang_add.php:16
+msgid "I am"
+msgstr "我"
+
+#@ templatic
+#: modules/add_post/lang_add.php:17
+msgid "Login or Register"
+msgstr "登录或注册"
+
+#@ templatic
+#: modules/add_post/lang_add.php:18
+msgid "Existing User"
+msgstr "现有用户"
+
+#@ templatic
+#: modules/add_post/lang_add.php:20
+msgid "Login"
+msgstr "登录"
+
+#@ templatic
+#: modules/add_post/lang_add.php:23
+msgid "Add Images : <small>(You can upload more than one images to create image gallery on detail page)</small>"
+msgstr "添加图片<small>：（您可以上传多个图像创建图片页面画廊细节）</small>"
+
+#@ templatic
+#: modules/add_post/lang_add.php:25
+msgid "Listing Description"
+msgstr "列表说明"
+
+#@ templatic
+#: modules/add_post/lang_add.php:26
+msgid "Event Description"
+msgstr "事件描述"
+
+#@ templatic
+#: modules/add_post/lang_add.php:27
+msgid "Special Offers"
+msgstr "特别优惠"
+
+#@ templatic
+#: modules/add_post/lang_add.php:28
+msgid "Contact"
+msgstr "联系"
+
+#@ templatic
+#: modules/add_post/lang_add.php:29
+msgid "Enter Coupon Code"
+msgstr "输入优惠券代码"
+
+#@ templatic
+#: modules/add_post/lang_add.php:30
+msgid "Enter coupon code here (optional)"
+msgstr "输入优惠券代码（可选）"
+
+#@ templatic
+#: modules/add_post/lang_add.php:31
+msgid "Captcha Verification"
+msgstr "验证码验证"
+
+#@ templatic
+#: modules/add_post/lang_add.php:32
+msgid "Select Package Type"
+msgstr "选择包类型"
+
+#@ templatic
+#: modules/add_post/lang_add.php:33
+#: modules/coupon/admin_coupon.php:83
+#: modules/coupon/admin_manage_coupon.php:45
+msgid "Coupon Code"
+msgstr "优惠券代码"
+
+#@ templatic
+#: modules/add_post/lang_add.php:35
+#, php-format
+msgid "%s : number of publish days are %s (<span id=\"%s\">%s %s</span>)"
+msgstr "％s的：是发布天数的<span id=\"%s\">％s（％s％s的</span> ）"
+
+#@ templatic
+#: modules/add_post/lang_add.php:37
+#, php-format
+msgid "<br>Your applied coupon code is \"%s\" and discount amout is %s, deducted from the payable amount."
+msgstr "<br>您申请优惠券代码为“％s”和折扣amout是％s，从应纳税额中扣除。"
+
+#@ templatic
+#: modules/add_post/lang_add.php:39
+#, php-format
+msgid "This is preview of your listing and it&acute;s not published yet. <br />If there is something wrong click \"Go back and edit\" or if you want to add the listing then click on \"Publish\".<br> You are going to pay <b>%s</b> and  your listing will be published for  <b>%s</b> days as a %s listing"
+msgstr "这是您的物品预览和它的还没有公布。 <br />如果有什么错误点击“返回并编辑”或者如果您要添加列表，然后点击“发布”。 <br>你要付出你的<b>％s</b>和上市将是<b>％s</b>天公布的上市作为一个％"
+
+#@ templatic
+#: modules/add_post/lang_add.php:40
+#, php-format
+msgid "This is preview of your listing and it&acute;s not published yet. <br />If there is something wrong click \"Go back and edit\" or if you want to add the listing then click on \"Publish\".<br> Your listing will be published for  <b>%s</b> days as a %s listing"
+msgstr "这是您的物品预览和它的还没有公布。 <br />如果有什么错误点击“返回并编辑”或者如果您要添加列表，然后点击“发布”。 <br>您的列表将公布<b>％s</b>天为一％的上市"
+
+#@ templatic
+#: modules/add_post/lang_add.php:42
+msgid "This is preview of your listing and its not updated yet. <br />If there is something wrong then \"Go back and edit\" or if you want to add listing then click on \"Update now\""
+msgstr "这是您的物品预览和没有更新。 <br />如果有什么错误，然后“回去和编辑”，或者如果你想添加列表，然后点击“立即更新”"
+
+#@ templatic
+#: modules/add_post/lang_add.php:43
+msgid "Invalid Coupon Code"
+msgstr "优惠券代码无效"
+
+#@ templatic
+#: modules/add_post/lang_add.php:44
+msgid "Word Verification"
+msgstr "字词验证"
+
+#@ templatic
+#: modules/add_post/lang_add.php:45
+msgid "Review Your Listing"
+msgstr "查看您的列表"
+
+#@ templatic
+#: modules/add_post/lang_add.php:46
+msgid "Select Listing Type"
+msgstr "选取上市类型"
+
+#@ templatic
+#: modules/add_post/lang_add.php:47
+msgid "Select Type"
+msgstr "选择类型"
+
+#@ templatic
+#: modules/add_post/lang_add.php:48
+msgid "Note : You can sort images from Dashboard and then clicking on \"Edit\" in the lisitng"
+msgstr "注：您可以从仪表板的图像进行排序，然后在“编辑”点击在lisitng"
+
+#@ templatic
+#: modules/add_post/lang_add.php:50
+#: modules/manage_city/admin_manage_city.php:30
+msgid "City"
+msgstr "市"
+
+#@ templatic
+#: modules/add_post/lang_add.php:51
+msgid "State"
+msgstr "国家"
+
+#@ templatic
+#: modules/add_post/lang_add.php:52
+msgid "Mobile Number"
+msgstr "手机号码"
+
+#@ templatic
+#: modules/add_post/lang_add.php:55
+msgid "Twitter"
+msgstr "叽叽喳喳"
+
+#@ templatic
+#: modules/add_post/lang_add.php:56
+msgid "Facebook"
+msgstr "注册Facebook！"
+
+#@ templatic
+#: modules/add_post/lang_add.php:57
+msgid "Upload Photo"
+msgstr "上传照片"
+
+#@ templatic
+#: modules/add_post/lang_add.php:58
+msgid "Short Biodata Information"
+msgstr "传记式短信息"
+
+#@ templatic
+#: modules/add_post/lang_add.php:59
+msgid "Note : PNG, GIF of JPEG only, for better image quality upload image size 150x150"
+msgstr "注：巴布亚新几内亚，与JPEG的GIF只，为更好的图像质量上传图片大小150x150"
+
+#@ templatic
+#: modules/add_post/lang_add.php:60
+msgid "Note : Basic HTML tags are allowed"
+msgstr "注：基本允许HTML标签"
+
+#@ templatic
+#: modules/add_post/lang_add.php:61
+msgid "Note: List out any special offers (optional)"
+msgstr "注：列出任何（可选）的特殊优惠"
+
+#@ templatic
+#: modules/add_post/lang_add.php:63
+msgid "&laquo; Go Back and Edit"
+msgstr "«返回并编辑"
+
+#@ templatic
+#: modules/add_post/lang_add.php:64
+msgid "Update Now"
+msgstr "立即更新"
+
+#@ templatic
+#: modules/add_post/lang_add.php:65
+msgid "Publish"
+msgstr "发布"
+
+#@ templatic
+#: modules/add_post/lang_add.php:66
+#: modules/coupon/admin_coupon.php:108
+#: modules/manage_city/admin_add_city.php:120
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:230
+#: modules/package/admin_price_add.php:109
+#: modules/paymethods/admin_paymethods_add.php:107
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:214
+msgid "Cancel"
+msgstr "取消"
+
+#@ templatic
+#: modules/add_post/lang_add.php:67
+msgid "Pay & Publish"
+msgstr "薪酬及发布"
+
+#@ templatic
+#: modules/add_post/lang_add.php:68
+msgid "Publisher Information"
+msgstr "出版商信息"
+
+#@ templatic
+#: modules/add_post/lang_add.php:69
+msgid "Enter Listing Details"
+msgstr "进入上市详情"
+
+#@ templatic
+#: modules/add_post/lang_add.php:71
+msgid "Are you really sure want to DELETE this listing? A deleted listing can not be recovered later"
+msgstr "你真的确定要删除此上市？已删除无法恢复上市后"
+
+#@ templatic
+#: modules/add_post/lang_add.php:72
+msgid "Yes, Delete Please!"
+msgstr "是的，请删除！"
+
+#@ templatic
+#: modules/add_post/lang_add.php:73
+msgid "This place is listed as Featured. Do you want to remove it from featured listing?"
+msgstr "这个地方被列为特色。你要删除精选上市呢？"
+
+#@ templatic
+#: modules/add_post/lang_add.php:76
+msgid "Submission Successfully"
+msgstr "提交成功"
+
+#@ templatic
+#: modules/add_post/lang_add.php:77
+msgid "Listing Renewal Successful"
+msgstr "更新成功上市"
+
+#@ templatic
+#: modules/add_post/lang_add.php:78
+msgid "<h2>Listing information posted successfully.</h2> <p> You can edit this message from language.php file at root of theme folder.</p>"
+msgstr "<h2>信息发布成功上市。 </h2><p>您可以编辑这个主题文件夹的根从language.php文件的消息。 </p>"
+
+#@ templatic
+#: modules/add_post/lang_add.php:80
+msgid "Listing Posting Canceled"
+msgstr "取消上市发布"
+
+#@ templatic
+#: modules/add_post/lang_add.php:81
+msgid "Listing Post Canceled.<br><br>You can edit this message from language.php file at root of theme folder."
+msgstr "上市后取消。 <br><br>您可以编辑这个主题文件夹的根从language.php文件的消息。"
+
+#@ templatic
+#: modules/add_post/lang_add.php:84
+msgid "Payment Success"
+msgstr "付款成功"
+
+#@ templatic
+#: modules/add_post/lang_add.php:85
+msgid "Thank you for joining us. Your payment was received and listing post published.<br>Thank you for becoming our valued member.<br><br>You can edit this message from language.php file at root of theme folder."
+msgstr "谢谢收看。收到您的付款及上市后公布。 <br>感谢您成为我们的重要成员。 <br><br>您可以编辑这个主题文件夹的根从language.php文件的消息。"
+
+#@ templatic
+#: modules/add_post/places_category.php:8
+#: modules/add_post/submit_form.php:364
+#: modules/add_post/submit_form_06_April_2011.php:325
+#: modules/manage_city/admin_add_city.php:95
+#: modules/manage_city/admin_add_city.php:103
+#: modules/package/admin_price_add.php:72
+#: modules/package/admin_price_add.php:74
+#: modules/registration/profile.php:192
+#: modules/registration/registration_form.php:123
+msgid "Select Category"
+msgstr "选择产品类别"
+
+#@ templatic
+#: modules/add_post/preview.php:134
+msgid "Edit this Post"
+msgstr "编辑这篇文章"
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:7
+msgid "Email for Publisher Information is Empty. Please enter Email, your all informations will sent to your Email."
+msgstr "出版商信息的电子邮件是空的。请输入电子邮件，您的所有信息将发送到您的电子邮件。"
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:26
+#: modules/registration/registration.php:107
+msgid "ERROR: Please enter a username."
+msgstr "错误：请输入一个用户名。"
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:28
+#: modules/registration/registration.php:109
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr "<strong>错误</strong> ：该用户名无效。请输入有效的用户名。"
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:31
+msgid "<strong>ERROR</strong>:  This username is already registered, please choose another one."
+msgstr "<strong>错误</strong> ：此用户名已被注册，请选择另外一个。"
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:40
+msgid "<strong>ERROR</strong>:  This email is already registered, please choose another one."
+msgstr "<strong>错误</strong> ：该电子邮件地址已被注册，请选择另外一个。"
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:92
+msgid ""
+"[SUBJECT-STR]Registration Email[SUBJECT-END]<p>Dear [#$user_name#],</p>\n"
+"		<p>Your login information:</p>\n"
+"		<p>Username: [#$user_login#]</p>\n"
+"		<p>Password: [#$user_password#]</p>\n"
+"		<p>You can login from [#$store_login_url#] or the URL is : [#$store_login_url_link#].</p>\n"
+"		<p>We hope you enjoy. Thanks!</p>\n"
+"		<p>[#$store_name#]</p>"
+msgstr "[主题- STR基因]注册电子邮件[主题完] <p>亲爱的[用户名＃＃$] </p><p>您的登录信息： </p><p>用户名：[＃$ user_login＃] </p><p>密码：[＃$ user_password＃] </p><p>你可以登录来自[＃$ store_login_url＃]或网址是：[＃$ store_login_url_link＃]。 </p><p>我们希望你喜欢。谢谢！ </p><p> [＃$ store_name＃] </p>"
+
+#@ templatic
+#: modules/add_post/submit_form.php:537
+#: modules/add_post/submit_form_01_april_2011.php:369
+#: modules/add_post/submit_form_05_april_2011.php:504
+#: modules/add_post/submit_form_06_April_2011.php:484
+msgid "Note: You will be able to see a preview in the next page"
+msgstr "注意：您将能够看到在未来的页面预览"
+
+#@ templatic
+#: modules/add_post/success.php:16
+msgid ""
+"<p>Thank you, your request received successfully.</p>\n"
+"<p>To publish the property please transfer the amount of <u>[#payable_amt#] </u> at our bank with the following information :</p>\n"
+"<p>Bank Name : [#bank_name#]</p>\n"
+"<p>Account Number : [#account_number#]</p>\n"
+"<br>\n"
+"<p>Please include the ID as reference :#[#submition_Id#]</p>\n"
+"<p><a href=\"[#submited_information_link#]\" >View your submitted listing &raquo;</a>\n"
+"<br>\n"
+"<p>Thank you for visit at [#site_name#].</p>"
+msgstr "<p>谢谢您，您的要求成功接收。 </p><p>请公布财产转让<u>]</u>在我们的银行信息与以下的金额<u>＃[＃payable_amt：</u> </p><p>银行名称：[＃bank_name＃] </p><p>帐号：[＃account_number＃] </p><br><p>请包括参考编号：＃[＃submition_Id＃] </p><p> <a href=\"[#submited_information_link#]\" >查看您提交的清单？</a> <br><p>感谢您访问[＃site_name＃]你。 </p>"
+
+#@ templatic
+#: modules/add_post/success.php:30
+msgid "<p>Thank you, your information has been successfully received.</p><p><a href=\"[#submited_information_link#]\" >View your submitted information »</a></p> <p>Thank you for visiting us at [#site_name#].</p>"
+msgstr "<p>谢谢您，您的信息已被成功接收。 </p><p> <a href=\"[#submited_information_link#]\" >查看您提交的信息？</a> </p><p>感谢您莅临[＃site_name＃]我们。 </p>"
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:176
+msgid "Please upload CSV file only."
+msgstr "请上传的CSV文件中。"
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:182
+msgid "Please select valid CSV file only for listing bulk upload."
+msgstr "请只选择有效的上市批量上传CSV文件。"
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:188
+#, php-format
+msgid "Cannot move the bulk upload file to Temporary system folder <b>\"%s\"</b>. Please check folder permission should be 0777."
+msgstr "无法移动的批量上传文件到系统临时目录<b>“％s”。</b>请检查文件夹的权限应该是0777。"
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:194
+msgid "File you are uploading is not valid. First colum should be \"Post Title\"."
+msgstr "你上传的文件是无效的。第一柱应该是“职位”。"
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:202
+msgid "CSV uploaded successfully."
+msgstr "CSV格式上传成功。"
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:210
+msgid "Select CSV file to upload"
+msgstr "选择要上传的CSV文件"
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:224
+msgid "You can download"
+msgstr "你可以下载"
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:224
+msgid "sample CSV file"
+msgstr "CSV文件样本"
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:237
+msgid "Please select csv file to upload"
+msgstr "请选择要上传的CSV文件"
+
+#@ templatic
+#: modules/bulk_upload/bulk_upload_function.php:2
+msgid "Bulk Upload"
+msgstr "批量上传"
+
+#@ templatic
+#: modules/bulk_upload/bulk_upload_function.php:34
+#: modules/coupon/function_coupon.php:32
+#: modules/notifications/notification_functions.php:34
+#: modules/paymethods/paymethods_functons.php:34
+#, php-format
+msgid ""
+"<h4>A new version of Bulk Upload Module is available.</h4>\n"
+"<p>This updater will collect a file from the templatic.com server. It will download and extract the files to your current theme&prime;s functions folder. \n"
+"<br />We recommend backing up your theme files before updating. Only upgrade related module files if necessary.\n"
+"<br />If you are facing any problem in auto updating the framework, then please download the latest version of the theme from members area and then just overwrite the \"<b>%s</b>\" folder.\n"
+"<br /><br />&rArr; Your version: %s\n"
+"<br />&rArr; Current Version: %s </p>"
+msgstr "<h4>一类成批上传模块的新版本。 </h4><p>这个更新将收集来自templatic.com服务器上的文件。它会下载并解压缩文件到你当前主题的文件夹功能。 <br />我们建议更新之前备份你的主题文件。仅升级相关模块文件，如果必要的。 <br />如果你面对任何问题更新汽车的框架，那么请下载最新版本从会员区的主题，然后只是简单地覆盖在<b>“％s的</b> ”文件夹。 <br /><br /> ⇒你的版本：％s <br /> ⇒当前版本：％s </p>"
+
+#@ templatic
+#: modules/coupon/admin_coupon.php:79
+msgid "Coupon code already exists, Please use different one."
+msgstr "优惠券代码已经存在，请使用不同之一。"
+
+#@ templatic
+#: modules/coupon/admin_coupon.php:90
+#: modules/coupon/admin_manage_coupon.php:46
+msgid "Discount Type"
+msgstr "折扣类型"
+
+#@ templatic
+#: modules/coupon/admin_coupon.php:95
+msgid "Percentage"
+msgstr "百分比"
+
+#@ templatic
+#: modules/coupon/admin_coupon.php:99
+msgid "Amount"
+msgstr "金额"
+
+#@ templatic
+#: modules/coupon/admin_coupon.php:117
+msgid "Percentage should be less than or equal to 100"
+msgstr "百分比应小于或等于100"
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:34
+#: modules/coupon/admin_manage_coupon.php:79
+msgid "Coupon updated successfully."
+msgstr "优惠券已成功更新。"
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:39
+msgid "Coupon deleted successfully."
+msgstr "优惠券已成功删除。"
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:47
+msgid "Discount Amount"
+msgstr "折扣额"
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:90
+msgid "Allow coupon option on submit Add Listing page"
+msgstr "允许添加列表页面提交优惠券的选择"
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:95
+#: modules/manage_city/admin_add_city.php:84
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:192
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:202
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:212
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:222
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:61
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:81
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:86
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:87
+#: modules/package/admin_package_list.php:51
+#: modules/package/admin_price_add.php:95
+#: modules/paymethods/admin_paymethods_list.php:251
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:176
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:186
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:196
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:206
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:60
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:80
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:83
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:84
+msgid "Yes"
+msgstr "是的"
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:99
+#: modules/manage_city/admin_add_city.php:85
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:193
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:203
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:213
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:223
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:61
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:81
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:86
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:87
+#: modules/package/admin_price_add.php:94
+#: modules/paymethods/admin_paymethods_list.php:251
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:177
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:187
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:197
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:207
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:60
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:80
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:83
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:84
+msgid "No"
+msgstr "无"
+
+#@ templatic
+#: modules/coupon/function_coupon.php:2
+msgid "Manage Coupon"
+msgstr "管理优惠券"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:6
+#: modules/custom_post_type/custom_post_type_lang.php:7
+#: modules/custom_post_type/custom_post_type_lang.php:8
+msgid "Listing"
+msgstr "上市"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:9
+msgid "Add Post"
+msgstr "添加新贴"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:10
+msgid "Add New Post"
+msgstr "添加新话题"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:12
+msgid "Edit Post"
+msgstr "编辑文章"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:13
+msgid "New Post"
+msgstr "新发布"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:14
+msgid "View Post"
+msgstr "查看详细资料"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:15
+msgid "Search Post"
+msgstr "搜索职位"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:16
+msgid "No Post found"
+msgstr "无后发现"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:17
+msgid "No Post found in trash"
+msgstr "无后发现垃圾"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:19
+#: modules/custom_post_type/custom_post_type_lang.php:20
+msgid "Listing Categories"
+msgstr "物品分类"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:21
+#: tpl_advanced_search.php:53
+msgid "Category"
+msgstr "分类"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:22
+msgid "Search Category"
+msgstr "搜索类别"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:23
+msgid "Popular Categories"
+msgstr "热门类别"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:24
+msgid "All Categories"
+msgstr "所有类别"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:25
+msgid "Parent Category"
+msgstr "上级分类"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:26
+msgid "Parent Category:"
+msgstr "上级分类："
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:27
+msgid "Edit Category"
+msgstr "编辑类别"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:28
+msgid "Update Category"
+msgstr "更新分类"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:29
+msgid "Add New Category"
+msgstr "添加新分类"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:30
+msgid "New Category Name"
+msgstr "新类别的名称"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:32
+#: modules/custom_post_type/custom_post_type_lang.php:33
+#: modules/custom_post_type/custom_post_type_lang.php:34
+#: modules/custom_post_type/custom_post_type_lang.php:35
+msgid "Listing Tags"
+msgstr "标签上市"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:36
+msgid "Popular Listing Tags"
+msgstr "热门标签上市"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:37
+msgid "All Listing Tags"
+msgstr "所有上市标签"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:38
+msgid "Parent Listing Tags"
+msgstr "家长上市标签"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:39
+msgid "Parent Listing Tags:"
+msgstr "家长上市标签："
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:40
+msgid "Edit Listing Tags"
+msgstr "编辑标签上市"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:41
+msgid "Update Listing Tags"
+msgstr "更新清单标签"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:42
+msgid "Add New Listing Tags"
+msgstr "添加新标签上市"
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:43
+msgid "New Listing Tags Name"
+msgstr "新上市标记的名称"
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:46
+msgid "Edit City"
+msgstr "编辑市"
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:49
+msgid "Add City"
+msgstr "加入城市"
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:59
+msgid "City Name"
+msgstr "市名称"
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:63
+msgid "Map Central latitute"
+msgstr "地图中央纬度"
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:68
+msgid "Map Central longitude"
+msgstr "地图中央经度"
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:73
+msgid "Map Scaling Factor"
+msgstr "地图缩放因子"
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:82
+msgid "Map Zooming Home page"
+msgstr "地图缩放主页"
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:90
+msgid "Set as default City"
+msgstr "设为默认城市"
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:129
+#: modules/package/admin_price_add.php:118
+msgid "Please enter Title"
+msgstr "请输入标题"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:18
+msgid "City updated successfully."
+msgstr "城市更新成功。"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:23
+msgid "City deleted successfully."
+msgstr "市已成功删除。"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:29
+msgid "City ID"
+msgstr "市编号"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:31
+msgid "Central latitute"
+msgstr "中部纬度"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:32
+msgid "Central longitude"
+msgstr "中央经度"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:33
+msgid "Scaling Factor"
+msgstr "换算系数"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:34
+msgid "Zooming Home?"
+msgstr "缩放家？"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:35
+msgid "Default City"
+msgstr "默认城市"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:36
+msgid "Category IDs"
+msgstr "类别ID"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:37
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:50
+#: modules/paymethods/admin_paymethods_list.php:227
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:50
+msgid "Action"
+msgstr "行动"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:65
+msgid "<strong>Note : </strong>You should set atleast one city as Default. Default city information will be displayed on opening the site. If you want to set multicity functionaltiy, you should add more than one city and \"post_city_id\" as custom field of post to assign the listing to the city."
+msgstr "<strong>注意：</strong>您应该设置为默认atleast一个城市。默认城市的信息将显示在打开的网站。如果要设置多城市functionaltiy，你应该添加多个城市和“post_city_id”作为自定义字段后上市转让的城市。"
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:70
+msgid "Are you sure want to delet city?"
+msgstr "你确定要delet城市？"
+
+#@ templatic
+#: modules/manage_city/city_functions.php:6
+msgid "Manage City"
+msgstr "城市管理"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:54
+msgid "Edit Custom Fields"
+msgstr "编辑自定义字段"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:57
+msgid "Add Custom Fields"
+msgstr "添加自定义字段"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:63
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:66
+msgid "Information Saved successfully."
+msgstr "信息保存成功。"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:78
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:81
+msgid "Please Enter Frontend Title"
+msgstr "请输入前端名称"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:89
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:92
+msgid "Please Enter HTML Variable Name"
+msgstr "请输入HTML变量名"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:105
+msgid "Post Type : "
+msgstr "文章类型："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:116
+msgid "Select Post Type"
+msgstr "文章类型选择"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:120
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:114
+msgid "Type : "
+msgstr "类型："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:123
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:117
+msgid "Text"
+msgstr "文本"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:124
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:118
+msgid "Text Editor"
+msgstr "文本编辑器"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:125
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:119
+msgid "Text Heading"
+msgstr "标题文字"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:126
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:120
+msgid "Checkbox"
+msgstr "复选框"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:127
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:121
+msgid "Date Picker"
+msgstr "日期选择器"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:128
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:122
+msgid "Multi Checkbox"
+msgstr "多复选框"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:129
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:123
+msgid "Radio"
+msgstr "电台"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:130
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:124
+msgid "Select"
+msgstr "选择"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:131
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:125
+msgid "Textarea"
+msgstr "多行文本"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:132
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:126
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:144
+msgid "Upload"
+msgstr "上传"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:134
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:128
+msgid "Select type"
+msgstr "选择类型"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:138
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:132
+msgid "Option Values : "
+msgstr "选项​​值："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:140
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:134
+msgid "This Option Values should be separated by comma."
+msgstr "这个选项的值应该用逗号隔开。"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:144
+msgid "Admin Title : "
+msgstr "管理员名称："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:146
+msgid "Personal comment, it would not be displayed anywhere except in Custom field settings"
+msgstr "个人意见，这将不会显示在任何地方，除了在自定义字段设置"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:151
+msgid "Frontend Title : "
+msgstr "前端标题："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:153
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:143
+msgid "Title which you wish to display in frontend"
+msgstr "标题您希望显示在前端"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:158
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:153
+msgid "HTML Variable Name : "
+msgstr "HTML的变量名："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:160
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:155
+msgid "This should be a unique name"
+msgstr "这应该是一个唯一的名称"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:165
+msgid "Admin Label : "
+msgstr "管理公司："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:167
+msgid "Title which will appear in backend"
+msgstr "标题将出现在后台"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:171
+msgid "Description : "
+msgstr "说明："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:173
+msgid "Description which will appear in backend and frontend"
+msgstr "描述将出现在后端和前端"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:177
+msgid "Default Value : "
+msgstr "默认值："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:179
+msgid "Enter the default value"
+msgstr "输入默认值"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:183
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:167
+msgid "Display Order : "
+msgstr "显示顺序："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:185
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:169
+msgid "Enter the display order of this field in backend and frontend. e.g. 5 "
+msgstr "在后端和前端输入该字段的显示顺序。例如5"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:189
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:173
+msgid "Is Active : "
+msgstr "处于激活状态："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:195
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:179
+msgid "Select Yes or No. If NO is selected then the field will not be displayed anywhere"
+msgstr "选取Yes或No如果选择NO则该字段将不会显示在任何地方"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:199
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:183
+msgid "Is Require : "
+msgstr "这要求："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:205
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:189
+msgid "Select Yes or No. If NO is selected then the field will not be ask for validation anywhere"
+msgstr "选择Yes或No如果选择NO，那么字段将不会要求任何验证"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:209
+msgid "Show On Listing Page ? : "
+msgstr "显示在列表页？ ："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:215
+msgid "Want to show this on Listing page ?"
+msgstr "要显示此页面上上市？"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:219
+msgid "Show On Detail Page ? : "
+msgstr "详细信息页面上显示？ ："
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:225
+msgid "Want to show this on Detail page ?"
+msgstr "要在细节上显示此网页？"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:230
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:214
+msgid "Save"
+msgstr "保存"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:18
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:18
+msgid "Are you sure, want to delete this information?"
+msgstr "您确定要删除此信息？"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:35
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:35
+msgid "Information Deleted successfully."
+msgstr "信息已成功删除。"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:46
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:72
+msgid "Admin Title"
+msgstr "管理员名称"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:47
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:75
+msgid "Post Type"
+msgstr "柱式"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:48
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:79
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:47
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:77
+msgid "Type"
+msgstr "类型"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:49
+#: modules/paymethods/admin_paymethods_add.php:76
+#: modules/paymethods/admin_paymethods_list.php:225
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:48
+msgid "Is Active"
+msgstr "处于活动状态"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:63
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:63
+msgid "Detail"
+msgstr "详细"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:76
+#: modules/paymethods/admin_paymethods_add.php:84
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:49
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:74
+msgid "Display Order"
+msgstr "显示顺序"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:80
+msgid "Defaule Value"
+msgstr "Defaule价值"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:81
+msgid "Is Display On Detail?"
+msgstr "是在细节上显示？"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:85
+msgid "Front Title"
+msgstr "前标题"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:86
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:80
+msgid "Is Active?"
+msgstr "是活动？"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:87
+msgid "Is Display On listing?"
+msgstr "是就上市显示？"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:91
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:73
+msgid "HTML Variable Name"
+msgstr "HTML的变量名"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:93
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:89
+msgid "Use at front end"
+msgstr "在前端使用"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:93
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:89
+msgid "Theme Default Field"
+msgstr "主题默认字段"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:93
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:89
+msgid "Heading"
+msgstr "标题"
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:103
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:99
+msgid "No Custom fields available."
+msgstr "没有自定义字段可用。"
+
+#@ templatic
+#: modules/manage_custom_fields/db_mange_custom_fields.php:34
+msgid "Manage Custom Fields"
+msgstr "自定义字段管理"
+
+#@ templatic
+#: modules/manage_custom_fields/db_mange_custom_fields.php:34
+msgid "Post Custom Fields"
+msgstr "邮政自定义字段"
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:170
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:170
+msgid "Geo Address"
+msgstr "地理地址"
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:172
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:172
+msgid "Please enter address. eg. : 230 Vine Street And locations throughout Old City, Philadelphia, PA 19106"
+msgstr "请输入地址。例如。 ：230比涅街及整个老城，费城，PA 19106点"
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:177
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:177
+msgid "Geo Latitude"
+msgstr "地理纬度"
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:179
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:179
+msgid "Enter Geo Latitude. eg. : 38.8225909761771"
+msgstr "输入地理纬度。例如。 ：38.8225909761771"
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:184
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:184
+msgid "Geo Longitude"
+msgstr "地理经度"
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:186
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:186
+msgid "Enter Geo Longitude. eg. : 12.65625"
+msgstr "输入地理经度。例如。 ：12.65625"
+
+#@ templatic
+#: modules/notifications/admin_notification.php:31
+msgid "Different emails and messages are displayed on the site or, being sent to your user at different times such as, when they post a classified etc. You may customize the default messages, email messages as per your wish from here. "
+msgstr "不同的电子邮件和消息显示在网站上，或者被发送，如不同的时候，他们发布的一份机密等，您可以自定义默认的消息，按照您的电子邮件从这里希望您的用户。"
+
+#@ templatic
+#: modules/notifications/admin_notification.php:34
+msgid "updated successfully."
+msgstr "更新成功。"
+
+#@ templatic
+#: modules/notifications/admin_notification.php:42
+msgid "Email Type"
+msgstr "电子邮件类型"
+
+#@ templatic
+#: modules/notifications/admin_notification.php:43
+msgid "Email Subject"
+msgstr "电子邮件主题"
+
+#@ templatic
+#: modules/notifications/admin_notification.php:44
+msgid "Email Description"
+msgstr "电子邮件说明"
+
+#@ templatic
+#: modules/notifications/admin_notification.php:85
+msgid "Description"
+msgstr "说明"
+
+#@ templatic
+#: modules/notifications/notification_functions.php:2
+msgid "Manage Notifications"
+msgstr "管理通知"
+
+#@ templatic
+#: modules/package/admin_package_list.php:19
+msgid "Price updated successfully."
+msgstr "价格更新成功。"
+
+#@ templatic
+#: modules/package/admin_package_list.php:24
+msgid "Price deleted successfully."
+msgstr "价格已成功删除。"
+
+#@ templatic
+#: modules/package/admin_package_list.php:31
+msgid "Price"
+msgstr "价格"
+
+#@ templatic
+#: modules/package/admin_package_list.php:32
+msgid "Number Of Days"
+msgstr "数天"
+
+#@ templatic
+#: modules/package/admin_package_list.php:33
+#: modules/package/admin_price_add.php:84
+msgid "Status"
+msgstr "状态"
+
+#@ templatic
+#: modules/package/admin_package_list.php:34
+#: modules/package/admin_price_add.php:92
+msgid "Is Featured"
+msgstr "是精选"
+
+#@ templatic
+#: modules/package/admin_package_list.php:50
+#: modules/package/admin_price_add.php:86
+msgid "Active"
+msgstr "主动"
+
+#@ templatic
+#: modules/package/admin_package_list.php:50
+#: modules/package/admin_price_add.php:87
+msgid "Inactive"
+msgstr "已停用"
+
+#@ templatic
+#: modules/package/admin_package_list.php:69
+msgid "Are you sure want to delet price?"
+msgstr "你确定要delet价格是多少？"
+
+#@ templatic
+#: modules/package/admin_price_add.php:16
+#: modules/package/functions_package.php:46
+#, php-format
+msgid "%s in %s%s for %s days"
+msgstr "在％s％s的％为％s日内，"
+
+#@ templatic
+#: modules/package/admin_price_add.php:47
+msgid "Edit Price"
+msgstr "编辑价格"
+
+#@ templatic
+#: modules/package/admin_price_add.php:50
+msgid "Add Price"
+msgstr "添加价格"
+
+#@ templatic
+#: modules/package/admin_price_add.php:58
+msgid "Price Title"
+msgstr "价格名称"
+
+#@ templatic
+#: modules/package/admin_price_add.php:62
+msgid "Price Amount"
+msgstr "单价金额"
+
+#@ templatic
+#: modules/package/admin_price_add.php:67
+msgid "Number of Days"
+msgstr "数天"
+
+#@ templatic
+#: modules/package/admin_price_add.php:100
+msgid "Title to be display while Add Listing"
+msgstr "标题将被显示，而新增上市"
+
+#@ templatic
+#: modules/package/admin_price_add.php:102
+msgid "Keep blank to reset default content."
+msgstr "保持空白重置默认内容。"
+
+#@ templatic
+#: modules/package/db_package.php:33
+msgid "Manage Price Package"
+msgstr "管理价格包"
+
+#@ templatic
+#: modules/package/db_package.php:33
+msgid "Price Package"
+msgstr "价格套餐"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_add.php:66
+msgid "Updated Succesfully"
+msgstr "更新成功"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_add.php:72
+msgid "Payment Method"
+msgstr "付款方式"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_add.php:78
+#: modules/paymethods/admin_paymethods_list.php:258
+msgid "Activate"
+msgstr "激活"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_add.php:79
+#: modules/paymethods/admin_paymethods_list.php:255
+msgid "Deactivate"
+msgstr "停用"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_add.php:119
+msgid "Please enter Payment Method"
+msgstr "请输入付款方式"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:35
+#: modules/paymethods/admin_paymethods_list.php:71
+msgid "Merchant Id"
+msgstr "商家ID"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:38
+msgid "Example : myaccount@paypal.com"
+msgstr "例如：myaccount@paypal.com"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:41
+msgid "Cancel Url"
+msgstr "取消网址"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:44
+#: modules/paymethods/admin_paymethods_list.php:50
+#: modules/paymethods/admin_paymethods_list.php:56
+#: modules/paymethods/admin_paymethods_list.php:148
+#, php-format
+msgid "Example : %s"
+msgstr "例如：％s的"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:47
+msgid "Return Url"
+msgstr "返回URL"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:53
+#: modules/paymethods/admin_paymethods_list.php:145
+msgid "Notify Url"
+msgstr "通知网址"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:60
+msgid "Paypal"
+msgstr "贝宝"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:74
+#: modules/paymethods/admin_paymethods_list.php:99
+msgid "Example : 1234567890"
+msgstr "例：1234567890"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:78
+msgid "Google Checkout"
+msgstr "谷歌结帐"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:90
+msgid "Login ID"
+msgstr "登录ID"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:93
+msgid "Example : yourname@domain.com"
+msgstr "例如：yourname@domain.com"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:96
+msgid "Transaction Key"
+msgstr "交易的关键"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:103
+msgid "Authorize.net"
+msgstr "Authorize.net"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:115
+msgid "Instant Id"
+msgstr "即时标识"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:118
+msgid "Example : 123456"
+msgstr "例如：123456"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:121
+msgid "Account Id"
+msgstr "帐户ID"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:124
+msgid "Example : 12345"
+msgstr "例如：12345"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:128
+msgid "Worldpay"
+msgstr "Worldpay"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:139
+msgid "Vendor ID"
+msgstr "供应商ID"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:142
+msgid "Enter Vendor ID Example : 1303908"
+msgstr "输入供应商编号例如：一百三万三千九百○八"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:152
+msgid "2CO (2Checkout)"
+msgstr "林后（的2Checkout）"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:165
+msgid "Bank Information"
+msgstr "银行信息"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:168
+msgid "Enter the bank name to which you want to transfer payment"
+msgstr "输入银行的名称，你想转移支付"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:171
+msgid "Account ID"
+msgstr "帐户ID"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:174
+msgid "Enter your bank Account ID"
+msgstr "输入您的银行帐户ID"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:178
+msgid "Pre Bank Transfer"
+msgstr "前银行转帐"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:189
+msgid "Pay Cash On Delivery"
+msgstr "支付货到付款"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:224
+msgid "Method Name"
+msgstr "方法名称"
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:226
+msgid "Sort Order"
+msgstr "排序"
+
+#@ templatic
+#: modules/paymethods/paymethods_functons.php:2
+#: modules/paymethods/paymethods_functons.php:58
+msgid "Payment Options"
+msgstr "付款方式选择"
+
+#@ templatic
+#: modules/paymethods/paymethods_functons.php:58
+msgid "Manage Payment Options"
+msgstr "管理付款选项"
+
+#@ templatic
+#: modules/paymethods/paymethods_functons.php:157
+msgid "Please select payment method on preview page."
+msgstr "请选择付款预览页面的方法。"
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:57
+msgid "Edit Custom User Meta"
+msgstr "编辑自定义用户元"
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:60
+msgid "Add Custom User Meta"
+msgstr "添加自定义用户元"
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:141
+msgid "Title : "
+msgstr "标题："
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:147
+msgid "Field Description : "
+msgstr "字段说明："
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:149
+msgid "Field Description which will display below field tag"
+msgstr "字段说明下面的字段将显示标签"
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:193
+msgid "Show On Registration Page ? : "
+msgstr "注册页面上显示？ ："
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:199
+msgid "Want to show this on Registration page ?"
+msgstr "要显示在注册页面呢？"
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:203
+msgid "Show On Profile Page ? : "
+msgstr "显示在个人资料页面？ ："
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:209
+msgid "Want to show this on Profile page ?"
+msgstr "要显示在个人资料页面呢？"
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:78
+msgid "Is Require"
+msgstr "是要求"
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:83
+msgid "Display On Registration?"
+msgstr "显示关于登记？"
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:84
+msgid "Display On Profile?"
+msgstr "显示在个人资料？"
+
+#@ templatic
+#: modules/registration/custom_usermeta/db_custom_usermeta.php:35
+msgid "Manage Custom Usermeta"
+msgstr "管理自定义Usermeta"
+
+#@ templatic
+#: modules/registration/custom_usermeta/db_custom_usermeta.php:35
+msgid "Custom Usermeta"
+msgstr "自定义Usermeta"
+
+#@ templatic
+#: modules/registration/registration.php:161
+msgid ""
+"<p>Dear [#$user_name#],</p>\n"
+"		<p>Your login information:</p>\n"
+"		<p>Username: [#$user_login#]</p>\n"
+"		<p>Password: [#$user_password#]</p>\n"
+"		<p>You can login from [#$store_login_url#] or the URL is : [#$store_login_url_link#].</p>\n"
+"		<p>We hope you enjoy. Thanks!</p>\n"
+"		<p>[#$store_name#]</p>"
+msgstr "<p>亲爱的[用户名＃＃$] </p><p>您的登录信息： </p><p>用户名：[＃$ user_login＃] </p><p>密码：[＃$ user_password＃] </p><p>你可以登录来自[＃$ store_login_url＃]或网址是：[＃$ store_login_url_link＃]。 </p><p>我们希望你喜欢。谢谢！ </p><p> [＃$ store_name＃] </p>"
+
+#@ templatic
+#: modules/registration/registration.php:245
+msgid "Sorry, that key does not appear to be valid."
+msgstr "抱歉，该键不似乎是有效的。"
+
+#@ templatic
+#: modules/registration/registration_language.php:4
+#: modules/registration/registration_language.php:12
+msgid "E-mail"
+msgstr "电子邮件"
+
+#@ templatic
+#: modules/registration/registration_language.php:7
+msgid "Remember me on this computer"
+msgstr "这台电脑上记住我"
+
+#@ templatic
+#: modules/registration/registration_language.php:10
+msgid "Sign Up Now"
+msgstr "立即注册"
+
+#@ templatic
+#: modules/registration/registration_language.php:11
+msgid "Personal Information"
+msgstr "个人信息"
+
+#@ templatic
+#: modules/registration/registration_language.php:13
+msgid "Full Name"
+msgstr "姓名"
+
+#@ templatic
+#: modules/registration/registration_language.php:14
+msgid "(Note: A password will be e-mailed to you for future reference.)"
+msgstr "（注：密码将通过电子邮件发送给您以供将来参考。）"
+
+#@ templatic
+#: modules/registration/registration_language.php:15
+msgid "Register Now"
+msgstr "现在注册"
+
+#@ templatic
+#: modules/registration/registration_language.php:20
+msgid "Invalid Username/Password."
+msgstr "无效的用户名/密码。"
+
+#@ templatic
+#: modules/registration/registration_language.php:21
+msgid "Registration complete. Please check your e-mail for login details."
+msgstr "注册完成。详情请登陆您的电子邮件。"
+
+#@ templatic
+#: modules/registration/registration_language.php:22
+msgid "We just sent you a new password. Kindly check your e-mail now."
+msgstr "我们只是给您发送新的密码。请检查您的邮件。"
+
+#@ templatic
+#: modules/registration/registration_language.php:23
+msgid "A confirmation link has been sent to you via email. Kindly check your e-mail now."
+msgstr "一个确认链接已经通过电子邮件发送给您。请检查您的邮件。"
+
+#@ templatic
+#: modules/registration/registration_language.php:24
+msgid "User registration has been disabled by the admin."
+msgstr "用户注册已被禁用的管理员。"
+
+#@ templatic
+#: modules/registration/registration_language.php:25
+msgid "You are now logged out."
+msgstr "您现在已经登出。"
+
+#@ templatic
+#: modules/registration/registration_language.php:26
+msgid "Please enter your e-mail address as username. You will receive a new password via e-mail."
+msgstr "请输入您的电子邮件地址作为用户名。您将通过电子邮件收到新密码的电子邮件。"
+
+#@ templatic
+#: modules/registration/registration_language.php:27
+msgid "Invalid Email, please check"
+msgstr "无效的电子邮件，请检查"
+
+#@ templatic
+#: modules/registration/registration_language.php:28
+msgid "Check your e-mail for your new password."
+msgstr "请查收您为您的新密码的电子邮件。"
+
+#@ templatic
+#: modules/registration/registration_language.php:30
+msgid "Email ID already exists. Please select a different Email."
+msgstr "电子邮件ID已经存在。请选择一个不同的电子邮件。"
+
+#@ templatic
+#: modules/registration/registration_language.php:31
+msgid "New user registration disabled."
+msgstr "禁止新用户注册。"
+
+#@ templatic
+#: modules/registration/registration_language.php:36
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#@ templatic
+#: modules/registration/registration_language.php:38
+msgid "Profile edited successfully."
+msgstr "个人档案编辑成功。"
+
+#@ templatic
+#: modules/registration/registration_language.php:39
+msgid "Please enter Email."
+msgstr "请输入电子邮件。"
+
+#@ templatic
+#: modules/registration/registration_language.php:40
+msgid "Email already exists, please choose another."
+msgstr "电子邮件已存在，请选择另一个。"
+
+#@ templatic
+#: modules/registration/registration_language.php:41
+msgid "Password and Confirm Password should same."
+msgstr "密码和确认密码必须相同。"
+
+#@ templatic
+#: pagination.php:3
+msgid "Previous Page"
+msgstr "上一页"
+
+#@ templatic
+#: pagination.php:4
+msgid "Next Page"
+msgstr "下一页"
+
+#@ templatic
+#: pagination.php:8
+msgid "LOAD MORE"
+msgstr "载入更多"
+
+#@ templatic
+#: search.php:10
+#: search.php:23
+msgid "Search Result for category"
+msgstr "搜索结果的分类"
+
+#@ templatic
+#: search.php:10
+#: search.php:23
+msgid "Search Result for date"
+msgstr "搜寻结果的日期"
+
+#@ templatic
+#: search.php:10
+#: search.php:23
+msgid "Search Result for author"
+msgstr "搜寻结果为作者"
+
+#@ templatic
+#: search.php:10
+#: search.php:23
+msgid "Search Result for "
+msgstr "搜寻结果为"
+
+#@ templatic
+#: searchform.php:4
+msgid "Search"
+msgstr "搜索"
+
+#@ templatic
+#: tpl_advanced_search.php:31
+msgid "Search this website"
+msgstr "本网站搜索"
+
+#@ templatic
+#: tpl_advanced_search.php:37
+msgid "Please enter word you want to search"
+msgstr "请输入您要搜索词"
+
+#@ templatic
+#: tpl_advanced_search.php:70
+msgid "Date"
+msgstr "日期"
+
+#@ templatic
+#: tpl_advanced_search.php:75
+msgid "<span>to</span>"
+msgstr "<span>到</span>"
+
+#@ templatic
+#: tpl_advanced_search.php:81
+msgid "Author"
+msgstr "作者"
+
+#@ templatic
+#: tpl_advanced_search.php:84
+msgid "Exact author"
+msgstr "精确的作者"
+
+#@ templatic
+#: tpl_sitemap.php:54
+msgid "Meta"
+msgstr "元"
+
+#@ templatic
+#: tpl_sitemap.php:57
+#: tpl_sitemap.php:58
+#: tpl_sitemap.php:59
+msgid "RSS"
+msgstr "的RSS"
+
+#@ templatic
+#: tpl_sitemap.php:57
+msgid "1.0 feed"
+msgstr "1.0饲料"
+
+#@ templatic
+#: tpl_sitemap.php:58
+msgid "0.92 feed"
+msgstr "饲料0.92"
+
+#@ templatic
+#: tpl_sitemap.php:59
+msgid "2.0 feed"
+msgstr "2.0饲料"
+
+#@ templatic
+#: tpl_sitemap.php:60
+msgid "Atom feed"
+msgstr "Atom供稿"
+
+#@ templatic
+#: tpl_sitemap.php:66
+msgid "<strong>Tags: </strong>"
+msgstr "<strong>标签：</strong>"
+
+#@ templatic
+#: admin/auto_update_framework.php:92
+msgid "Currently Unavailable"
+msgstr "目前无法使用"
+
+#@ templatic
+#: admin/widgets/login.php:127
+msgid "Your login Information :"
+msgstr "您的登录信息："
+
+#@ templatic
+#: admin/widgets/twitter.php:8
+msgid "Enter your Twitter login ID and it will show latest tweet at your site."
+msgstr "输入你的Twitter登录ID，它会显示在您的站点的最新鸣叫。"
+
+#@ templatic
+#: admin/widgets/twitter.php:9
+msgid "T &rarr; Twitter Feed"
+msgstr "由T→Twitter的饲料"
+
+#@ templatic
+#: comments.php:12
+#, php-format
+msgid "%1$s comments"
+msgstr "％1 $ s条评论"
+

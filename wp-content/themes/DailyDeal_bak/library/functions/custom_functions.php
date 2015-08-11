@@ -1,0 +1,845 @@
+<?php
+// Excerpt length
+function bm_better_excerpt($length, $ellipsis) {
+$text = get_the_content();
+$text = strip_tags($text);
+$text = substr($text, 0, $length);
+$text = substr($text, 0, strrpos($text, " "));
+$text = $text.$ellipsis;
+return $text;
+}
+
+// MP CUSTOM FIELD
+// Add term page
+function mp_add_custom_taxofony_meta_field() {
+	// this will add the custom meta field to the add new term page
+	?>
+	<div class="form-field">
+		<label for="term_meta[enable_seo_text]"><?php _e( 'Enable SEO Text', 'templatic' ); ?></label>
+		<select name="term_meta[enable_seo_text]" id="term_meta[enable_seo_text]" class="postform">
+			<option value="1" selected="selected"><?php _e( 'True', 'templatic' ); ?></option>
+			<option class="level-0" value="0"><?php _e( 'False', 'templatic' ); ?></option>
+		</select>
+	</div>
+	<div class="form-field">
+		<label for="term_meta[seo_text]"><?php _e( 'SEO Text', 'templatic' ); ?></label>
+		<textarea name="term_meta[seo_text]" id="term_meta[seo_text]" rows="5" cols="40"></textarea>
+		<p class="description"><?php _e( 'Enter your SEO text in this field','templatic' ); ?></p>
+	</div>
+<?php
+}
+
+//add_action( 'seller_category_add_form_fields', 'mp_add_custom_taxofony_meta_field', 10, 2 );
+add_action( 'seller_tags_add_form_fields', 'mp_add_custom_taxofony_meta_field', 10, 2 );
+function mp_taxonomy_edit_meta_field($term) {
+	// put the term ID into a variable
+	$t_id = $term->term_id;
+	// retrieve the existing value(s) for this meta field. This returns an array
+	$term_meta = get_option( "taxonomy_$t_id" ); ?>
+	<tr class="form-field">
+		<th scope="row" valign="top">
+			<label for="term_meta[enable_seo_text]"><?php _e( 'Enable SEO Text', 'templatic' ); ?></label>
+		</th>
+		<td>
+			<select name="term_meta[enable_seo_text]" id="term_meta[enable_seo_text]" class="postform">
+				<option value="1" <?php echo esc_attr( $term_meta['enable_seo_text'] ) == "1" ? 'selected="selected"' : ''; ?>><?php _e( 'True', 'templatic' ); ?></option>
+				<option class="level-0" value="0"<?php echo esc_attr( $term_meta['enable_seo_text'] ) == 0 ? 'selected="selected"' : ''; ?>><?php _e( 'False', 'templatic' ); ?></option>
+			</select>
+		</td>
+	</tr>
+	<tr class="form-field">
+		<th scope="row" valign="top">
+			<label for="term_meta[seo_text]"><?php _e( 'SEO Text', 'templatic' ); ?></label>
+		</th>
+		<td>
+			<textarea name="term_meta[seo_text]" id="term_meta[seo_text]" rows="5" cols="40"><?php echo esc_attr( $term_meta['seo_text'] ) ? esc_attr( $term_meta['seo_text'] ) : ''; ?></textarea>
+			<p class="description"><?php _e( 'Enter your SEO text in this field','templatic' ); ?></p>
+		</td>
+	</tr>
+<?php
+}
+//add_action( 'seller_category_edit_form_fields', 'mp_taxonomy_edit_meta_field', 10, 2 );
+add_action( 'seller_tags_edit_form_fields', 'mp_taxonomy_edit_meta_field', 10, 2 );
+
+// Save extra taxonomy fields callback function.
+function mp_save_taxonomy_custom_meta( $term_id ) {
+	if ( isset( $_POST['term_meta'] ) ) {
+		$t_id = $term_id;
+		$term_meta = get_option( "taxonomy_$t_id" );
+		$cat_keys = array_keys( $_POST['term_meta'] );
+		foreach ( $cat_keys as $key ) {
+			if ( isset ( $_POST['term_meta'][$key] ) ) {
+				$term_meta[$key] = $_POST['term_meta'][$key];
+			}
+		}
+		// Save the option array.
+		update_option( "taxonomy_$t_id", $term_meta );
+	}
+}  
+//add_action( 'edited_seller_category', 'mp_save_taxonomy_custom_meta', 10, 2 );  
+add_action( 'edited_seller_tags', 'mp_save_taxonomy_custom_meta', 10, 2 );  
+//add_action( 'create_seller_category', 'mp_save_taxonomy_custom_meta', 10, 2 );
+add_action( 'create_seller_tags', 'mp_save_taxonomy_custom_meta', 10, 2 );
+
+///////////NEW FUNCTIONS  START//////
+function bdw_get_images($iPostID,$img_size='thumb',$no_images='') 
+{
+    $arrImages =& get_children('order=ASC&orderby=menu_order ID&post_type=attachment&post_mime_type=image&post_parent=' . $iPostID );
+	$counter = 0;
+	$return_arr = array();
+	if($arrImages) 
+	{		
+       foreach($arrImages as $key=>$val)
+	   {
+	   		$id = $val->ID;
+			if($img_size == 'large')
+			{
+				$img_arr = wp_get_attachment_image_src($id,'full');	// THE FULL SIZE IMAGE INSTEAD
+				$return_arr[] = $img_arr[0];
+			}
+			elseif($img_size == 'medium')
+			{
+				$img_arr = wp_get_attachment_image_src($id, 'medium'); //THE medium SIZE IMAGE INSTEAD
+				$return_arr[] = $img_arr[0];
+			}
+			elseif($img_size == 'thumb')
+			{
+				$img_arr = wp_get_attachment_image_src($id, 'thumbnail'); // Get the thumbnail url for the attachment
+				$return_arr[] = $img_arr[0];
+			}
+			$counter++;
+			if($no_images!='' && $counter==$no_images)
+			{
+				break;	
+			}
+	   }
+	  return $return_arr;
+	}
+}
+
+function get_site_emailId()
+{
+	
+	if(get_option('ptthemes_site_email'))
+	{
+		return get_option('ptthemes_site_email');	
+	}
+	return get_option('admin_email');
+}
+function get_site_emailName()
+{
+	
+	if(get_option('ptthemes_site_name'))
+	{
+		return stripslashes(get_option('ptthemes_site_name'));	
+	}
+	return stripslashes(get_option('blogname'));
+}
+
+/************************************
+//FUNCTION NAME : commentslist
+//ARGUMENTS :comment data, arguments,depth level for comments reply
+//RETURNS : Comment listing format
+***************************************/
+function commentslist($comment, $args, $depth) {
+	$GLOBALS['comment'] = $comment; ?>
+    
+    
+   <li >
+  <div id="comment-<?php comment_ID(); ?>" <?php comment_class(); ?> >
+    <div class="comment_left"> <?php echo get_avatar($comment, 45, get_bloginfo('template_url').'/images/no-avatar.png'); ?> </div>
+    <div class="comment-text">
+      <div class="comment-meta">
+        <?php printf(__('<p class="comment-author"><span>%s</span></p>','templatic'), get_comment_author_link()) ?>
+        
+        
+        <p class="comment-date"> &nbsp;~  <?php comment_date('n-j-Y'); ?> om <?php comment_time('H:i:s'); ?></p>
+        
+        <?php comment_reply_link(array_merge($args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
+      </div>
+     
+       
+      <div class="text">
+      
+      	 <?php if ($comment->comment_approved == '0') : ?>
+      
+        <?php _e('Your comment is awaiting moderation.','templatic') ?>
+     
+      <?php endif; ?>
+      
+      <?php comment_text() ?>
+     </div>
+     
+    </div>
+  </div>
+    
+	
+    
+<?php
+}
+
+
+// ---------------------------------------------------------------------- ///
+//Shortcodes add --------------------------------------------------------
+//----------------------------------------------------------------------- /// 
+
+// Shortcodes - Messages -------------------------------------------------------- //
+function message_download( $atts, $content = null ) {
+   return '<p class="download">' . $content . '</p>';
+}
+add_shortcode( 'Download', 'message_download' );
+
+function message_alert( $atts, $content = null ) {
+   return '<p class="alert">' . $content . '</p>';
+}
+add_shortcode( 'Alert', 'message_alert' );
+
+function message_note( $atts, $content = null ) {
+   return '<p class="note">' . $content . '</p>';
+}
+add_shortcode( 'Note', 'message_note' );
+
+
+function message_info( $atts, $content = null ) {
+   return '<p class="info">' . $content . '</p>';
+}
+add_shortcode( 'Info', 'message_info' );
+
+
+// Shortcodes - About Author -------------------------------------------------------- //
+
+function about_author( $atts, $content = null ) {
+   return '<div class="about_author">' . $content . '</p></div>';
+}
+add_shortcode( 'Author Info', 'about_author' );
+
+
+function icon_list_view( $atts, $content = null ) {
+   return '<div class="check_list">' . $content . '</p></div>';
+}
+add_shortcode( 'Icon List', 'icon_list_view' );
+
+
+// Shortcodes - Boxes -------------------------------------------------------- //
+
+function normal_box( $atts, $content = null ) {
+   return '<div class="boxes normal_box">' . $content . '</p></div>';
+}
+add_shortcode( 'Normal_Box', 'normal_box' );
+
+function warning_box( $atts, $content = null ) {
+   return '<div class="boxes warning_box">' . $content . '</p></div>';
+}
+add_shortcode( 'Warning_Box', 'warning_box' );
+
+function about_box( $atts, $content = null ) {
+   return '<div class="boxes about_box">' . $content . '</p></div>';
+}
+add_shortcode( 'About_Box', 'about_box' );
+
+function download_box( $atts, $content = null ) {
+   return '<div class="boxes download_box">' . $content . '</p></div>';
+}
+add_shortcode( 'Download_Box', 'download_box' );
+
+function info_box( $atts, $content = null ) {
+   return '<div class="boxes info_box">' . $content . '</p></div>';
+}
+add_shortcode( 'Info_Box', 'info_box' );
+
+
+function alert_box( $atts, $content = null ) {
+   return '<div class="boxes alert_box">' . $content . '</p></div>';
+}
+add_shortcode( 'Alert_Box', 'alert_box' );
+
+
+
+// Shortcodes - Boxes - Equal -------------------------------------------------------- //
+
+function normal_box_equal( $atts, $content = null ) {
+   return '<div class="boxes normal_box small">' . $content . '</p></div>';
+}
+add_shortcode( 'Normal_Box_Equal', 'normal_box_equal' );
+
+function warning_box_equal( $atts, $content = null ) {
+   return '<div class="boxes warning_box small">' . $content . '</p></div>';
+}
+add_shortcode( 'Warning_Box_Equal', 'warning_box_equal' );
+
+function about_box_equal( $atts, $content = null ) {
+   return '<div class="boxes about_box small">' . $content . '</p></div>';
+}
+add_shortcode( 'About_Box_Equal', 'about_box' );
+
+function download_box_equal( $atts, $content = null ) {
+   return '<div class="boxes download_box small">' . $content . '</p></div>';
+}
+add_shortcode( 'Download_Box_Equal', 'download_box_equal' );
+
+function info_box_equal( $atts, $content = null ) {
+   return '<div class="boxes info_box small">' . $content . '</p></div>';
+}
+add_shortcode( 'Info_Box_Equal', 'info_box_equal' );
+
+
+function alert_box_equal( $atts, $content = null ) {
+   return '<div class="boxes alert_box small">' . $content . '</p></div>';
+}
+add_shortcode( 'Alert_Box_Equal', 'alert_box_equal' );
+
+
+// Shortcodes - Content Columns -------------------------------------------------------- //
+
+function one_half_column( $atts, $content = null ) {
+   return '<div class="one_half_column left">' . $content . '</p></div>';
+}
+add_shortcode( 'One_Half', 'one_half_column' );
+
+function one_half_last( $atts, $content = null ) {
+   return '<div class="one_half_column right">' . $content . '</p></div><div class="clear_spacer clearfix"></div>';
+}
+add_shortcode( 'One_Half_Last', 'one_half_last' );
+
+
+function one_third_column( $atts, $content = null ) {
+   return '<div class="one_third_column left">' . $content . '</p></div>';
+}
+add_shortcode( 'One_Third', 'one_third_column' );
+
+function one_third_column_last( $atts, $content = null ) {
+   return '<div class="one_third_column_last right">' . $content . '</p></div><div class="clear_spacer clearfix"></div>';
+}
+add_shortcode( 'One_Third_Last', 'one_third_column_last' );
+
+
+function one_fourth_column( $atts, $content = null ) {
+   return '<div class="one_fourth_column left">' . $content . '</p></div>';
+}
+add_shortcode( 'One_Fourth', 'one_fourth_column' );
+
+function one_fourth_column_last( $atts, $content = null ) {
+   return '<div class="one_fourth_column_last right">' . $content . '</p></div><div class="clear_spacer clearfix"></div>';
+}
+add_shortcode( 'One_Fourth_Last', 'one_fourth_column_last' );
+
+
+function two_thirds( $atts, $content = null ) {
+   return '<div class="two_thirds left">' . $content . '</p></div>';
+}
+add_shortcode( 'Two_Third', 'two_thirds' );
+
+function two_thirds_last( $atts, $content = null ) {
+   return '<div class="two_thirds_last right">' . $content . '</p></div><div class="clear_spacer clearfix"></div>';
+}
+add_shortcode( 'Two_Third_Last', 'two_thirds_last' );
+
+
+function dropcaps( $atts, $content = null ) {
+   return '<p class="dropcaps">' . $content . '</p>';
+}
+add_shortcode( 'Dropcaps', 'dropcaps' );
+
+// Shortcodes - Small Buttons -------------------------------------------------------- //
+
+function small_button( $atts, $content ) {
+ return '<div class="small_button '.$atts['class'].'">' . $content . '</div>';
+}
+add_shortcode( 'Small_Button', 'small_button' );
+
+// filters add -------------///
+
+add_filter('templ_top_header_navigation_content','templ_top_header_nav_above_fun_content');
+function templ_top_header_nav_above_fun_content(){
+	echo 'header';
+}
+
+add_filter('templ_top_header_nav_above_filter','templ_top_header_nav_above_fun');
+function templ_top_header_nav_above_fun()
+{
+
+}
+
+add_filter('templ_top_header_nav_below_filter','templ_top_header_nav_below_fun');
+function templ_top_header_nav_below_fun()
+{
+?> 
+    <ul class="member_link">
+        <li><a href="<?php echo site_url();?>/?ptype=taxonomy_all_deal_tab"><?php _e('Deals','templatic');?></a>
+            <ul>
+				<?php $cat_args = array('orderby' => 'name','taxonomy'=>'deal-categorie','title_li' => __( '' ), ); 
+                if(wp_list_categories(apply_filters('widget_categories_args', $cat_args)) != ""){
+                ?>
+                <?php wp_list_categories(apply_filters('widget_categories_args', $cat_args));  ?>		
+                <?php } ?>
+            </ul>
+	  </li>  
+    </ul>
+	
+<?php
+}
+
+/************************************
+//FUNCTION NAME : templ_submitdeal_layout
+//ARGUMENTS : None
+//RETURNS : Layout of submit deal page
+***************************************/
+
+function templ_submitdeal_layout()
+{ 
+	if(get_option('ptthemes_sumit_post_layout') == 'Page 2 column - Right Sidebar'){ 
+		$classname = 'left';
+	}else if(get_option('ptthemes_sumit_post_layout') == 'Page 2 column - Left Sidebar'){
+	  $classname = 'right';
+	 }else{
+	  $classname = 'content_full';
+	 }
+	 return $classname;
+}
+
+if ( !function_exists( 'vt_resize') ) {
+	function vt_resize( $attach_id = null, $img_url = null, $width, $height, $crop = true ) {
+
+			// this is an attachment, so we have the ID
+			if ( $attach_id ) {
+
+			$image_src = wp_get_attachment_image_src( $attach_id, 'full' );
+			$file_path = get_attached_file( $attach_id );
+
+			// this is not an attachment, let's use the image url
+			} else if ( $img_url ) {
+
+			$file_path = parse_url( $img_url );
+			$file_path = $_SERVER['DOCUMENT_ROOT'] . $file_path['path'];
+
+			// Look for Multisite Path
+			if(file_exists($file_path) === false){
+			global $blog_id;
+			$file_path = parse_url( $img_url );
+			if (preg_match("/files/", $file_path['path'])) {
+			$path = explode('/',$file_path['path']);
+			foreach($path as $k=>$v){
+			if($v == 'files'){
+			$path[$k-1] = 'wp-content/blogs.dir/'.$blog_id;
+			}
+			}
+			$path = implode('/',$path);
+			}
+			if(basename($img_url) !='no-image73.png'){
+			
+			$file_path = $_SERVER['DOCUMENT_ROOT'].$path;
+			}else{
+			$file_path = $img_url;
+			}
+			}
+			$orig_size = getimagesize( $file_path );
+			
+			$image_src[0] = $img_url;
+			$image_src[1] = $orig_size[0];
+			$image_src[2] = $orig_size[1];
+			}
+
+			$file_info = pathinfo( $file_path );
+
+			// check if file exists
+			$base_file = $file_info['dirname'].'/'.$file_info['filename'].'.'.$file_info['extension'];
+			if ( !file_exists($base_file) )
+			return;
+
+			$extension = '.'. $file_info['extension'];
+
+			// the image path without the extension
+			$no_ext_path = $file_info['dirname'].'/'.$file_info['filename'];
+
+			$cropped_img_path = $no_ext_path.'-'.$width.'x'.$height.$extension;
+
+			// checking if the file size is larger than the target size
+			// if it is smaller or the same size, stop right here and return
+			if ( $image_src[1] > $width || $image_src[2] > $height) {
+
+			// the file is larger, check if the resized version already exists (for $crop = true but will also work for $crop = false if the sizes match)
+			if ( file_exists( $cropped_img_path ) ) {
+
+			$cropped_img_url = str_replace( basename( $image_src[0] ), basename( $cropped_img_path ), $image_src[0] );
+
+			$vt_image = array (
+			'url' => $cropped_img_url,
+			'width' => $width,
+			'height' => $height
+			);
+
+			return $vt_image;
+			}
+
+			// $crop = false or no height set
+			if ( $crop == false OR !$height ) {
+
+			// calculate the size proportionaly
+			$proportional_size = wp_constrain_dimensions( $image_src[1], $image_src[2], $width, $height );
+			$resized_img_path = $no_ext_path.'-'.$proportional_size[0].'x'.$proportional_size[1].$extension;
+
+			// checking if the file already exists
+			if ( file_exists( $resized_img_path ) ) {
+
+			$resized_img_url = str_replace( basename( $image_src[0] ), basename( $resized_img_path ), $image_src[0] );
+
+			$vt_image = array (
+			'url' => $resized_img_url,
+			'width' => $proportional_size[0],
+			'height' => $proportional_size[1]
+			);
+
+			return $vt_image;
+			}
+		}
+
+		// check if image width is smaller than set width
+		$img_size = getimagesize( $file_path );
+		if ( $img_size[0] <= $width ) $width = $img_size[0];
+
+		// Check if GD Library installed
+		if (!function_exists ('imagecreatetruecolor')) {
+		echo 'GD Library Error: imagecreatetruecolor does not exist - please contact your webhost and ask them to install the GD library';
+		return;
+		}
+
+		// no cache files - let's finally resize it
+		$new_img_path = image_resize( $file_path, $width, $height, $crop );
+		$new_img_size = getimagesize( $new_img_path );
+		$new_img = str_replace( basename( $image_src[0] ), basename( $new_img_path ), $image_src[0] );
+
+		// resized output
+		$vt_image = array (
+		'url' => $new_img,
+		'width' => $new_img_size[0],
+		'height' => $new_img_size[1]
+		);
+
+		return $vt_image;
+		}
+
+		// default output - without resizing
+		$vt_image = array (
+		'url' => $image_src[0],
+		'width' => $width,
+		'height' => $height
+		);
+
+		return $vt_image;
+	}
+}
+
+global $wpdb,$transection_db_table_name;
+function fetch_order_status($order_id){
+			global $wpdb,$transection_db_table_name; 
+			$status= $wpdb->get_var("select status from $transection_db_table_name where trans_id = '".$order_id."'");
+			if($status == 0){
+				$status_dis = "<span class='color_pending'>Pending</span>";
+			} else if($status == 2) {
+				$status_dis = "<span class='color_expire'>Canceled</span>";
+			} else if($status == 1) {
+				$status_dis = "<span class='color_active'>Approve</span>";
+			} 
+			return $status_dis;
+}
+function get_payment_method($method)
+		{
+			global $wpdb;
+			$paymentsql = "select * from $wpdb->options where option_name like 'payment_method_$method'";
+			$paymentinfo = $wpdb->get_results($paymentsql);
+			if($paymentinfo)
+			{
+				foreach($paymentinfo as $paymentinfoObj)
+				{
+					$paymentInfo = unserialize($paymentinfoObj->option_value);
+					return __('Pay with '.$paymentInfo['name']);
+				}
+			}
+		}
+		function get_order_detailinfo_tableformat($orderId,$isshow_paydetail=0)
+		{
+			global $Cart,$General,$wpdb,$transection_db_table_name;
+			$ordersql = "select * from $transection_db_table_name where trans_id=\"$orderId\"";
+			$orderinfo = $wpdb->get_results($ordersql);
+			$orderinfo = $orderinfo[0];
+
+			if($isshow_paydetail)
+			{
+				//$message = '<link rel="stylesheet" type="text/css" href="'.get_stylesheet_directory_uri().'/style.css" media="screen" />';
+				$message .= '<style>.address_info {width:400px;}</style>';
+			}
+			$billing_address = $orderinfo->billing_add;
+			$billing_address = str_replace(',',',<br />',$billing_address);
+
+			$shipping_address = $orderinfo->shipping_add;
+			$shipping_address = str_replace(',',',<br />',$shipping_address);
+
+			$message .='
+				<table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="border:0px;">
+					<tr>
+						<td colspan="2" align="left">		
+							<div class="order_info">
+								<p> <span class="span"> '. __('Order Number').' </span> : <strong>'.$orderinfo->trans_id.'  </strong>  <br />
+									<span class="span"> '. __('Order Date').' </span> : '.date(get_option('date_format').' '.get_option('time_format'),strtotime($orderinfo->ord_date)).' </p>
+									<p><span class="span">'. __('Order Status') .'</span>  : <strong>'.fetch_order_status($orderinfo->trans_id).'</strong> </p>
+							</div> <!--order_info -->
+						</td>
+					</tr>
+					<tr>
+						<td align="left" valign="top" colspan="2">
+							<div class="checkout_address" >
+								<div class="address_info address_info2  fl">
+									<h3>'.__('User Information').'</h3>
+									<div class="address_row"> <b>'.$orderinfo->billing_name.' </b></div>
+									<div class="address_row">'.$billing_address.' </div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" valign="top" colspan="2">
+							<div class="checkout_address" >
+								<div class="address_info address_info2 fr">
+									<h3> '. __('Shipping Address').'  </h3>
+									<div class="address_row"> <b>'.$orderinfo->shipping_name.'</b></div>
+									<div class="address_row">'.$shipping_address.'  </div>
+								</div>
+							</div><!-- checkout Address -->
+						</td>
+					</tr>			 
+					<tr>
+						<td align="left" valign="top" colspan="2">
+							<div class="checkout_address" >
+								<div class="address_info address_info2 fr">
+									<h3> '. __('Payment Information').'  </h3>									
+									<div class="address_row">'.get_payment_method($orderinfo->payment_method).'  </div>
+								</div>
+							</div><!-- checkout Address -->
+						 </td>
+					</tr>
+					<tr>
+						 <td align="left" valign="top" colspan="2">
+							<div class="address_info address_info2 fr">
+								<h3> '. __('Shipping Information').'  </h3>									
+								<div class="address_row">'.$orderinfo->shipping_method.'  </div>
+							</div><!-- checkout Address -->
+						 </td>	
+					</tr>
+				</table><br /><br />
+			 
+					 
+					  
+					  <h3>  '. __('Products Information').' </h3>
+					 
+					  <table width="100%" class="table " >
+ 					  <tr>
+					  <td width="5%" align="left" class="title" ><strong> '. __('Image').'</strong></td>
+					  <td width="45%" align="left" class="title" ><strong> '. __('Product Name').'</strong></td>
+					  <td width="23%" align="left" class="title" ><strong> '. __('Qty').'</strong></td>
+					  <td width="23%" align="left" class="title" ><strong> '. __('Prsdfice').'</strong></td>
+					  </tr>';
+					 
+					$prdsql = "select * from $wpdb->posts where ID=\"$orderinfo->post_id\"";
+					$prdsqlinfo = $wpdb->get_results($prdsql);
+					if($prdsqlinfo)
+					{ 
+						foreach($prdsqlinfo as $prdinfoObj)
+						{
+							$data = get_post_meta($prdinfoObj->pid,'key',true);
+							$product_name = $wpdb->get_var("select post_title from $wpdb->posts where ID=\"".$orderinfo->post_id."\"");
+							global $Product;
+							$post->ID=$orderinfo->post_id;
+							//$product_image_arr = $Product->get_product_image($post);
+							//$product_image = $product_image_arr[0];
+							get_post_meta($post->ID,'file_name',true);
+							$message .= '<tr>';
+									if(get_post_meta($post->ID,'file_name',true) != "") { 
+									$message .= '<td class="row1"><a href="'.get_permalink($orderinfo->post_id).'"><img src="'.templ_thumbimage_filter(get_post_meta($post->ID,'file_name',true),75,75).'" width=60 height=60 /></a></td>';
+									 }else{
+									$message .= '<td class="row1"><img src="'.get_template_directory_uri().'/images/no-image.png" width=60 height=60 /></td>';
+									}									 
+									$message .= '  <td class="row1" ><strong><a href="'.get_permalink($orderinfo->post_id).'">'.$product_name.'</a>';
+									  if($prdinfoObj->pdesc)
+									  {
+										$message .= '('.$prdinfoObj->pdesc.')';		  
+									  }
+									  if($data['model'])
+									 {
+										$message .= '<br>'.__('code : ').$data['model'];
+									 }
+									 
+							$totalprc = $orderinfo->payable_amt;
+							$message .='</strong></td>
+									  <td class="row1 " align="left" >1</td>
+									  <td class="row1 tprice"  align="left">'.($totalprc).'</td>
+									  </tr>';
+					  }
+					}
+			
+			if($orderinfo->discount_amt>0)
+			{
+			$message .= '<tr>
+					  <td colspan="4" align="right" class="row1" ><strong> '. __('Discount Amount').' :</strong> </td>
+					  <td class="row1 tprice">- '.$this->get_amount_format($orderinfo->discount_amt).'</td>
+					  </tr>';
+			}
+			if($orderinfo->shipping_amt>0)
+			{
+			$message .= '<tr>
+					  <td colspan="4" align="right" class="row1" ><strong>'.$orderinfo->shipping_method .'  '. __('Amount').' :</strong> </td>
+					  <td class="row1 tprice">+ '.$this->get_amount_format($orderinfo->shipping_amt).'</td>
+					  </tr>';
+			}
+			if($orderinfo->tax_amount>0)
+			{
+			$message .= '<tr>
+					  <td colspan="4" align="right" class="row1" ><strong> '. $orderinfo->tax_desc .' : </strong></td>
+					  <td class="row1 tprice">+ '.$this->get_amount_format($orderinfo->tax_amount).'</td>
+					  </tr>';
+			}
+			$message .= '<tr>
+					  <td colspan="3" align="right" class="row2" ><strong> '. __('Total Payable Amount').' :</strong>  </td>
+					  <td class="total_price" ><strong>'.$orderinfo->payable_amt." ".get_option('currency_sym').'</strong></td>
+					  </tr>';
+			if($orderinfo->ord_desc_client)
+			{
+			$message .= '<tr><td colspan="4" height="10"  align="left" ></td></tr><tr>
+					  <td colspan="1"  align="left" ><strong> '. __('Order&nbsp;Comments').'&nbsp;:</strong>  </td>
+					  <td colspan="3" align="left" >'.nl2br(stripslashes($orderinfo->ord_desc_client)).'</td>
+					  </tr><tr><td colspan="4" height="10"  align="left" ></td></tr>';
+					  
+			}
+			if($isshow_paydetail)
+			{
+				if($payment_info['paydeltype'] == 'prebanktransfer')
+				{
+					$order_id = $order_info['order_id'];
+					$order_amt = $order_info['payable_amt'];
+					$paymentupdsql = "select option_value from $wpdb->options where option_name='payment_method_".$payment_info['paydeltype']."'";
+					$paymentupdinfo = $wpdb->get_results($paymentupdsql);
+					$paymentInfo = unserialize($paymentupdinfo[0]->option_value);
+					$payOpts = $paymentInfo['payOpts'];
+					$bankInfo = $payOpts[0]['value'];
+					$accountinfo = $payOpts[1]['value'];
+				$message .= ' 
+						   <p> '. __('Please transfer amount of').' <u>'.$order_payable_amt.'</u>  '. __('to out bank with following information').':</p>
+						 <p>  '. __('payment for Order Number').' : '. $order_id.' &nbsp;&nbsp;('. date(get_option('date_format').' '.get_option('time_format'),strtotime($order_info['order_date'])).')</p>
+						 <p> '. __('Bank Name').' : '. $bankInfo.'</p>
+						 <p> '. __('Account Number').' : '.$accountinfo.'</p>
+						 
+						   ';
+				}
+			}
+			$message .='</table>
+					  ';
+			return $message;
+		}
+
+?>
+<?php
+/**
+ * Adds MP_SEO_Widget widget.
+ */
+class MP_SEO_Widget extends WP_Widget {
+
+	/**
+	 * Register widget with WordPress.
+	 */
+	public function __construct() {
+		parent::__construct(
+	 		'MP_SEO_Widget', // Base ID
+			'MP_SEO_Widget', // Name
+			array( 'description' => __( 'A SEO Widget', 'templatic' ), ) // Args
+		);
+	}
+
+	/**
+	 * Front-end display of widget.
+	 *
+	 * @see WP_Widget::widget()
+	 *
+	 * @param array $args     Widget arguments.
+	 * @param array $instance Saved values from database.
+	 */
+	public function widget( $args, $instance ) {
+		extract( $args );
+		$title = apply_filters( 'widget_title', $instance['title'] );		
+		global $post;
+		$categories = wp_get_object_terms($post->ID, 'seller_tags');	
+		if(!empty($categories)){
+			$term = $categories[0];
+			$term_meta = get_option('taxonomy_'.$term->term_id);
+			if(isset($term_meta['enable_seo_text']) && $term_meta['enable_seo_text'] == 1){
+				echo '<div class="mp_seo">';
+				echo $before_widget;
+				echo $before_title . ucfirst($term->name). $after_title;
+				echo $term_meta['seo_text'];
+				echo $after_widget;
+				echo '</div>';
+			}
+		}
+	}
+
+	/**
+	 * Sanitize widget form values as they are saved.
+	 *
+	 * @see WP_Widget::update()
+	 *
+	 * @param array $new_instance Values just sent to be saved.
+	 * @param array $old_instance Previously saved values from database.
+	 *
+	 * @return array Updated safe values to be saved.
+	 */
+	public function update( $new_instance, $old_instance ) {
+		$instance = array();
+		$instance['title'] = strip_tags( $new_instance['title'] );
+
+		return $instance;
+	}
+
+	/**
+	 * Back-end widget form.
+	 *
+	 * @see WP_Widget::form()
+	 *
+	 * @param array $instance Previously saved values from database.
+	 */
+	public function form( $instance ) {
+		if ( isset( $instance[ 'title' ] ) ) {
+			$title = $instance[ 'title' ];
+		}
+		else {
+			$title = __( 'SEO', 'templatic' );
+		}
+		?>
+		<p>
+		<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label> 
+		<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
+		</p>
+		<?php 
+	}
+
+} // class MP_SEO_Widget
+add_action( 'widgets_init', create_function( '', 'register_widget( "MP_SEO_Widget" );' ) );
+
+	/**
+	* Begin custom default content for custom deal post type.
+	* Developer: PhuHM
+	**/
+	
+	function mp_default_deal_tab_content( $content ) {
+		$content = '';
+		if( $_GET['post_type'] == 'seller' ) {
+			$content = "[tab:". __( 'Over deze deal', 'templatic' ) ."]<br/>[tab:". __( 'Meer informatie', 'templatic' ) ."]<br/>[tab:END]";
+		}
+		return $content;
+	}
+	add_filter( 'default_content', 'mp_default_deal_tab_content' );
+	
+	/***** Most important info shortcode *****/
+	function mp_most_important_info_shortcode($atts, $content=null) {
+		return '<div class="mp-most-important-info">'.$content.'</div>';
+	}
+
+	add_shortcode('most_important_info','mp_most_important_info_shortcode'); 
+?>

@@ -1,0 +1,745 @@
+June  30  2012 (v:2.1.4)
+-------------------------
+set timing - Done
+-------------------------
+/js/timer.js
+
+-----------------------------------------------------------------
+changes the query regarding to delete record
+-----------------------------------------------------------------
+/monetize/deal/deal_expire.php
+
+-------------------------------------------------------------------
+Affiliate profile page Giving 404 Error - Solved
+-------------------------------------------------------------------
+/monetize/affiliates/affiliate_reg.php
+/library/functions/widgets.php
+
+-------------------------------------------------------------
+time slider were  draggable in opera and ie
+-------------------------------------------------------------
+/index.php
+/single-seller.php
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+after making recent deal from active to accept than previously active deal not displaying on home page
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+/index.php
+
+
+June 04 2012 (v:2.1.3)
+----------------------------------------------------------------------------------------------------------------------------------------
+create an affiliate role and user role change to affiliate if user is registered through affiliate link
+----------------------------------------------------------------------------------------------------------------------------------------
+/functions.php
+/monetize/affiliates/affiliate_reg.php
+
+--------------------------------------------------------------
+prebanktransfer and cash on delivery issue
+--------------------------------------------------------------
+/monetize/deal/success.php
+/monetize/report/admin_deal_report.php
+/monetize/report/admin_transaction_report.php
+/monetize/report/ajax_set_status.php
+/monetize/deal/paynow.php
+
+------------------------------------------------------------
+Date Format field removed from backend.
+------------------------------------------------------------
+/library/functions/theme_options/theme-options.xml
+
+
+May 17  2012 (v:2.1.2)
+-------------------------------------------------
+mail after reach at max_purchase
+-------------------------------------------------
+/monetize/deal/paynow.php
+
+-----------------------------------
+daily deal security issue
+-----------------------------------
+/monetize/deal/ajax_delete_deal.php
+
+--------------------------------------------------------------------------
+slashes are added in terms and conditions textarea,
+author page 404 with postname permalink
+--------------------------------------------------------------------------
+/monetize/affiliates/affiliate_reg.php
+/monetize/affiliates/affiliates_settings.php
+
+----------------
+remove xit;
+----------------
+/monetize/deal/paynow.php
+
+--------------------------
+image not display
+--------------------------
+/library/functions/custom_functions.php
+
+
+
+May 04 2012 (v:2.1.1)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+current post link in mail, problem while inserting Google analytics code, author page counter not work, changes in deal report and 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+/monetize/send_to_friend/email_friend_frm.php
+/admin/theme_options/functions/admin/textarea.php
+/monetize/author_detail/author_detail.php
+/admin/widgets/login.php
+/library/functions/custom_functions.php
+/monetize/deal/all_deal.php
+/monetize/report/admin_transaction_report.php
+
+
+March 28 2012(v:2.1.0)
+-------------------------------------------------
+no deals listing on author page in deal provided tab - solved
+-------------------------------------------------
+monetize/author_detail/deal_provided.php
+
+March 21 2012(v:2.1.0)
+---------------------------------------
+Added some new featurs in the theme
+---------------------------------------
+1. Affiliate module
+2. Sold Out Feature
+3. Layout option for post-deal page.
+4. Registration mail issue: solved
+5. Localization Improved
+6. User profile improved.
+-----------------------------------------
+March 21st 2012 (v:2.0.7)
+-------------------------------------------------
+fetching and validating the custom fields - Solved
+-------------------------------------------------
+monetize/deal/post_deal.php
+monetize/deal/submition_validation.php
+
+March 19th 2012 (v:2.0.7)
+-------------------------------------------------
+Textarea custom field not working - Solved
+-------------------------------------------------
+/themes/Dailydeal/monetize/deal/post_deal.php
+
+Feb 22nd 2012 (v:2.0.7)
+-------------------------------------------------
+Registration mail not getting fired
+-------------------------------------------------
+monetize/registration/registration.php
+
+
+Feb 9th 2012(v:2.0.8)
+-------------------------------------------------
+authorize.net pop up not working in ie7,ie8
+--------------------------------------------
+monetize/deal/pay_form.php
+
+Comments issue on deal page
+---------------------------------
+single_seller.php
+
+
+Jan 7th 2012 (v:2.0.7)
+-------------------------------------------------
+Updated Yoast Breadcrumbs
+-------------------------------------------------
+admin/breadcrumbs
+
+December 26th, 2011(v:2.0.6)
+--------------------------------------------------------------------
+when there is not any active deal then home page is broken -- Solved
+--------------------------------------------------------------------
+index.php
+
+
+December 17th, 2011(v:2.0.6)
+-----------------------------------------------------
+not working in wordpress 3.3 post custom fields
+-----------------------------------------------------
+monetize/manage_custom_fields/admin_manage_custom_fields_edit.php
+
+November 17th, 2011(v:2.0.5)
+-----------------------------------------------------
+Solve issue regarding expired date
+-----------------------------------------------------
+single_seller.php
+
+----------------------------------------------------
+Add email 
+ to buyer when purchase the deal
+------------------------------------------------------
+monetize/deal/pay_now.php
+
+------------------------------------------------------
+Chnages related to minur changes in time and display deal on home page
+-----------------------------------------------------
+
+theme/dailydeal/index.php
+theme/dailydeal/library/functions/deal_widget.php
+
+theme/dailydeal/monetize/deal/all_deal.php
+theme/dailydeal/monetize/deal/live_deal.php
+
+
+November 12th, 2011(v:2.0.4)
+---------------------------------------------
+Change the link of index.php and single_seller.php
+---------------------------------------------
+theme/index.php
+theme/single_seller.php
+
+
+November 8th, 2011(v:2.0.3)
+--------------------------------------------------------
+Chanegs related to pay form and singal seller
+--------------------------------------------------------
+
+singal-seller.php
+
+monetize/deal/pay_form.php
+monetize/deal/buy_deal_validation.js
+
+
+November 7th, 2011 (v:2.0.2)
+------------------------------------------------------
+(Custom post field not display on single page -- SOLVED) 
+---------------------------------------------------------
+theme/dailydeal/single-seller.php
+
+---------------------------------------------------------
+changes in timer related to year
+--------------------------------------------------------
+theme/js/timer.js
+
+theme/dailydeal/single-seller.php
+theme/dailydeal/index.php
+theme/dailydeal/library/functions/deal_widget.php
+
+theme/dailydeal/monetize/deal/all_deal.php
+theme/dailydeal/monetize/deal/live_deal.php
+
+
+November 4th 2011(v.2.0.1)
+-----------------------------------
+fix issue for index page deal + in all pages related
+-----------------------------------------------------
+theme/js/timer.js
+
+theme/single-seller.php
+theme/index.php
+
+theme/monetize/deal/all_deal.php
+theme/monetize/deal/live_deal.php
+
+theme/library/functions/deal_widget.php
+theme/library/functions/custom_filters.php
+
+November 2nd 2011(fix timer issue)
+----------------------------------------------------
+Solve timer issue related to timezone
+-----------------------------------------------------
+theme/js/timer.js
+
+theme/taxonomy-seller_category.php
+theme/single-seller.php
+theme/index.php
+
+theme/monetize/deal/all_deal.php
+theme/monetize/deal/live_deal.php
+
+theme/library/functions/deal_widget.php
+--------------------------------------------------------
+Solve Authorize.net issue using SIM method
+--------------------------------------------------------
+
+/*---- Replace following files ---*/
+
+monetize/deal/response.php
+monetize/deal/function_deal.php
+monetize/deal/pay_form.php
+monetize/deal/pay_NOW.php
+
+
+/*----Replace with following folder----*/
+
+library/includes/payment/authorizenet(This is folder)
+
+
+
+
+October 24th, 2011 (Change provided by custom web link  -- SOLVED) (v:2.0.0)
+-----------------------------------------------------------------------------------------------------
+theme/dailydeal/single-seller.php
+theme/dailydeal/index.php
+theme/dailydeal/library/functions/deal_widget.php
+theme/dailydeal/monetize/author_detail/author_detail.php
+theme/dailydeal/monetize/deal/all_deal.php
+theme/dailydeal/monetize/deal/expired_deal.php
+theme/dailydeal/monetize/deal/live_deal.php
+
+October 21th,2011(In voucher page if voucher download is invalid then change redirection issue, Buyer mail have no link for coupon)(v:2:0:0)
+------------------------------------------------------------------------------------
+monetize/deal/return.php
+monetize/deal/voucher.php
+
+October 20th,2011 (In author transaction page, deal detail was not shown properly -- Solved)(v:1.1.9)
+---------------------------------------------------------------------------------------------------------------
+monetize/author_detail/transaction_detail.php
+style.css
+
+
+October 19th,2011 (removing paypal transaction id -- Solved) (v:1.1.9)
+---------------------------------------------------------------------------------------------------------------
+monetize/deal/return.php
+
+
+October 19th,2011 (Payment method Authorize.net options was not displaying in IE -- Solved) (v:1.1.9)
+---------------------------------------------------------------------------------------------------------------
+monetize/deal/pay_form.php
+
+
+October 18th,2011 (mail address change from buyer to admin email and name -- solved) (v:1.1.9)
+---------------------------------------------------------------------------------------------------------------
+monetize/deal/return.php
+monetize/deal/paynow.php
+
+October 17th,2011 (Deal detail page was not displaying <p> and all other tags -- solved) (v:1.1.9)
+---------------------------------------------------------------------------------------------------------------
+single-seller.php
+
+
+October 17th,2011 (pagination not working in deal tab --- solved) (v:1.1.8)
+----------------------------------------------------------------------------------------------------------------
+style.css
+
+October 13th,2011 (if maximum purchase is not set than redirect to payment method selected --- solved) (v:1.1.8)
+----------------------------------------------------------------------------------------------------------------
+moenetize/deal/paynow.php
+moenetize/deal/pay_form.php
+
+October 13th,2011 (if deal set to continues than deal expire & Two buy now button is showing--- solved) (v:1.1.8)
+-----------------------------------------------------------------------------------------------------------------
+library/functions/deal_widget.php
+moenetize/deal/all_deal.php
+moenetize/deal/live_deal.php
+
+October 11th,2011(buy now button not showing in category wise deal widget -- solved)(v:1.1.7)
+----------------------------------------------------------------------
+library/functions/deal_widget.php
+
+October 10th,2011(mail to buyer -- solved)(v:1.1.7)
+----------------------------------------------------------------------
+monetize/deal/return.php
+
+October 10th,2011(adding voucher field -- solved)(v:1.1.7)
+----------------------------------------------------------------------
+monetize/manage_custom_fields/db_mange_custom_fields.php
+monetize/deal/voucher.php
+
+October 7th, 2011 (Change provided by link to seller name instead of author name -- SOLVED) (v:1.1.7)
+-----------------------------------------------------------------------------------------------------
+theme/dailydeal/single-seller.php
+theme/dailydeal/index.php
+theme/dailydeal/monetize/deal/post_deal_mail.php
+theme/dailydeal/library/functions/deal_widget.php
+theme/dailydeal/monetize/author_detail/author_detail.php
+theme/dailydeal/monetize/deal/all_deal.php
+theme/dailydeal/monetize/deal/expired_deal.php
+theme/dailydeal/monetize/deal/live_deal.php
+theme/dailydeal/monetize/deal/index.php
+
+
+October 3rd, 2011 (images not showing in widget Post with image and date -- SOLVED) (v:1.1.7)
+--------------------------------------------------------------------------
+admin/widgets/latest_posts.php
+
+
+October 1st, 2011 (feed burner not showing email -- SOLVED) (v:1.1.7)
+--------------------------------------------------------------------------
+library/functions/widget.php
+
+
+September 30th, 2011 (rss feed multipe title -- SOLVED) (v:1.1.7)
+--------------------------------------------------------------------------
+admin/functions/custom_functions.php
+
+
+September 29th, 2011(header background problem for single page)-- SOLVED) (v:1.1.7)
+-------------------------------------------------------------------------------------
+skins/1-default.css
+skins/2-green.css
+skins/3-orange.css
+skins/4-purple.css
+skins/5-black.css
+
+September 29th, 2011 (Change the order of the deal purchased (newest first) -- SOLVED) (v:1.1.7)
+--------------------------------------------------------------------------
+monetize/author_detail/deal_purchased.php
+
+
+September 28th, 2011 (Applying link to the post title -- SOLVED) (v:1.1.7)
+--------------------------------------------------------------------------
+monetize/deal/pay_form.php
+
+
+September 28th, 2011 (when add plugins for gravity form, its not working properly -- SOLVED) (v:1.1.7)
+--------------------------------------------------------------------------
+admin/theme_options/option_settings.php
+functions.php
+
+
+September 27, 2011 (deal reached its maximum limit than also mail fired -- Solved) (V: 1.1.6)
+--------------------------------------------------------------------------
+monetize/deal/paynow.php
+
+
+September 27, 2011 (review not posting -- Solved) (V: 1.1.6)
+--------------------------------------------------------------------------
+single-seller.php
+
+September 26, 2011 (Favicon icon was not working -- Solved) (V: 1.1.6)
+--------------------------------------------------------------------------
+header.php
+
+
+September 26, 2011 (registration mail goes blank when client register from buy now page.-- Solved) (V: 1.1.5)
+--------------------------------------------------------------------------
+monetize/deal/paynow.php
+
+
+September 26, 2011 (SSL problem in twitter and facebook links.-- Solved) (V: 1.1.5)
+--------------------------------------------------------------------------
+admin/functions/custom_functions.php
+
+
+September 24, 2011 (Deal name and price on buy now page.-- Solved) (V: 1.1.5)
+--------------------------------------------------------------------------
+monetize/deal/pay_form.php
+
+
+September 24, 2011 (when breadcrumb sign change from admin side then it should apply for all user coded page -- Solved) (V: 1.1.5)
+--------------------------------------------------------------------------
+author.php
+monetize/deal/pay_form.php
+monetize/deal/post_deal.php
+monetize/deal/return.php
+monetize/deal/success.php
+monetize/deal/taxonomy_all_deal_tab.php
+monetize/deal/taxonomy_expired_deal_tab.php
+monetize/deal/taxonomy_live_deal_tab.php
+monetize/registration/profile.php
+monetize/registration/registration.php
+library/functions/custom_filters.php
+
+September 24, 3011 (If the deal type is coupon - email/print-product then only the shipping address will display on voucher.-- Solved) (V: 1.1.4)
+--------------------------------------------------------------------------
+monetize/deal/voucher.php
+
+
+September 22, 3011 (In buy deal, when login, then page redirect home page -- Solved) (V: 1.1.4)
+--------------------------------------------------------------------------
+monetize/deal/login_frm.php
+monetize/registration/registration.php
+
+
+September 17, 2011 (untill deal does not reached its limit do not show on listing & customized the couple link properly -- Solved)(V: 1.1.4)
+--------------------------------------------------------------------------
+monetize/deal/return.php
+
+
+September 17, 2011 (removing extra text while processing through paymnent method -- Solved)(V: 1.1.4)
+--------------------------------------------------------------------------
+monetize/deal/paynow.php
+
+September 17, 2011 (untill deal does not reached its limit do not show on listing -- Solved)(V: 1.1.4)
+--------------------------------------------------------------------------
+monetize/author_detail/deal_purchased.php
+
+
+September 17, 2011 (deal limit reached its limit showing print option -- Solved)(V: 1.1.4)
+--------------------------------------------------------------------------
+monetize/author_detail/deal_purchased.php
+
+
+September 13, 2011 (In buy deal form solve breadcrumb problem -- Solved)(V: 1.1.4)
+--------------------------------------------------------------------------
+monetize/deal/pay_form.php
+header.php
+
+
+September 13, 2011 (link of coupon code hide till not reached to its limit)(V: 1.1.3)
+-------------------------------------------
+monetize/deal/return.php
+
+
+September 13, 2011 (expired condition - issue solved)(V: 1.1.3)
+-------------------------------------------
+index.php
+monetize/deal/all_deal.php
+monetize/deal/functions_deal.php
+
+September 13, 2011 (unique coupon code for a particular deal - issue solved)(V: 1.1.3)
+-------------------------------------------
+monetize/deal/paynow.php
+
+September 12, 2011 (end date and category not saving - issue solved)(V: 1.1.3)
+-------------------------------------------
+monetize/deal/post_deal.php
+monetize/deal/preview.php
+monetize/deal/post_deal_mail.php
+
+
+September 10, 2011 (V: 1.1.3)
+---------------------------------------------------------------------------------------------------
+In general setting, the option for background color and background image was not working -- Solved
+---------------------------------------------------------------------------------------------------
+admin/add_style.php
+skins/1-default.css
+skins/2-green.css
+skins/3-orange.css
+skins/4-purple.css
+skins/5-black.css
+
+September 09, 2011 (showing author detail - issue solved)(V: 1.1.2)
+-------------------------------------------
+monetize/author_detail/transaction_detail.php
+
+September 09, 2011 (coupon code not generating - issue solved)(V: 1.1.2)
+-------------------------------------------
+library/functions/custom_filters.php
+monetize/author_detail/transaction_detail.php
+monetize/deal/all_deal.php
+monetize/deal/preview.php
+monetize/deal/paynow.php
+
+
+September 08, 2011 (V: 1.1.2)
+Background was not displayed in deal detail page and category listing page -- Solved 
+In search result not found text box was not display properly and archive and category list css was messed up -- Solved
+----------------------------------------------------------------------------
+style.css
+skins/1-default.css
+skins/2-green.css
+skins/3-orange.css
+skins/4-purple.css
+skins/5-black.css
+
+
+September 05, 2011 (shipping not added in product's price - issue solved)
+-------------------------------------------
+language.php
+library/functions/deal_widget.php
+monetize/author_detail/author_detail.php
+monetize/deal/all_deal.php
+monetize/deal/expired_deal.php
+monetize/deal/live_deal.php
+monetize/deal/paynow.php
+single-seller.php
+
+August 30, 2011 (registration mail goes without any content) (V: 1.1.1)
+------------------------------------------------------------
+monetize/deal/post_deal_mail.php
+monetize/registration/registration.php
+
+
+August 30, 2011 (Purchase Limit exceed) (V: 1.1.1)
+------------------------------------------------------------
+monetize/deal/lang_deal.php
+monetize/deal/pay_form.php
+
+
+August 30, 2011 (registration mail) (V: 1.1.1)
+------------------------------------------------------------
+monetize/registration/registration.php
+monetize/registration/registration_form.php
+
+
+August 30, 2011 (Error showing when End date not selected) (V: 1.1.1)
+------------------------------------------------------------
+monetize/deal/live_deal.php
+
+August 26, 2011(put condition for SSL)
+--------------------------------------------------
+
+monetize/deal/taxonomy_expired_deal_tab.php
+monetize/deal/taxonomy_live_deal_tab.php
+monetize/deal/taxonomy_all_deal_tab.php
+monetize/send_to_friend/popup_frms.php
+
+August 26, 2011(language variable for sentofriend module)
+-----------------------------------------------------------------------
+language.php
+
+August 26, 2011(on submit deal page there is problem with digital product upload)
+------------------------------------------------------------------------------------
+monetize/deal/paynow.php
+monetize/deal/preview.php
+monetize/deal/pay_form.php
+monetize/deal/success_deal.php
+monetize/deal/post_deal_mail.php
+==============================================================================
+
+August 25, 2011(solve coupon_end_date_time warrning)
+----------------------------------------------------------------------------------
+index.php
+
+August 25, 2011(when deal continue then never insert coupon_end_date_time, problem with upload digital product)
+----------------------------------------------------------------------------------------------------------------
+custom_filter.php
+
+August 25, 2011(when continue deal single-seller page have no buynow button)
+-------------------------------------------------------------------------------
+single-seller.php
+
+August 25, 2011(when continue deal there is no condition for expiredeal)
+----------------------------------------------------------------------------
+librabry/function/deal_widget.php
+
+August 25, 2011(add one language variable for continue deal)
+----------------------------------------------------------------------
+language.php
+
+August 25, 2011(add class for related deal)
+-------------------------------------------------------------
+style.css
+
+August 25, 2011(on deal purchased page solve issue for download link)
+monetize/author_detail/deal_purchased.php
+
+============================================================================
+
+August 20, 2011(Update Framework remove link from admin)
+function.php
+monetize\author_detail\deal_purchased.php  
+monetize\deal\return.php  
+monetize\deal\lang_add.php  
+monetize\deal\pay_now.php 
+monetize\deal\pay_form.php 
+library\functions\widgets.php
+
+August 20, 2011(Google Map)
+library/functions/theme_options/theme_options.xml
+library/map/location_add_map.php
+
+
+August 19, 2011 (localization issues solved)
+searchform.php  
+footer.php  
+taxonomy-seller_category.php  
+author.php  
+monetize\author_detail\deal_provided.php  
+monetize\author_detail\deal_purchased.php  
+monetize\author_detail\author_detail.php  
+monetize\author_detail\transaction_detail.php  
+Deleted: E:\Final Themes\DailyDeal\monetize\deal\deals.php  
+monetize\deal\ajax_delete_deal.php  
+monetize\deal\deal_provided.php  
+monetize\deal\cancel.php  
+monetize\deal\functions_deal.php  
+monetize\deal\all_deal.php  
+monetize\deal\lang_deal.php  
+monetize\deal\index.php  
+monetize\deal\author_details.php  
+monetize\deal\post_deal.php  
+search.php  
+library\functions\deal_widget.php  
+tpl_sitemap.php  
+tpl_contact.php  
+language.php  
+tpl_archives.php  
+single_blog.php  
+comments.php
+
+
+
+-------------------------------------
+
+
+August 18, 2011 (Facebook button style change)
+admin/functions/custom_functions.php
+
+August 18, 2011 (Single seller page related post link not working)
+single-seller.php
+
+
+August 18, 2011(localization)
+monetize/deal/all_deal.php
+monetize/deal/live_deal.php
+monetize/deal/expired_deal.php
+monetize/deal/post_deal.php
+monetize/deal/preview.php
+monetize/deal/success_deal.php
+monetize/deal/lang_deal.php
+monetize/deal/voucher.php
+monetize/deal/return.php
+index.php
+single-seller.php
+library/functions/deal_widget.php
+
+
+August 17, 2011 (hide author name when author name is disable from admin side for deal dlisting- issue solved)
+--------------------
+monetize/deal/all_deal.php
+monetize/deal/live_deal.php
+monetize/deal/expired_deal.php
+
+
+August 17, 2011 (hide author name when author name is disable from admin side for deal deatil- issue solved)
+--------------------
+library/functions/single-seller.php
+
+
+August 17, 2011 (showing _ in Buy now button- issue solved)
+--------------------
+library/functions/deal_widget.php
+
+
+August 17, 2011 (mail should be sent after payment- issue solved)
+--------------------
+monetize/deal/return.php
+monetize/deal/paynow.php
+
+
+August 17, 2011 (footer script not render - issue solved)
+--------------------
+footer.php
+
+
+August 12, 2011(Currency code - issue solved)
+-----------------------
+library/functions/theme-options/theme-options.xml
+
+
+August 9, 2011 (v: 1.0.1)
+--------------------------------------------------------------------------------------------
+when view site and Show Admin Bar is selected then breadcrumb formating is changed -- SOLVED
+---------------------------------------------------------------------------------------------
+style.css
+
+
+August 8, 2011 (auto generate of coupon code solved when a single coupon is selected - issue solved)
+--------------------
+library/functions/custom_filters.php
+
+
+
+August 8, 2011 (custom taxonomy widget dropdown - issue solved)
+--------------------
+library/functions/widget.php
+
+
+
+August 5, 2011 (sub categories in submit deal page - issue solved)
+--------------------
+monetize/deal/post_deal.php
+
+
+
+August 3, 2011
+--------------------
+Fresh release
+
+
+
+

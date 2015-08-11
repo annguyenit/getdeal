@@ -1,0 +1,550 @@
+/*----------------------------------------------------------------------------------
+	1. body, common classes, structure etc
+----------------------------------------------------------------------------------*/
+body { background:#f0f2f3; color:#6a6a6a; }
+a { outline:none; color:#d14000; }
+a:hover { color:#272a2c; }
+h1,h2,h3,h4,h5,h6 { color:#272a2c; }
+
+.registration_form_box .button_cancel { color:#d14000;  }
+.registration_form_box .button_cancel:hover { color:#272a2c;  }
+
+
+hr{ border:0px; border-top:1px solid #e0e0e0; color:#e0e0e0; }
+
+/* structure =========================================*/
+.main_nav_in { border-top: 1px solid #d9d9d9; border-bottom: 1px solid #d9d9d9; }
+.footer { background:#fff; border-top: 1px solid #f0f2f3; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	2. Header Styles
+/*-----------------------------------------------------------------------------------*/
+.blog-title a { color:#333;  }
+.blog-title a:hover { color:#666;  }
+.site-title a { color:#fff; text-shadow:1px 1px 1px #63260d;}
+.site-description { color:#f5aa88; }
+
+.site-description .textwidget { color: #656363; }
+
+.blog, body.home{ background:#f0f2f3 url(3-orange/header5.jpg) repeat-x left top ;  }
+/* header right side ------------------- */ 
+.page-template, .error404, .search-results, .search-no-results, .author, .single-post,
+.page-child, .category, .logged-in, .tag, .tax-seller_tags, .page-parent, .tax-seller_category, .single-seller, .page-template-default { background:#f0f2f3 url(3-orange/inner_header.jpg) repeat-x left top;  }
+.inner { background:#fff url(3-orange/bottom_line.png) repeat-x scroll center bottom; }
+
+/* Banner section ------------------- */ 
+#banner { background:url(3-orange/header5.png) repeat-x center; }
+.top_content .widget  h1 { color:#fff; text-shadow:1px 1px 1px #783000;  }
+.top_content .widget .textwidget p { color:#f8b288; text-shadow:1px 1px 1px #783000; }
+
+.login_area { color:#eaeaea; }
+.login_area span { color:#bebebd; }
+.login_area a { color:#f8b288;  }
+.login_area a:hover { color:#fff; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	3. Navigation & Menus - Top Menu
+/*-----------------------------------------------------------------------------------*/
+.top_navigation_in ul li a { color:#f8b288; text-shadow:1px 1px 1px #363d32; background:url(3-orange/bullet.png) no-repeat right; }
+.top_navigation_in ul li a:hover { color:#fff; text-shadow:none; }  
+.top_navigation_in ul li a.active{ color:#fff; text-shadow:none; }
+.top_navigation_in ul.member_link li.bgn a { background:none !important;}
+.submitdeal li a { color:#f8b288;  text-shadow:1px 1px 1px #363d32; background:url(3-orange/bullet.png) no-repeat right; }
+.submitdeal li a:hover { color:#fff; }
+
+
+.top_navigation_in ul li ul { background:#b93a01; -moz-box-shadow: 1px 1px 1px #f6773f; -webkit-box-shadow: 1px 1px 1px #f6773f; box-shadow: 1px 1px 1px #f6773f;}
+.top_navigation_in ul li ul li a { text-shadow:none; }
+.top_navigation_in li:hover a {  text-shadow:none; }
+.top_navigation_in li:hover ul li a { background:none; }
+
+.top_navigation_in ul li.current_page_item a:hover, .top_navigation_in ul li:hover.current_page_item a, .top_navigation_in ul li:hover.current_page_ancestor a { color:#fff;   }
+.top_navigation_in ul li:hover.current_page_item ul li a { color:#f8b288; background:none; }
+.top_navigation_in ul li:hover.current_page_item ul li a:hover { color:#fff; background:none; }
+
+.top_navigation_in ul li:hover.current_page_ancestor ul li a { color:#f8b288; background:none; }
+.top_navigation_in ul li:hover.current_page_ancestor ul li a:hover { color:#fff; background:none; }
+
+.top_navigation_in ul li ul li ul { background:#b93a01; }
+.top_navigation_in ul li ul li ul li ul { background:#b93a01;  }
+.top_navigation_in ul li.current_page_item a, .top_navigation_in ul li.current_page_parent a, .top_navigation_in ul li.current_page_ancestor ul li.current_page_item a { color:#fff;  }
+.top_navigation_in ul li.current_page_ancestor a { color:#fff; }
+.top_navigation_in ul li.current_page_ancestor ul li a { color:#f8b288; }
+.top_navigation_in ul li.current_page_ancestor ul li a:hover { color:#055b99; }
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	4. Main Content Styles
+/*-----------------------------------------------------------------------------------*/
+/* breadcrumb --------------------------- */
+.breadcrumb_in{ color:#fff; }
+.breadcrumb_in a{ color:#fff; }
+.breadcrumb_in a:hover{ color:#ffd9c4; }
+
+/*** Images  --------------------------- */
+.post-content .wp-caption {background: #f1f1f1; }
+.post-content .wp-caption p.wp-caption-text {color: #888; }
+.post-content .gallery .gallery-item img { border: none !important;}
+.post-content .gallery .gallery-caption {color: #888; }
+
+/*** Content ============================================================ ***/
+.content-title { border-bottom:3px solid #d9d9d9; }
+.content-title a {color: #000; }
+.content-title span {color: #d9d9d9;}
+.content-title span a {color: #d9d9d9; }
+.content-title span a:hover {color: #000; }
+#mode { background: url("../images/mode.png") 0 0 no-repeat; }
+.flip {background-position: 0 100% !important;}
+
+.list .post { border-bottom: 1px solid #d9d9d9; }
+.list .post .thumb img {}
+.list .post .post-category { color: #d9d9d9; }
+.list .post h2, .list .post h2 a {color: #000; }
+.list .post .post-meta { color: #aaa9a9; }
+.list .post .post-meta span, .list .post .post-meta a {color: #000; }
+
+.entry .post-meta , h1.singleh1 { border-bottom: 3px solid #d9d9d9; color: #aaa9a9; }
+.entry .post-meta h1, h1.singleh1 {color: #333; }
+.entry .post-meta span, .entry .post-meta a {color: #000; }
+.entry .post-content a {color: #d14000; text-decoration:none; }
+.entry .post-content a:hover { color:#000; }
+.entry .post-footer a {color: #d14000; }
+.post-content blockquote { background: url("../images/bq.png") no-repeat left top; }
+.post-content blockquote p { color: #8c8888; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	5. Post Page Navigation 
+/*-----------------------------------------------------------------------------------*/
+/* single page post navigation --------------------------- */
+.post-navigation {/*width: 610px;*/ border-top:1px solid #d9d9d9; border-bottom:1px solid #d9d9d9;}
+.post-navigation a { color: #000; }
+.post-navigation a em { color: #aaa9a9; }
+.post-prev { background: url("../images/post_prev.png") 0 50% no-repeat;}
+.post-next { background: url("../images/post_next.png") 100% 50% no-repeat;}
+.line { background: #d9d9d9;  }
+
+/* ajax loading pagination --------------------------- */
+#pagination .nextpostslink {color: #000; }
+#pagination .nextpostslink:hover {background-color: #FFEA97; }
+#pagination .loading {background: url("../images/loading.gif") 240px 9px no-repeat; color: #555;}
+#pagination .loading:hover {background-color: transparent !important; }
+
+/* post pagination --------------------------- */
+.pagination .current{ color:#8B8E90; }
+.entry .post-content .pagination a{ color:#d14000; }
+
+.pagination span, .pagination a{ background:#666; color:#fff;}
+.pagination span, .pagination a:hover { background:#000;  }
+.pagination .current { background-color:#d14000; color:#fff; }
+.Navi .on { background-color:#d14000; color:#fff;  }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	6. Comments
+/*-----------------------------------------------------------------------------------*/
+.comments h3 { color:#333; }
+.comment { background:#fff url(3-orange/comment_line.png) repeat-y 100px 0px; border:1px solid #ccc !important;  }
+
+.comment-meta {  color:#818181;}
+.comment-meta  a{ color:#d14000; text-decoration:none; }
+.comment-meta  a:hover{ color:#333; }
+.comment .avatar { }
+a.comment-reply-link{ background:#666 url(../images/reply_arrow.png) no-repeat 47px; color:#fff; border-bottom:1px solid #645018; text-decoration:none; }
+a.comment-reply-link:hover{ background:#000 url(../images/reply_arrow.png) no-repeat 47px; color:#fff; border-bottom:1px solid #645018; }
+
+/* comment form -----------------------*/
+#respond h3 { border-bottom:1px solid #e5e5e5;}
+.comments p.commpadd .author {  background:url(../images/i_user.png) no-repeat left top; }
+.comments p.commpadd .email2 { background:url(../images/i_email.png) no-repeat left top; }
+.comments p.commpadd .site {  background:url(../images/i_web.png) no-repeat left top; }
+.comments p.commpadd .comment2 { background:url(../images/i_comment2.png) no-repeat left top; }
+.comments p.commpadd input { background:#fff; border:1px solid #666; color:#a6a6a6;  }
+#respond textarea { background:#fff; color:#666; border:1px solid #ccc;    }
+.comments .comment .text-right p a.comment-reply-link { background:url(3-orange/buttonbg.png) repeat-x left top; }
+
+#submit  {  border: 1px solid #333; color: #fff;  background:#37393a url(3-orange/buttonbg.png) repeat-x left top; border:1px solid #333; text-shadow:1px 1px 1px #333; }
+#submit:hover {background: #37393a url(3-orange/buttonbg.png) repeat-x left -39px;}
+#submit:active {background: #6f7070 url(3-orange/buttonbg.png) repeat-x left -78px;}
+
+ 
+/*-----------------------------------------------------------------------------------*/
+/*	 7. Widget
+/*-----------------------------------------------------------------------------------*/
+.widget h3, .widget-small h3 {color: #1f2122; border-bottom: 1px solid #d9d9d9;}
+
+.sidebar h3{  border-bottom:1px solid #d9d9d9; }
+.sidebar .category_list li{ background:url(3-orange/category_left.png) no-repeat left; }
+.sidebar .category_list li a{ background: url(3-orange/link_bg.png) no-repeat right; text-shadow:1px 1px 1px #fff; }
+.sidebar .category_list ul li small{ color:#7c8084; }
+.side_leftbg .category_list li a { background: url(3-orange/link_bg.png) no-repeat right; }
+
+.widget p, .textwidget { color:#262626; }
+.widget li, .widget-small li { color: #262626; }
+
+/* search widget -------------------------------------*/
+.sidebar .search,.post-content .search { background:url(3-orange/search_bg.png) no-repeat; }
+.sidebar .search fieldset input,.post-content .search fieldset input { color:#43494d; border:0px; }
+.sidebar .search fieldset button,.post-content .search fieldset button { border:0px; background:url(3-orange/btn_search.png) no-repeat left; }
+
+.sidebar_3col_l .search, .sidebar_3col_r .search { background:url(3-orange/search_bg3.png) no-repeat; }
+
+.content #searchform2  { background:url(3-orange/search_bg2.png) no-repeat;  }
+.content #searchform2 fieldset input { color:#43494d;  }
+.content #searchform2 fieldset button { border:0px; background:url(3-orange/btn_search.png) no-repeat left; }
+
+/* Login widget -------------------------------------*/
+.login_widget{ border:0px;}
+
+.login_widget .b_signin, .login_form_box .b_signin_n {  border: 1px solid #333; color: #fff;  background:#37393a url(3-orange/buttonbg.png) repeat-x left top; border:1px solid #333; text-shadow:1px 1px 1px #333; }
+.login_widget .b_signin:hover, .login_form_box .b_signin_n:hover {background: #37393a url(3-orange/buttonbg.png) repeat-x left -39px;}
+.login_widget .b_signin:active, .login_form_box .b_signin_n:active {background: #6f7070 url(3-orange/buttonbg.png) repeat-x left -78px;}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*   8. Bottom Section
+/*-----------------------------------------------------------------------------------*/
+#wp-calendar { background:#eee; }
+#wp-calendar caption { background:#eee; border-bottom:1px solid #fff;  }
+#wp-calendar th { background:#efefef; border-bottom:1px solid #fff;  }
+
+.bottom .widget h3 { border-bottom:none; }
+.bottom .widget p { color:#7a8286; }
+.one_column {  background:#fff; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	 9. Footer
+/*-----------------------------------------------------------------------------------*/
+p.copyright { color: #b4bfc5; }
+p.copyright a { color:#b4bfc5; }
+p.copyright a:hover { color:#333; }
+
+p.copyright span {color: #737373;}
+.credits { color: #b4bfc5; }  
+.allinone { background:#fff; }
+
+a.flogo { background: url("../images/templatic.png") no-repeat scroll left top transparent;}
+ 
+ a.i_twitter{ background:url(../images/i_twitter.png) no-repeat left top; color:#33ccff; }
+a:hover.i_twitter{ background:url(../images/i_twitter.png) no-repeat left top; }
+a.i_facebook{ background:url(../images/i_facebook.png) no-repeat left top; color:#3b5998; }
+a:hover.i_facebook{ background:url(../images/i_facebook.png) no-repeat left top; }
+a.i_rss{ background:url(../images/i_rss.png) no-repeat left top; color:#ff7e00; }
+a:hover.i_rss{ background:url(../images/i_rss.png) no-repeat left top; }
+p.social_media a:hover, .footer li a:hover{ color:#000; background-position:0 1px; }
+
+.footer li a { color:#b4bfc5; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	10. Page Templates
+/*-----------------------------------------------------------------------------------*/
+/*----------------- */
+/* contactus 
+----------------- */
+#contact_frm .form_row .textfield {  border:1px solid #ccc;  
+background:url(3-orange/textfield_bg.png) no-repeat left top;} 
+#contact_frm .form_row .textarea { border:1px solid #ccc;   background:url(3-orange/textarea_bg.png) no-repeat left top;} 
+#contact_frm .form_row .textfield:focus, #contact_frm .form_row .textarea:focus { border:1px solid #9d9c9c }
+.message_error { color:#C00;  }
+
+#contact_frm .b_submit  { border: 1px solid #333; color: #fff; background:#37393a url(3-orange/buttonbg.png) repeat-x left top; border:1px solid #333; text-shadow:1px 1px 1px #333; }
+#contact_frm .b_submit:hover {background: #37393a url(3-orange/buttonbg.png) repeat-x left -39px;}
+#contact_frm .b_submit:active {background: #6f7070 url(3-orange/buttonbg.png) repeat-x left -78px;}
+
+#content p.success_msg { color:#356c1d; background:#cee8c3; border-top:1px solid #7ea96b; border-bottom:1px solid #7ea96b; }
+.indicates{ color:#C00; }
+
+/*----------------- */
+/* gallery 
+----------------- */
+.post-content .gallery li { border:1px solid #d9d9d9; }
+
+/*----------------- */
+/* archives 
+----------------- */
+
+.post-content .arclist ul .arclist_comment, .post-content .arclist .arclist_date { color:#999; }
+
+/*----------------- */
+/* Advanced Search
+----------------- */
+#advancedsearch { border:2px solid #eee;  }
+#advancedsearch .adv_input { border:1px solid #ccc; background:url(3-orange/textfield_bg.png) no-repeat left top; }
+#advancedsearch select { border:1px solid #ccc; background:url(3-orange/textfield_bg.png) no-repeat left top;}
+
+#advancedsearch .adv_submit { border:1px solid #333; color: #fff;  background:#37393a url(3-orange/buttonbg.png) repeat-x left top; border:1px solid #333; text-shadow:1px 1px 1px #333; }
+#advancedsearch .adv_submit:hover {background: #37393a url(3-orange/buttonbg.png) repeat-x left -39px;}
+#advancedsearch .adv_submit:active {background: #6f7070 url(3-orange/buttonbg.png) repeat-x left -78px;}
+
+.advanced_left .textfield { border:1px solid #ccc; background:url(3-orange/textfield_bg.png) no-repeat left top; }
+.advanced_left .textfield:focus, #advancedsearch .adv_input:focus, #advancedsearch select:focus  { border:1px solid #9d9c9c; }
+
+/* wp-pagenavi/ */
+.wp-pagenavi { color: #000; }
+.wp-pagenavi a, .wp-pagenavi span { color: #000; }
+.wp-pagenavi span.current { color: #9d9d9d; border: 1px solid #d9d9d9;  }
+
+/*-----------------------------------------------------------------------------------*/
+/*	 11. Add listing Form 
+/*-----------------------------------------------------------------------------------*/
+.form_row .textfield  { border:1px solid #ccc;  -moz-border-radius: 5px; background:url(3-orange/textfield_bg.png) no-repeat left top;}
+.form_row .textfield:focus { border:1px solid #9d9c9c; }	
+
+
+.message_error2 { color:#d70000; }
+.error_msg { background:#ffe4e4; border-top:1px solid #ee8686;  border-bottom:1px solid #ee8686;  color:#d70000; }
+h5.form_title { border-bottom:1px solid #ddd; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	12. Login Form
+/*-----------------------------------------------------------------------------------*/
+.login_form_l .message_error2, .registration_form_box .message_error2, .submit_article_form span.message_error2 {  color:#de3230; }
+.form_row small{  color:#a8a79f;}
+
+.login_form_l .b_signin_n {  border: none; color: #fff; background:#37393a url(3-orange/buttonbg.png) repeat-x left top; border:1px solid #333; text-shadow:1px 1px 1px #333; }
+.login_form_l .b_signin_n:hover {background: #37393a url(3-orange/buttonbg.png) repeat-x left -39px;}
+.login_form_l .b_signin_n:active {background: #6f7070 url(3-orange/buttonbg.png) repeat-x left -78px;}
+
+
+#lostpassword_form h4 { border-bottom: 1px solid #d9d9d9; }
+.login_form_l {  border:3px solid #eee; }
+.login_form_l .form_row .textfield, .registration_form_box .form_row .textfield { background: url("3-orange/textfield_bg.png") no-repeat left top;
+border: 1px solid #ccc; }
+.login_form_l .form_row .textfield:focus, .registration_form_box .form_row .textfield:focus { border:1px solid #9d9c9c; }	
+.login_form_l a { color:#CC4B3E; }
+.login_form_l a:hover { color:#333; }
+
+
+/*-----------------------------------------------------------------------------------*/
+/*   13. Registration Form
+/*-----------------------------------------------------------------------------------*/
+#personal_info { border-right:1px solid #eee; }
+.registration_form_r #userform { border:none; }
+
+
+.error_msg, .content .error_msg { background:#ffe4e4; border-top:1px solid #ee8686;  border-bottom:1px solid #ee8686; color:#C00;   }
+.success_msg { color:#356c1d; background:#cee8c3; border-top:1px solid #7ea96b; border-bottom:1px solid #7ea96b; }
+#reg_passmail { color:#a8a79f; }
+
+.registration_form_box .b_registernow  {  border: none; color: #fff; background:#37393a url(3-orange/buttonbg.png) repeat-x left top; border:1px solid #333; text-shadow:1px 1px 1px #333; }
+.registration_form_box .b_registernow:hover {background: #37393a url(3-orange/buttonbg.png) repeat-x left -39px;}
+.registration_form_box .b_registernow:active {background: #6f7070 url(3-orange/buttonbg.png) repeat-x left -78px;}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*   14. Index Page
+/*-----------------------------------------------------------------------------------*/
+.box_header{ background:url(3-orange/box_top.png) no-repeat; width:992px; height:24px; }
+.box_bg{ background:url(3-orange/box_bg.png) repeat-y; width:992px; }
+.box_bottom{ background:url(3-orange/box_bottom.png) no-repeat bottom; width:992px; }
+
+.title_yellow{  color:#d8a21f; }
+.title_grey{ color:#a29a87;  }
+a.top_lnk{ color:#d8a21f; }
+a:hover.top_lnk, #footer .copy a:hover{ color:#272a2c; }
+
+.posts_deals {  border-bottom:1px solid #ccc;  } 
+
+.content_right_inner h3 a, .content_right h3 a { color:#333; text-decoration:none; }
+.content_right_inner h3 a:hover, .content_right h3 a:hover { color:#d14000; }
+
+
+.product_right h3, .product_right h3 a{ color:#272a2c;}
+.product_right h3 a:hover{ color:#d14000; }
+.i_expire{ background:url(3-orange/expire_bg.png) no-repeat; color:#f7a5a5; }
+.i_expire span{ color:#fff; }
+
+.i_start{ background:url(3-orange/start_bg.png) no-repeat; color:#81cb7f; }
+.i_start span{ color:#fff; }
+
+
+.content_3col .entry .product_right .i_expire{ background:url(3-orange/expire_bg2.png) no-repeat; color:#f7a5a5; }
+.i_expire span{ color:#fff; }
+
+.deal_time_box{ color:#b0b4b6; border-top:1px solid #d9d9d9; }
+.content .deal_time_box h3 { border-bottom:1px solid #D9D9D9; }
+
+.deal_box li{ color:#6d9b00;  }
+.deal_box li.title_text{ color:#8b8e90;  }
+.deal_box li small{ color:#8b8e90; }
+
+
+.deal_time_box .fr .rate{ color:#e75400; }
+a.btn_buy{ color:#fff; text-shadow:1px -1px 1px #000; background:url(1-default/btn_buy.png) no-repeat left top; }
+a:hover.btn_buy{ background:url(3-orange/btn_buy.png) no-repeat left -50px;  }
+a:active.btn_buy{ background:url(3-orange/btn_buy.png) no-repeat left -100px; position:relative; top:1px; }
+
+
+
+/* Summery Box ------------------------------------------*/
+.rate_summery{ border-top:1px solid #d9d9d9;  }
+.rate_summery li { border-right:1px solid #d9d9d9;  }
+.rate_summery li strong {  color:#565c5f; }
+
+
+.rate_summery li.bdr_none{ border:none; }
+.content_right a.read_more{  background:url(3-orange/readmore.png) no-repeat 80px 10px;  }
+.content_right a:hover.read_more{ background:url(3-orange/readmore.png) no-repeat 80px -6px; } 
+
+.content_right a.hide { background:url(3-orange/readmore.png) no-repeat 40px 9px; }
+.content_right a:hover.hide{ background:url(3-orange/readmore.png) no-repeat 40px -7px; } 
+
+
+/* Share bottom */
+.share_div{ border-top:1px solid #d9d9d9;  }
+a.i_mail{ background:url(3-orange/i_mail.png) no-repeat left;  }
+
+/* subscribe box --------------------- */
+.subscribe_box { background:#fff url(3-orange/color_strip.png) repeat-x top; border:1px solid #b6bbbe;  }
+.btm_border{ border-bottom:3px solid #ecefef; }
+.subscribe_box h3 { color:#272A2C; }
+.subscribe_box p { color:#a7a9ab; }
+
+.subscribe_box .subscribe_bg { background:url(3-orange/subscribe_text_bg.png) no-repeat; }
+.subscribe_box .subscribe_bg .text_bg { color:#4b5151; background:#f6f8f9; border:0px;  }
+.subscribe_box .subscribe_bg .subscribe_submit{ border:0px; background:url(3-orange/btn_subscribe.png) no-repeat; color:#fff; text-shadow:1px -1px 1px #000;  }
+.subscribe_box .subscribe_bg .subscribe_submit:hover{ background:url(3-orange/btn_subscribe_hover.png) no-repeat; }
+.subscribe_box .subscribe_bg .subscribe_submit:active{ margin-top:1px; background:url(3-orange/btn_subscribe_active.png) no-repeat left top; height:43px; }
+
+/*-----------------------------------------------------------------------------------*/
+/*   15. Inner Page
+/*-----------------------------------------------------------------------------------*/
+.help_header{ border-bottom:1px solid #e4e8ea; }
+.top_searchbox{  background:#e4e8ea; }
+.top_searchbox .search_bg{ border:0px; background:url(3-orange/search_text_bg.png) no-repeat; color:#43494d; }
+.top_searchbox .search_submit{ border:0px; color:#464a4e; text-shadow:1px 1px 1px #fff; background:url(3-orange/search_btn.png) no-repeat left; }
+.top_searchbox .search_submit:hover{ color:#000; }
+
+/* page navigation ------- */
+.side_leftbg { background:url(3-orange/help_link_bg.png) no-repeat 41px bottom; }
+.side_rightbg { background:url(3-orange/help_link_right_bg.png) no-repeat 18px bottom;  }
+
+.side_rightbg .sub_page_menu li.current_page_item a, .side_rightbg .sub_page_menu a:hover{ background:url(3-orange/link_active2.png) left top; border-bottom:1px solid #fff; color:#394146; text-shadow:1px 1px 1px #fff; }
+.side_leftbg .sub_page_menu li.current_page_item ul.children li a, .side_rightbg .sub_page_menu li.current_page_item ul.children li a { background:none !important ; }
+.side_leftbg .sub_page_menu li.current_page_item ul.children li a:hover { background:url(3-orange/link_active.png) left top !important; }
+.side_rightbg .sub_page_menu li.current_page_item ul.children li a:hover { background:url(3-orange/link_active2.png) left top !important; }
+.side_rightbg .sub_page_menu a{ border-bottom:1px solid #e4e8ea; color:#2079bc;  }
+.sub_page_menu a{ display:block; border-bottom:1px solid #e4e8ea; color:#2079bc; }
+.sub_page_menu li.current_page_item a,.sub_page_menu a:hover{ background:url(3-orange/link_active.png); border-bottom:1px solid #fff; color:#394146; text-shadow:1px 1px 1px #fff; }
+
+/* table  */
+.table tr { border-bottom:1px solid #90CFF2; }
+.table td.thead  { background:#0069a5; color:#fff; }
+.table td.expire { color:#b20d0d; }
+.table td.active { color:#408100; }
+.table .textfield, .table .textfield2, .table select, .table select.select_s2, .table_transaction tr { border:1px solid #ccc; }
+.table td.total { color:#000; border-top:1px solid #90CFF2; background:#eee; }
+
+.table_transaction td.thead  { background:#0069a5; color:#fff; }
+.table_transaction td.expire { color:#b20d0d; }
+.table_transaction td.active { color:#408100; }
+.table_transaction .textfield { border:1px solid #ccc; }
+.table_transaction .textfield2 { border:1px solid #ccc; }
+.table_transaction select{  border:1px solid #ccc; }
+.table_transaction td.total { color:#000; border-top:1px solid #ccc;  background:#eee; }
+.i_excel { background:url(3-orange/i_excel.jpg) no-repeat left top; }
+
+.b_search  { border:none; color:#fff; background:#555; }
+.b_search:hover { background:#666; color:#fff; }
+
+.author_deal{ border:1px solid #D9D9D9; }
+.author_deal li{ border-right:1px solid #D9D9D9; }
+.author_deal li.brdnone{ border:0px;}
+
+/*-----------------------------------------------------------------------------------*/
+/*   16. Preview & Publish Page
+/*-----------------------------------------------------------------------------------*/
+
+.preview_section {  }
+.preview_section h5.payment_head { color:#000; border-bottom:1px solid #fff; }
+.preview_section .b_cancel { border:none; color:#fff; background:#555; }
+.preview_section .b_cancel:hover { background:#666; color:#fff; }
+
+.payment_method  li { color:#000;  border-bottom:1px solid #eee; }
+.address_info h4 { border-bottom:1px solid #D9D9D9; }
+
+.preview_info { background: #FFFDD9; border-bottom: 1px solid #B2AC4F; border-top: 1px solid #B2AC4F;  }
+.preview_info p { color: #DA7401; }
+
+
+a.b_goback, a.b_cancel  { border: 1px solid #333; color: #666; background:#eee; border:1px solid #ccc; text-shadow:1px 1px 1px #fff; }
+a:hover.b_goback, a:hover.b_cancel {background: #8c8c8c; color:#fff; text-shadow:1px 1px 1px #333; border:1px solid #333; }
+a:active.b_goback, a:active.b_cancel {background: #8c8c8c; color:#fff; text-shadow:1px 1px 1px #333; border:1px solid #333; }
+
+
+.b_publish  { border: 1px solid #333; color: #fff;  background:#37393a url(3-orange/buttonbg.png) repeat-x left top; border:1px solid #333; text-shadow:1px 1px 1px #333; }
+.b_publish:hover { background: #37393a url(3-orange/buttonbg.png) repeat-x left -39px; color:#fff; }
+.b_publish:active { background: #6f7070 url(3-orange/buttonbg.png) repeat-x left -78px; color:#fff; }
+
+
+
+/*-----------------------------------------------------------
+  18. Tabber Style
+------------------------------------------------------------- */
+.tabbernav{ background:url(3-orange/tab_bg.png) repeat-x bottom;  }
+.tabbernav li a{ color: #737373;  }
+.tabbernav li a:hover{ color: #d14000; }
+.tabbernav li.tabberactive{ background:url(3-orange/tab_active.png) repeat-x; color:#d14000; border:1px solid #f0d1c4; border-bottom:0px; }
+.tabbernav li.tabberactive a{ color:#d14000; background:none;  }
+.tabbernav li.tabberactive a:hover { color: #d14000; }
+
+.deal_listing li  .content h3 { background: #ffe8de; }
+.deal_listing li h3 span.dealtitle { color: #d14000; }
+.deal_listing li h3 a , a.dashboard_lnk, .deallistinglinks a, a.deal_title { color:#d14000; }
+.deal_listing li h3 a:hover, .deal_listing li .content p.deallistinglinks a:hover ,a:hover.dashboard_lnk, .deallistinglinks a:hover, a:hover.deal_title{ color: #333; }
+.deal_listing li h3 span.price { color: #333333; }
+.deal_li li span.field { color: #444; }
+.deal_listing li .content p.deallistinglinks { border-top: 1px solid #f0d1c4; border-bottom: 1px solid #f0d1c4; color: #999;  }
+.deal_listing li .content p.deallistinglinks a { color: #d14000; }
+
+
+.transaction_table td.title { border-bottom: 2px solid #f0d1c4; border-top: 2px solid #f0d1c4; color: #d14000; }
+.transaction_table .row1 { border-bottom: 1px solid #f0d1c4; border-right: 1px solid #f0d1c4; color: #444; }
+.transaction_table tr.subtable_tr span{ color:#222; }
+.sub_table{ background:#f4f9fe; }
+.sub_table td{ border-bottom: 1px solid #f0d1c4; border-right: 1px solid #f0d1c4; color: #444; }
+
+.color_schedule{ color:#000; }
+.color_expire{ color:red; }
+.color_active{ color:green; }
+.color_reject{ color:#999; }
+.color_terminate{ color:#999; }
+.color_pending{ color:#E66F00; }
+
+.purchase_listing{ border-bottom:1px solid #d7d7d7;  }
+.details_main { background: #fff; border: 2px solid #f0d1c4; }
+
+.details_main { -moz-box-shadow:inset 0 0 20px #f0d1c4;
+   -webkit-box-shadow:inset 0 0 20px #f0d1c4;
+   box-shadow:inset 0 0 20px #f0d1c4; }
+
+.user_detail li{ color:#666; }
+.user_detail li span { color:#444;  }
+.user_detail li p { color:#666; }
+
+.purchase_table .td_title{ color:#d14000; background:#ffe8de; border:1px solid #f0d1c4;}
+.purchase_table .row{ background:#FFF; }
+.purchase_table .row td{ padding:15px 10px; border:1px solid #f0d1c4; }
+.download_button{ background:#000; padding:5px 10px; color:#fff;  }
+.download_button:hover{ background:#d14000; color:#fff; }
+
+.errortextfield { border:1px solid #F00; background:url(	3-orange/textfield_bg.png) no-repeat left top; }
+
+#calendarDiv .activeDay { background:#D35B0A; color: #fff;}
+#calendarDiv .oldDay { background:#EFEDE0; color: #B8B07E; }
+
+
+a.tooltip:hover div { border:1px solid #e5df9a; background:#fffcd8; color:a98d2c; }
+.content a.tooltip:hover div p.tool_title { color:#000; }
+.content a.tooltip:hover div p { color:#444; }
+
+.submitedsuccess { background: #FFFFE0; border: 1px solid #E6DB55; border-radius: 3px; color: #A69B0C; }
+
+
+/* author spotlight ------------------------*/
+.sidebar .top_sellers li img { border:1px solid #ccc;  }
+.sidebar .top_sellers li { border-bottom:1px solid #d9dcdc; }
+.sidebar .top_sellers li:last-child { border-bottom:none; }

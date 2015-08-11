@@ -1,0 +1,3243 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: HelpDesk <saqib@templatic.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ templatic
+#: 404.php:7
+msgid "404! We couldn't find the page!"
+msgstr ""
+
+#@ templatic
+#: 404.php:12
+msgid "The page you've requested can not be displayed. It appears you've missed your intended destination, either through a bad or outdated link, or a typo in the page you were hoping to reach."
+msgstr ""
+
+#@ templatic
+#: 404.php:38
+#: tpl_sitemap.php:19
+msgid "Pages"
+msgstr ""
+
+#@ templatic
+#: 404.php:50
+#: tpl_sitemap.php:26
+msgid "Posts"
+msgstr ""
+
+#@ templatic
+#: 404.php:57
+#: tpl_sitemap.php:33
+msgid "0 comment"
+msgstr ""
+
+#@ templatic
+#: 404.php:57
+#: tpl_sitemap.php:33
+msgid "% comments"
+msgstr ""
+
+#@ templatic
+#: 404.php:69
+#: search.php:49
+#: tpl_sitemap.php:47
+msgid "Categories"
+msgstr ""
+
+#@ templatic
+#: 404.php:77
+#: search.php:40
+#: tpl_sitemap.php:40
+msgid "Archives"
+msgstr ""
+
+#@ templatic
+#: admin/admin_menu.php:14
+msgid "Theme Settings"
+msgstr ""
+
+#@ templatic
+#: admin/auto_update_framework.php:7
+#: admin/auto_update_framework.php:41
+#: admin/auto_update_framework.php:54
+msgid "Update Framework"
+msgstr ""
+
+#@ templatic
+#: admin/auto_update_framework.php:47
+#, php-format
+msgid ""
+"<h3>A new version of Templatic Framework is available.</h3>\n"
+"                <p>This updater will collect a file from the templatic.com server. It will download and extract the files to your current theme&prime;s admin folder. </p>\n"
+"                <p>We recommend backing up your theme files before updating. Only upgrade the Templatic Framework if necessary.</p>\n"
+"                <p>If you are facing any problem in auto updating the framework, then please download the latest version of the theme from members area and then just overwrite the \"<u>admin</u>\" folder to the theme root.\n"
+"\t\t\t\t<p>&rArr; <strong>Your version:</strong> %s</p>\n"
+"\t\t\t\t\n"
+"\t\t\t\t<p>&rArr; <strong>Current Version:</strong> %s</p>"
+msgstr ""
+
+#@ templatic
+#: admin/auto_update_framework.php:56
+msgid "Updating, It will take few moments. Please wait...."
+msgstr ""
+
+#@ templatic
+#: admin/auto_update_framework.php:59
+#, php-format
+msgid ""
+" <h3>You already have the latest version of Templatic Framework</h3>\n"
+"                <p>&rArr; <strong>Your version:</strong> %s "
+msgstr ""
+
+#@ templatic
+#: admin/breadcrumbs/yoast-breadcrumbs.php:61
+#: modules/paymethods/admin_paymethods_add.php:63
+#: modules/paymethods/admin_paymethods_list.php:228
+#: modules/paymethods/admin_paymethods_list.php:262
+msgid "Settings"
+msgstr ""
+
+#@ templatic
+#: admin/breadcrumbs/yoast-breadcrumbs.php:69
+msgid "You cannot edit the Yoast Breadcrumbs options."
+msgstr ""
+
+#@ templatic
+#: admin/breadcrumbs/yoast-posts.php:23
+msgid "Yoast - Tweaking Websites"
+msgstr ""
+
+#@ templatic
+#: admin/constants.php:15
+msgid "Top Header Navigation"
+msgstr ""
+
+#@ templatic
+#: admin/constants.php:16
+#: admin/widgets/widgets_sidebar.php:16
+msgid "Main Navigation"
+msgstr ""
+
+#@ templatic
+#: admin/functions/custom_functions.php:365
+msgid "read more"
+msgstr ""
+
+#@ templatic
+#: admin/functions/custom_functions.php:472
+msgid "Search Result "
+msgstr ""
+
+#@ templatic
+#: admin/functions/custom_functions.php:487
+msgid "Author Archives"
+msgstr ""
+
+#@ templatic
+#: admin/functions/custom_functions.php:643
+msgid "Tweet"
+msgstr ""
+
+#@ templatic
+#: admin/functions/custom_functions.php:777
+msgid "Related Article"
+msgstr ""
+
+#@ templatic
+#: admin/seo_settings.php:26
+#: admin/seo_settings.php:27
+msgid "SEO Settings"
+msgstr ""
+
+#@ templatic
+#: admin/seo_settings.php:34
+msgid "Page Title"
+msgstr ""
+
+#@ templatic
+#: admin/seo_settings.php:37
+msgid "Page Description"
+msgstr ""
+
+#@ templatic
+#: admin/seo_settings.php:40
+msgid "Keywords <br />(comma separated)"
+msgstr ""
+
+#@ templatic
+#: admin/seo_settings.php:43
+#: modules/add_post/lang_add.php:10
+#: modules/add_post/lang_add.php:14
+#: modules/bulk_upload/bulk_upload_function.php:41
+#: modules/coupon/function_coupon.php:39
+#: modules/notifications/notification_functions.php:41
+#: modules/paymethods/paymethods_functons.php:41
+msgid "Update"
+msgstr ""
+
+#@ templatic
+#: admin/theme_options/option_settings.php:35
+msgid "\"simplexmlelement\" is not supported under PHP 4.x. Please use version 5 or higher"
+msgstr ""
+
+#@ templatic
+#: admin/theme_options/option_settings.php:58
+msgid "Design Settings"
+msgstr ""
+
+#@ templatic
+#: admin/theme_options/options.php:9
+#: admin/tpl/header.php:5
+msgid "Theme Guide"
+msgstr ""
+
+#@ templatic
+#: admin/theme_options/options.php:11
+#: admin/tpl/header.php:6
+msgid "Support Forum"
+msgstr ""
+
+#@ templatic
+#: admin/theme_options/options.php:19
+#: admin/theme_options/options.php:72
+msgid "Save All Changes"
+msgstr ""
+
+#@ templatic
+#: admin/theme_options/options.php:71
+msgid "Reset Options"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/ads.php:35
+#: admin/widgets/flickr.php:74
+#: admin/widgets/google_map.php:114
+#: admin/widgets/my_bio.php:57
+#: admin/widgets/popularposts.php:57
+#: admin/widgets/twitter.php:54
+#: modules/notifications/admin_notification.php:84
+#: modules/package/admin_package_list.php:30
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:46
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:72
+msgid "Title"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/ads.php:36
+msgid "Advertisement (ex.&lt;a href=\"#\"&gt;&lt;img src=\"http://templatic.com/banner.png\" /&gt;&lt;/a&gt; and google ads code here )"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:160
+#: admin/widgets/featured_video.php:73
+#: admin/widgets/latest_posts.php:92
+msgid "Post Type:"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:174
+msgid "Categories (<small>Category should have at least one post.</small>):"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:179
+msgid "OR"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:181
+msgid "Post Tag (<small>ex : gallery,featured</small>):"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:186
+#: admin/widgets/latest_posts.php:87
+msgid "Number of posts:"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:191
+msgid "Slider delay time :"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:196
+msgid "Slider animation time :"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:201
+msgid "Slider Banner Height (i.e.400):"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/anything_slider/anything_slider.php:229
+#: library/functions/custom_filters.php:188
+msgid "Read More"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/contact/contact.php:67
+#: tpl_contact.php:71
+msgid "Thank you, your Information send successfully."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/contact/contact.php:72
+msgid "Please fill all the fields before submit."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/contact/contact.php:81
+#: comments.php:49
+#: modules/add_post/lang_add.php:49
+#: tpl_contact.php:80
+msgid "Name"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/contact/contact.php:86
+#: admin/widgets/login.php:385
+#: admin/widgets/login.php:424
+#: comments.php:53
+#: modules/add_post/lang_add.php:53
+#: tpl_contact.php:86
+msgid "Email"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/contact/contact.php:91
+#: tpl_contact.php:92
+msgid "Subject"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/contact/contact.php:96
+#: tpl_contact.php:98
+msgid "Message"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/contact/contact.php:100
+msgid "Send"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/contact/contact.php:120
+#: admin/widgets/login.php:449
+msgid "Widget Title"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/featured_video.php:68
+msgid "Title :"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/featured_video.php:87
+#: admin/widgets/latest_posts.php:106
+msgid "Categories (<code>IDs</code> separated by commas):"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/featured_video.php:92
+msgid "Number of posts"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/featured_video.php:97
+#, php-format
+msgid "First Please Create Custom Field \"video\" in Post From %s"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/flickr.php:66
+msgid "Flickr"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/flickr.php:74
+msgid "eg. : Flickr"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/flickr.php:79
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>)"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/flickr.php:84
+msgid "Number of photos"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/flickr.php:89
+msgid "Photo Width"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/flickr.php:94
+msgid "Photo Height"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:79
+msgid "View Large Map"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:83
+msgid "Get Direction on Map &raquo;"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:116
+msgid "Address <small>(eg: 230 Vine Street And locations throughout Old City, Philadelphia, PA 19106)</small>"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:119
+msgid "Address Latitude <small>(eg: 39.955823048131286)</small>"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:121
+msgid "Address Longitude <small>(eg: -75.14408111572266)</small>"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:124
+msgid "Map Width in pixcels <small>(eg: 200)</small>"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:127
+msgid "Map Height in pixcels <small>(eg: 200)</small>"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:131
+msgid "Map Zooming"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:145
+msgid "Select Map Type"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:147
+msgid "Road Map"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:148
+msgid "Satellite Map"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/google_map.php:149
+msgid "Terrain Map"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/latest_posts.php:56
+#: loop.php:61
+#: single-listing.php:30
+#: single.php:58
+msgid "No Comments"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/latest_posts.php:56
+#: loop.php:61
+#: single-listing.php:30
+#: single.php:58
+msgid "1 Comment"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/latest_posts.php:56
+#: loop.php:61
+#: single-listing.php:30
+#: single.php:58
+msgid "% Comments"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/latest_posts.php:56
+#: loop.php:61
+#: single-listing.php:30
+#: single.php:58
+msgid "Comments Closed"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/latest_posts.php:58
+msgid "more..."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/latest_posts.php:84
+#: admin/widgets/testimonials.php:148
+msgid "Title:"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:11
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:13
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:16
+#: modules/registration/registration.php:112
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:21
+#: modules/add_post/single_page_checkout_insertuser.php:35
+#: modules/registration/registration.php:116
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:23
+#: modules/add_post/single_page_checkout_insertuser.php:37
+#: modules/registration/registration.php:118
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:26
+#: modules/registration/registration.php:121
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:39
+#: modules/add_post/single_page_checkout_insertuser.php:72
+#: modules/registration/registration.php:150
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:52
+msgid ""
+"[SUBJECT-STR]Registration Email[SUBJECT-END]<p>Dear [#user_name#],</p>\n"
+"\t\t\t<p>Your login information:</p>\n"
+"\t\t\t<p>Username: [#user_login#]</p>\n"
+"\t\t\t<p>Password: [#user_password#]</p>\n"
+"\t\t\t<p>You can login from [#site_login_url#] or the URL is : [#site_login_url_link#].</p>\n"
+"\t\t\t<p>We hope you enjoy. Thanks!</p>\n"
+"\t\t\t<p>[#site_name#]</p>"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:64
+msgid "Registration Email"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:69
+#, php-format
+msgid "<a href=\"%s/?ptype=login\">Click Login</a>"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:85
+#: modules/registration/registration.php:33
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:90
+#: modules/registration/registration.php:38
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:102
+#: modules/registration/registration.php:50
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:119
+#: modules/registration/registration.php:67
+msgid "Invalid key"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:128
+#: modules/registration/registration.php:76
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:129
+#: modules/registration/registration.php:77
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:136
+#: modules/registration/registration.php:84
+#, php-format
+msgid "[%s] Your new password"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:192
+#: modules/registration/registration.php:379
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:206
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:217
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:228
+msgid "Check your e-mail for the new password."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:276
+msgid "My Account"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:280
+msgid "Dashboard"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:281
+#: modules/registration/registration_language.php:34
+msgid "Edit Profile"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:282
+msgid "Change Password"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:283
+#: library/functions/custom_functions.php:294
+msgid "Logout"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:313
+#: admin/widgets/login.php:378
+#: modules/registration/registration_language.php:5
+msgid "Username"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:314
+#: modules/add_post/lang_add.php:21
+#: modules/registration/registration_language.php:6
+#: modules/registration/registration_language.php:35
+msgid "Password"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:319
+#: library/functions/custom_functions.php:300
+#: modules/registration/registration_language.php:16
+#: modules/registration/registration_language.php:18
+#: modules/registration/registration_language.php:19
+msgid "Sign In"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:322
+#: modules/add_post/lang_add.php:19
+msgid "New User? Register Now"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:323
+#: modules/registration/registration_language.php:3
+msgid "Forgot Password?"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:372
+msgid "New User Register Here"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:390
+#: library/functions/custom_functions.php:299
+#: modules/registration/registration_language.php:17
+msgid "Register"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:420
+msgid "Forgot Password"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:428
+#: modules/registration/registration_language.php:8
+msgid "Get New Password"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/my_bio.php:59
+msgid "Author Photo (ex.http://templatic.com/photo.png)"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/my_bio.php:61
+msgid "Short Description"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/my_bio.php:63
+msgid "Description :  (html tag use ex.&lt;p&gt;text &lt;/p&gt;)"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/my_bio.php:65
+msgid "Read More Text"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/my_bio.php:67
+msgid "Read More Link URL (ex.http://templatic.com/mybio)"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/popularposts.php:59
+msgid "Number of Posts"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/social_media.php:74
+#: admin/widgets/subscribe.php:48
+msgid "Widget Title:"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/social_media.php:75
+msgid "Twitter Full URL"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/social_media.php:76
+msgid "Facebook Full URL"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/social_media.php:77
+msgid "Digg Full URL"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/social_media.php:78
+msgid "Linkedin Full URL"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/social_media.php:79
+msgid "Myspace Full URL"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/social_media.php:80
+msgid "Rss Full URL"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/subscribe.php:26
+msgid "Enter Email Address"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/subscribe.php:49
+msgid "Feedburner ID (ex :- templatic):"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/subscribe.php:50
+msgid "Sort Description:"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:149
+msgid "Show Fade In Time Set:"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:150
+msgid "Show Fade Out Time Set:"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:152
+msgid "Quote text 1"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:153
+msgid "Author name 1"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:155
+msgid "Quote text 2"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:156
+msgid "Author name 2"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:158
+msgid "Quote text 3"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:159
+msgid "Author name 3"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:161
+msgid "Quote text 4"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:162
+msgid "Author name 4"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:164
+msgid "Quote text 5"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/testimonials.php:165
+msgid "Author name 5"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/twitter.php:46
+msgid "Live Tweet"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/twitter.php:59
+msgid "Twitter Account ID"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/twitter.php:64
+msgid "Show Twitter Posts"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/twitter.php:69
+msgid "Twitter Button Text"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:10
+msgid "Top Navigation"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:22
+msgid "Header Logo Right Side"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:28
+msgid "Home Slider"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:34
+msgid "Single Post Below Content"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:41
+msgid "Sidebar 1"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:43
+msgid "Sidebar 2"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:45
+msgid "Sidebar 2col Merge"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:51
+msgid "First Footer Widget Area"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:53
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:55
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/widgets_sidebar.php:57
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#@ templatic
+#: archive.php:10
+#: taxonomy.php:10
+#, php-format
+msgid "%s"
+msgstr ""
+
+#@ templatic
+#: archive.php:12
+#: taxonomy.php:12
+#, php-format
+msgid "Posts tagged &quot;%s&quot;"
+msgstr ""
+
+#@ templatic
+#: archive.php:14
+#: taxonomy.php:14
+#, php-format
+msgid "Daily archive %s"
+msgstr ""
+
+#@ templatic
+#: archive.php:16
+#: taxonomy.php:16
+#, php-format
+msgid "Monthly archive %s"
+msgstr ""
+
+#@ templatic
+#: archive.php:18
+#: taxonomy.php:18
+#, php-format
+msgid "Yearly archive %s"
+msgstr ""
+
+#@ templatic
+#: archive.php:20
+#: taxonomy.php:20
+msgid "Author Archive"
+msgstr ""
+
+#@ templatic
+#: archive.php:22
+#: taxonomy.php:22
+msgid "Blog Archives"
+msgstr ""
+
+#@ templatic
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#@ templatic
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: 404.php:57
+#: comments.php:12
+#: tpl_sitemap.php:33
+#, php-format
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#@ templatic
+#: comments.php:22
+msgid "What do you think?"
+msgstr ""
+
+#@ templatic
+#: comments.php:29
+msgid "Logged in as"
+msgstr ""
+
+#@ templatic
+#: comments.php:29
+msgid "Log out &raquo;"
+msgstr ""
+
+#@ templatic
+#: comments.php:49
+#: comments.php:53
+msgid "required"
+msgstr ""
+
+#@ templatic
+#: comments.php:57
+#: modules/add_post/lang_add.php:54
+msgid "Website"
+msgstr ""
+
+#@ templatic
+#: comments.php:65
+#: modules/add_post/lang_add.php:22
+#: modules/bulk_upload/admin_bulk_upload.php:215
+#: modules/coupon/admin_coupon.php:107
+#: modules/manage_city/admin_add_city.php:118
+#: modules/notifications/admin_notification.php:71
+#: modules/notifications/admin_notification.php:108
+#: modules/package/admin_price_add.php:107
+#: modules/paymethods/admin_paymethods_add.php:105
+msgid "Submit"
+msgstr ""
+
+#@ templatic
+#: index.php:8
+msgid "Latest entries"
+msgstr ""
+
+#@ templatic
+#: library/functions/captcha/captcha_function.php:11
+msgid "Please enter valid black colored text only"
+msgstr ""
+
+#@ templatic
+#: library/functions/captcha/captcha_function.php:12
+msgid "Enter the text as you see in the image. Only enter black colored text"
+msgstr ""
+
+#@ templatic
+#: library/functions/custom_filters.php:88
+msgid "Theme Menu"
+msgstr ""
+
+#@ templatic
+#: library/functions/custom_functions.php:82
+#, php-format
+msgid "<p class=\"comment-author\"><span>%s</span></p>"
+msgstr ""
+
+#@ templatic
+#: library/functions/custom_functions.php:83
+#, php-format
+msgid "<p class=\"comment-date\">%s</p>"
+msgstr ""
+
+#@ templatic
+#: library/functions/custom_functions.php:91
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#@ templatic
+#: library/functions/custom_functions.php:289
+msgid "Welcome "
+msgstr ""
+
+#@ templatic
+#: library/functions/custom_functions.php:293
+msgid "Profile"
+msgstr ""
+
+#@ templatic
+#: library/functions/custom_functions.php:304
+#: modules/add_post/lang_add.php:12
+msgid "Add Listing"
+msgstr ""
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:12
+msgid "All Dummy data has been removed from your database successfully!"
+msgstr ""
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:20
+msgid "Theme activated successfully."
+msgstr ""
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:25
+msgid "Sample data has been populated on your site. Wish to delete sample data?"
+msgstr ""
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:25
+msgid "Yes Delete Please!"
+msgstr ""
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:28
+msgid "Would you like to auto install this theme and populate sample data on your site?"
+msgstr ""
+
+#@ templatic
+#: library/includes/auto_install/auto_install.php:28
+msgid "Yes, insert sample data please"
+msgstr ""
+
+#@ templatic
+#: loop.php:68
+#: single.php:65
+msgid "View "
+msgstr ""
+
+#@ templatic
+#: loop.php:68
+#: single.php:65
+msgid "More "
+msgstr ""
+
+#@ templatic
+#: loop.php:74
+msgid "Edit entry"
+msgstr ""
+
+#@ templatic
+#: loop.php:181
+#: search.php:36
+msgid "Sorry, dit zoekopdracht levert geen resultaat op. Probeer te vinden wat je zoekt, door te zoeken binnen onze categorieën"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/functions_add.php:162
+#, php-format
+msgid "New place listing of ID:#%s"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/functions_add.php:166
+msgid "<p>Dear [#to_name#],</p><p>Je hebt de onderstaande gegevens ingevoerd.</p>[#information_details#]<br><p>Dank je!</p><p>[#site_name#]</p>"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/functions_add.php:169
+msgid "ID"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/functions_add.php:170
+msgid "View more detail from"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/functions_add.php:510
+#: modules/coupon/admin_manage_coupon.php:48
+#: modules/coupon/admin_manage_coupon.php:66
+#: modules/custom_post_type/custom_post_type_lang.php:11
+#: modules/manage_city/admin_manage_city.php:56
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:64
+#: modules/package/admin_package_list.php:35
+#: modules/package/admin_package_list.php:52
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:64
+#: modules/registration/registration_language.php:37
+msgid "Edit"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/functions_add.php:511
+#: modules/add_post/lang_add.php:11
+#: modules/coupon/admin_manage_coupon.php:49
+#: modules/coupon/admin_manage_coupon.php:67
+#: modules/manage_city/admin_manage_city.php:56
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:65
+#: modules/package/admin_package_list.php:36
+#: modules/package/admin_package_list.php:53
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:65
+msgid "Delete"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:103
+#: modules/add_post/google_map/location_add_map.php:189
+msgid "Latitude:"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:103
+#: modules/add_post/google_map/location_add_map.php:189
+msgid "Longitude:"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:139
+msgid "Status Code:"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:147
+msgid "latlng:"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:148
+msgid "Address:"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:201
+msgid "not found"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:225
+#: modules/add_post/preview.php:173
+msgid "Address"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:228
+msgid "Please enter listing address. eg. : <b>230 Vine Street And locations throughout Old City, Philadelphia, PA 19106"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:233
+msgid "Set Address on Map"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:237
+msgid "Address Latitude"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/google_map/location_add_map.php:241
+msgid "Address Longitude"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:50
+#: modules/add_post/lang_add.php:24
+msgid "Select Images"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:50
+msgid "2 MB Max"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:133
+msgid "Save Order"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:142
+msgid "processing ..."
+msgstr ""
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:150
+msgid "Error loading agent favorite property."
+msgstr ""
+
+#@ templatic
+#: modules/add_post/image_uploader/image_uploader.php:179
+msgid "Error loading deletion of property image."
+msgstr ""
+
+#@ templatic
+#: modules/add_post/ipn_process.php:72
+#: modules/add_post/ipn_process_2co.php:47
+msgid "Payment received successfully"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/ipn_process.php:73
+msgid "<p>Dear [#to_name#],</p><p>[#transaction_details#]</p><br><p>We hope you enjoy . Thanks!</p>\t\t\t<p>[#site_name#]</p>"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/ipn_process.php:116
+msgid "Acknowledgment for your Payment"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/ipn_process.php:117
+msgid ""
+"<p>Dear [#to_name#],</p><p>[#transaction_details#]</p><br><p>We hope you enjoy. Thanks!</p>\n"
+"\t\t\t<p>[#site_name#]</p>"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/ipn_process_2co.php:48
+msgid ""
+"<p>Dear [#to_name#],</p><p>[#transaction_details#]</p><br><p>We hope you enjoy . Thanks!</p>\n"
+"\t\t<p>[#site_name#]</p>"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/ipn_process_2co.php:52
+#, php-format
+msgid ""
+"<p>Dear %s,</p>\n"
+"\t\t\t<p>payment for ID #$postid confirmation.<br></p>\n"
+"\t\t\t<p><b>You may find detail below:</b></p>\n"
+"\t\t\t<p>----</p>\n"
+"\t\t\t<p>ID : %s</p>\n"
+"\t\t\t<p>Title : %s</p>\n"
+"\t\t\t<p>User Name : %s</p>\n"
+"\t\t\t<p>User Email : %s</p>\n"
+"\t\t\t<p>Paid Amount :       %s</p>\n"
+"\t\t\t<p>Transaction ID :       %s</p>\n"
+"\t\t\t<p>Result Code : %s</p>\n"
+"\t\t\t<p>Response Message : %s</p>\n"
+"\t\t\t<p>----</p><br><br>\n"
+"\t\t\t<p>Thank you.</p>\n"
+"\t\t\t"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/ipn_process_2co.php:79
+msgid ""
+"<p>Dear [#to_name#],</p>\n"
+"\t\t\t<p>[#transaction_details#]</p>\n"
+"\t\t\t<br>\n"
+"\t\t\t<p>We hope you enjoy. Thanks!</p>\n"
+"\t\t\t<p>[#site_name#]</p>"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/ipn_process_2co.php:95
+#, php-format
+msgid ""
+"<p>Dear %s,</p>\n"
+"\t\t\t<p>payment for the Listing ID #$postid incompleted.<br>\n"
+"\t\t\tbecause of $respmsg</p>\n"
+"\t\t\t<p><b>You may find detail below:</b></p>\n"
+"\t\t\t<p>----</p>\n"
+"\t\t\t<p>ID : %s</p>\n"
+"\t\t\t<p>Title : %s</p>\n"
+"\t\t\t<p>User Name : %s</p>\n"
+"\t\t\t<p>User Email : %s</p>\n"
+"\t\t\t<p>Paid Amount :   %s</p>\n"
+"\t\t\t<p>Transaction ID : %s</p>\n"
+"\t\t\t<p>Result Code : %s</p>\n"
+"\t\t\t<p>Response Message : %s</p>\n"
+"\t\t\t<p>----</p><br><br>\n"
+"\t\t\t<p>Thank you.</p>\n"
+"\t\t\t"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:7
+#: modules/registration/registration_language.php:9
+msgid "Indicates mandatory fields"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:8
+msgid "Add Event"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:9
+#: modules/add_post/lang_add.php:13
+msgid "Renew"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:16
+msgid "I am"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:17
+msgid "Login or Register"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:18
+msgid "Existing User"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:20
+msgid "Login"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:23
+msgid "Add Images : <small>(You can upload more than one images to create image gallery on detail page)</small>"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:25
+msgid "Listing Description"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:26
+msgid "Event Description"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:27
+msgid "Special Offers"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:28
+msgid "Contact"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:29
+msgid "Enter Coupon Code"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:30
+msgid "Enter coupon code here (optional)"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:31
+msgid "Captcha Verification"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:32
+msgid "Select Package Type"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:33
+#: modules/coupon/admin_coupon.php:83
+#: modules/coupon/admin_manage_coupon.php:45
+msgid "Coupon Code"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:35
+#, php-format
+msgid "%s : number of publish days are %s (<span id=\"%s\">%s %s</span>)"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:37
+#, php-format
+msgid "<br>Your applied coupon code is \"%s\" and discount amout is %s, deducted from the payable amount."
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:39
+#, php-format
+msgid "This is preview of your listing and it&acute;s not published yet. <br />If there is something wrong click \"Go back and edit\" or if you want to add the listing then click on \"Publish\".<br> You are going to pay <b>%s</b> and  your listing will be published for  <b>%s</b> days as a %s listing"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:40
+#, php-format
+msgid "This is preview of your listing and it&acute;s not published yet. <br />If there is something wrong click \"Go back and edit\" or if you want to add the listing then click on \"Publish\".<br> Your listing will be published for  <b>%s</b> days as a %s listing"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:42
+msgid "This is preview of your listing and its not updated yet. <br />If there is something wrong then \"Go back and edit\" or if you want to add listing then click on \"Update now\""
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:43
+msgid "Invalid Coupon Code"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:44
+msgid "Word Verification"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:45
+msgid "Review Your Listing"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:46
+msgid "Select Listing Type"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:47
+msgid "Select Type"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:48
+msgid "Note : You can sort images from Dashboard and then clicking on \"Edit\" in the lisitng"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:50
+#: modules/manage_city/admin_manage_city.php:30
+msgid "City"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:51
+msgid "State"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:52
+msgid "Mobile Number"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:55
+msgid "Twitter"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:56
+msgid "Facebook"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:57
+msgid "Upload Photo"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:58
+msgid "Short Biodata Information"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:59
+msgid "Note : PNG, GIF of JPEG only, for better image quality upload image size 150x150"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:60
+msgid "Note : Basic HTML tags are allowed"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:61
+msgid "Note: List out any special offers (optional)"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:63
+msgid "&laquo; Go Back and Edit"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:64
+msgid "Update Now"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:65
+msgid "Publish"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:66
+#: modules/coupon/admin_coupon.php:108
+#: modules/manage_city/admin_add_city.php:120
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:230
+#: modules/package/admin_price_add.php:109
+#: modules/paymethods/admin_paymethods_add.php:107
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:214
+msgid "Cancel"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:67
+msgid "Pay & Publish"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:68
+msgid "Publisher Information"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:69
+msgid "Enter Listing Details"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:71
+msgid "Are you really sure want to DELETE this listing? A deleted listing can not be recovered later"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:72
+msgid "Yes, Delete Please!"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:73
+msgid "This place is listed as Featured. Do you want to remove it from featured listing?"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:76
+msgid "Submission Successfully"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:77
+msgid "Listing Renewal Successful"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:78
+msgid "<h2>Listing information posted successfully.</h2> <p> You can edit this message from language.php file at root of theme folder.</p>"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:80
+msgid "Listing Posting Canceled"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:81
+msgid "Listing Post Canceled.<br><br>You can edit this message from language.php file at root of theme folder."
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:84
+msgid "Payment Success"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/lang_add.php:85
+msgid "Thank you for joining us. Your payment was received and listing post published.<br>Thank you for becoming our valued member.<br><br>You can edit this message from language.php file at root of theme folder."
+msgstr ""
+
+#@ templatic
+#: modules/add_post/places_category.php:8
+#: modules/add_post/submit_form.php:364
+#: modules/add_post/submit_form_06_April_2011.php:325
+#: modules/manage_city/admin_add_city.php:95
+#: modules/manage_city/admin_add_city.php:103
+#: modules/package/admin_price_add.php:72
+#: modules/package/admin_price_add.php:74
+#: modules/registration/profile.php:192
+#: modules/registration/registration_form.php:123
+msgid "Select Category"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/preview.php:134
+msgid "Edit this Post"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:7
+msgid "Email for Publisher Information is Empty. Please enter Email, your all informations will sent to your Email."
+msgstr ""
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:26
+#: modules/registration/registration.php:107
+msgid "ERROR: Please enter a username."
+msgstr ""
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:28
+#: modules/registration/registration.php:109
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr ""
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:31
+msgid "<strong>ERROR</strong>:  This username is already registered, please choose another one."
+msgstr ""
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:40
+msgid "<strong>ERROR</strong>:  This email is already registered, please choose another one."
+msgstr ""
+
+#@ templatic
+#: modules/add_post/single_page_checkout_insertuser.php:92
+msgid ""
+"[SUBJECT-STR]Registration Email[SUBJECT-END]<p>Dear [#$user_name#],</p>\n"
+"\t\t<p>Your login information:</p>\n"
+"\t\t<p>Username: [#$user_login#]</p>\n"
+"\t\t<p>Password: [#$user_password#]</p>\n"
+"\t\t<p>You can login from [#$store_login_url#] or the URL is : [#$store_login_url_link#].</p>\n"
+"\t\t<p>We hope you enjoy. Thanks!</p>\n"
+"\t\t<p>[#$store_name#]</p>"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/submit_form.php:537
+#: modules/add_post/submit_form_01_april_2011.php:369
+#: modules/add_post/submit_form_05_april_2011.php:504
+#: modules/add_post/submit_form_06_April_2011.php:484
+msgid "Note: You will be able to see a preview in the next page"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/success.php:16
+msgid ""
+"<p>Thank you, your request received successfully.</p>\n"
+"<p>To publish the property please transfer the amount of <u>[#payable_amt#] </u> at our bank with the following information :</p>\n"
+"<p>Bank Name : [#bank_name#]</p>\n"
+"<p>Account Number : [#account_number#]</p>\n"
+"<br>\n"
+"<p>Please include the ID as reference :#[#submition_Id#]</p>\n"
+"<p><a href=\"[#submited_information_link#]\" >View your submitted listing &raquo;</a>\n"
+"<br>\n"
+"<p>Thank you for visit at [#site_name#].</p>"
+msgstr ""
+
+#@ templatic
+#: modules/add_post/success.php:30
+msgid "<p>Thank you, your information has been successfully received.</p><p><a href=\"[#submited_information_link#]\" >View your submitted information »</a></p> <p>Thank you for visiting us at [#site_name#].</p>"
+msgstr ""
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:176
+msgid "Please upload CSV file only."
+msgstr ""
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:182
+msgid "Please select valid CSV file only for listing bulk upload."
+msgstr ""
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:188
+#, php-format
+msgid "Cannot move the bulk upload file to Temporary system folder <b>\"%s\"</b>. Please check folder permission should be 0777."
+msgstr ""
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:194
+msgid "File you are uploading is not valid. First colum should be \"Post Title\"."
+msgstr ""
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:202
+msgid "CSV uploaded successfully."
+msgstr ""
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:210
+msgid "Select CSV file to upload"
+msgstr ""
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:224
+msgid "You can download"
+msgstr ""
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:224
+msgid "sample CSV file"
+msgstr ""
+
+#@ templatic
+#: modules/bulk_upload/admin_bulk_upload.php:237
+msgid "Please select csv file to upload"
+msgstr ""
+
+#@ templatic
+#: modules/bulk_upload/bulk_upload_function.php:2
+msgid "Bulk Upload"
+msgstr ""
+
+#@ templatic
+#: modules/bulk_upload/bulk_upload_function.php:34
+#: modules/coupon/function_coupon.php:32
+#: modules/notifications/notification_functions.php:34
+#: modules/paymethods/paymethods_functons.php:34
+#, php-format
+msgid ""
+"<h4>A new version of Bulk Upload Module is available.</h4>\n"
+"<p>This updater will collect a file from the templatic.com server. It will download and extract the files to your current theme&prime;s functions folder. \n"
+"<br />We recommend backing up your theme files before updating. Only upgrade related module files if necessary.\n"
+"<br />If you are facing any problem in auto updating the framework, then please download the latest version of the theme from members area and then just overwrite the \"<b>%s</b>\" folder.\n"
+"<br /><br />&rArr; Your version: %s\n"
+"<br />&rArr; Current Version: %s </p>"
+msgstr ""
+
+#@ templatic
+#: modules/coupon/admin_coupon.php:79
+msgid "Coupon code already exists, Please use different one."
+msgstr ""
+
+#@ templatic
+#: modules/coupon/admin_coupon.php:90
+#: modules/coupon/admin_manage_coupon.php:46
+msgid "Discount Type"
+msgstr ""
+
+#@ templatic
+#: modules/coupon/admin_coupon.php:95
+msgid "Percentage"
+msgstr ""
+
+#@ templatic
+#: modules/coupon/admin_coupon.php:99
+msgid "Amount"
+msgstr ""
+
+#@ templatic
+#: modules/coupon/admin_coupon.php:117
+msgid "Percentage should be less than or equal to 100"
+msgstr ""
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:34
+#: modules/coupon/admin_manage_coupon.php:79
+msgid "Coupon updated successfully."
+msgstr ""
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:39
+msgid "Coupon deleted successfully."
+msgstr ""
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:47
+msgid "Discount Amount"
+msgstr ""
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:90
+msgid "Allow coupon option on submit Add Listing page"
+msgstr ""
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:95
+#: modules/manage_city/admin_add_city.php:84
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:192
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:202
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:212
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:222
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:61
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:81
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:86
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:87
+#: modules/package/admin_package_list.php:51
+#: modules/package/admin_price_add.php:95
+#: modules/paymethods/admin_paymethods_list.php:251
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:176
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:186
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:196
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:206
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:60
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:80
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:83
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:84
+msgid "Yes"
+msgstr ""
+
+#@ templatic
+#: modules/coupon/admin_manage_coupon.php:99
+#: modules/manage_city/admin_add_city.php:85
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:193
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:203
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:213
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:223
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:61
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:81
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:86
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:87
+#: modules/package/admin_price_add.php:94
+#: modules/paymethods/admin_paymethods_list.php:251
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:177
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:187
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:197
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:207
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:60
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:80
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:83
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:84
+msgid "No"
+msgstr ""
+
+#@ templatic
+#: modules/coupon/function_coupon.php:2
+msgid "Manage Coupon"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:6
+#: modules/custom_post_type/custom_post_type_lang.php:7
+#: modules/custom_post_type/custom_post_type_lang.php:8
+msgid "Listing"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:9
+msgid "Add Post"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:10
+msgid "Add New Post"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:12
+msgid "Edit Post"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:13
+msgid "New Post"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:14
+msgid "View Post"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:15
+msgid "Search Post"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:16
+msgid "No Post found"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:17
+msgid "No Post found in trash"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:19
+#: modules/custom_post_type/custom_post_type_lang.php:20
+msgid "Listing Categories"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:21
+#: tpl_advanced_search.php:53
+msgid "Category"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:22
+msgid "Search Category"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:23
+msgid "Popular Categories"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:24
+msgid "All Categories"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:25
+msgid "Parent Category"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:26
+msgid "Parent Category:"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:27
+msgid "Edit Category"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:28
+msgid "Update Category"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:29
+msgid "Add New Category"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:30
+msgid "New Category Name"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:32
+#: modules/custom_post_type/custom_post_type_lang.php:33
+#: modules/custom_post_type/custom_post_type_lang.php:34
+#: modules/custom_post_type/custom_post_type_lang.php:35
+msgid "Listing Tags"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:36
+msgid "Popular Listing Tags"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:37
+msgid "All Listing Tags"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:38
+msgid "Parent Listing Tags"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:39
+msgid "Parent Listing Tags:"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:40
+msgid "Edit Listing Tags"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:41
+msgid "Update Listing Tags"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:42
+msgid "Add New Listing Tags"
+msgstr ""
+
+#@ templatic
+#: modules/custom_post_type/custom_post_type_lang.php:43
+msgid "New Listing Tags Name"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:46
+msgid "Edit City"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:49
+msgid "Add City"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:59
+msgid "City Name"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:63
+msgid "Map Central latitute"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:68
+msgid "Map Central longitude"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:73
+msgid "Map Scaling Factor"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:82
+msgid "Map Zooming Home page"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:90
+msgid "Set as default City"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_add_city.php:129
+#: modules/package/admin_price_add.php:118
+msgid "Please enter Title"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:18
+msgid "City updated successfully."
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:23
+msgid "City deleted successfully."
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:29
+msgid "City ID"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:31
+msgid "Central latitute"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:32
+msgid "Central longitude"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:33
+msgid "Scaling Factor"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:34
+msgid "Zooming Home?"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:35
+msgid "Default City"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:36
+msgid "Category IDs"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:37
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:50
+#: modules/paymethods/admin_paymethods_list.php:227
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:50
+msgid "Action"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:65
+msgid "<strong>Note : </strong>You should set atleast one city as Default. Default city information will be displayed on opening the site. If you want to set multicity functionaltiy, you should add more than one city and \"post_city_id\" as custom field of post to assign the listing to the city."
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/admin_manage_city.php:70
+msgid "Are you sure want to delet city?"
+msgstr ""
+
+#@ templatic
+#: modules/manage_city/city_functions.php:6
+msgid "Manage City"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:54
+msgid "Edit Custom Fields"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:57
+msgid "Add Custom Fields"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:63
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:66
+msgid "Information Saved successfully."
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:78
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:81
+msgid "Please Enter Frontend Title"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:89
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:92
+msgid "Please Enter HTML Variable Name"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:105
+msgid "Post Type : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:116
+msgid "Select Post Type"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:120
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:114
+msgid "Type : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:123
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:117
+msgid "Text"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:124
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:118
+msgid "Text Editor"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:125
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:119
+msgid "Text Heading"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:126
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:120
+msgid "Checkbox"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:127
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:121
+msgid "Date Picker"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:128
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:122
+msgid "Multi Checkbox"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:129
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:123
+msgid "Radio"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:130
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:124
+msgid "Select"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:131
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:125
+msgid "Textarea"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:132
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:126
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:144
+msgid "Upload"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:134
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:128
+msgid "Select type"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:138
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:132
+msgid "Option Values : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:140
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:134
+msgid "This Option Values should be separated by comma."
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:144
+msgid "Admin Title : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:146
+msgid "Personal comment, it would not be displayed anywhere except in Custom field settings"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:151
+msgid "Frontend Title : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:153
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:143
+msgid "Title which you wish to display in frontend"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:158
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:153
+msgid "HTML Variable Name : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:160
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:155
+msgid "This should be a unique name"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:165
+msgid "Admin Label : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:167
+msgid "Title which will appear in backend"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:171
+msgid "Description : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:173
+msgid "Description which will appear in backend and frontend"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:177
+msgid "Default Value : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:179
+msgid "Enter the default value"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:183
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:167
+msgid "Display Order : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:185
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:169
+msgid "Enter the display order of this field in backend and frontend. e.g. 5 "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:189
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:173
+msgid "Is Active : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:195
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:179
+msgid "Select Yes or No. If NO is selected then the field will not be displayed anywhere"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:199
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:183
+msgid "Is Require : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:205
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:189
+msgid "Select Yes or No. If NO is selected then the field will not be ask for validation anywhere"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:209
+msgid "Show On Listing Page ? : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:215
+msgid "Want to show this on Listing page ?"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:219
+msgid "Show On Detail Page ? : "
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:225
+msgid "Want to show this on Detail page ?"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_edit.php:230
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:214
+msgid "Save"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:18
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:18
+msgid "Are you sure, want to delete this information?"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:35
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:35
+msgid "Information Deleted successfully."
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:46
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:72
+msgid "Admin Title"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:47
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:75
+msgid "Post Type"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:48
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:79
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:47
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:77
+msgid "Type"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:49
+#: modules/paymethods/admin_paymethods_add.php:76
+#: modules/paymethods/admin_paymethods_list.php:225
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:48
+msgid "Is Active"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:63
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:63
+msgid "Detail"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:76
+#: modules/paymethods/admin_paymethods_add.php:84
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:49
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:74
+msgid "Display Order"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:80
+msgid "Defaule Value"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:81
+msgid "Is Display On Detail?"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:85
+msgid "Front Title"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:86
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:80
+msgid "Is Active?"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:87
+msgid "Is Display On listing?"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:91
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:73
+msgid "HTML Variable Name"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:93
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:89
+msgid "Use at front end"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:93
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:89
+msgid "Theme Default Field"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:93
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:89
+msgid "Heading"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/admin_manage_custom_fields_list.php:103
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:99
+msgid "No Custom fields available."
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/db_mange_custom_fields.php:34
+msgid "Manage Custom Fields"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/db_mange_custom_fields.php:34
+msgid "Post Custom Fields"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:170
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:170
+msgid "Geo Address"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:172
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:172
+msgid "Please enter address. eg. : 230 Vine Street And locations throughout Old City, Philadelphia, PA 19106"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:177
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:177
+msgid "Geo Latitude"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:179
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:179
+msgid "Enter Geo Latitude. eg. : 38.8225909761771"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:184
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:184
+msgid "Geo Longitude"
+msgstr ""
+
+#@ templatic
+#: modules/manage_custom_fields/manage_post_custom_fields.php:186
+#: modules/registration/custom_usermeta/manage_custom_usermeta.php:186
+msgid "Enter Geo Longitude. eg. : 12.65625"
+msgstr ""
+
+#@ templatic
+#: modules/notifications/admin_notification.php:31
+msgid "Different emails and messages are displayed on the site or, being sent to your user at different times such as, when they post a classified etc. You may customize the default messages, email messages as per your wish from here. "
+msgstr ""
+
+#@ templatic
+#: modules/notifications/admin_notification.php:34
+msgid "updated successfully."
+msgstr ""
+
+#@ templatic
+#: modules/notifications/admin_notification.php:42
+msgid "Email Type"
+msgstr ""
+
+#@ templatic
+#: modules/notifications/admin_notification.php:43
+msgid "Email Subject"
+msgstr ""
+
+#@ templatic
+#: modules/notifications/admin_notification.php:44
+msgid "Email Description"
+msgstr ""
+
+#@ templatic
+#: modules/notifications/admin_notification.php:85
+msgid "Description"
+msgstr ""
+
+#@ templatic
+#: modules/notifications/notification_functions.php:2
+msgid "Manage Notifications"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_package_list.php:19
+msgid "Price updated successfully."
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_package_list.php:24
+msgid "Price deleted successfully."
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_package_list.php:31
+msgid "Price"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_package_list.php:32
+msgid "Number Of Days"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_package_list.php:33
+#: modules/package/admin_price_add.php:84
+msgid "Status"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_package_list.php:34
+#: modules/package/admin_price_add.php:92
+msgid "Is Featured"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_package_list.php:50
+#: modules/package/admin_price_add.php:86
+msgid "Active"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_package_list.php:50
+#: modules/package/admin_price_add.php:87
+msgid "Inactive"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_package_list.php:69
+msgid "Are you sure want to delet price?"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_price_add.php:16
+#: modules/package/functions_package.php:46
+#, php-format
+msgid "%s in %s%s for %s days"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_price_add.php:47
+msgid "Edit Price"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_price_add.php:50
+msgid "Add Price"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_price_add.php:58
+msgid "Price Title"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_price_add.php:62
+msgid "Price Amount"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_price_add.php:67
+msgid "Number of Days"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_price_add.php:100
+msgid "Title to be display while Add Listing"
+msgstr ""
+
+#@ templatic
+#: modules/package/admin_price_add.php:102
+msgid "Keep blank to reset default content."
+msgstr ""
+
+#@ templatic
+#: modules/package/db_package.php:33
+msgid "Manage Price Package"
+msgstr ""
+
+#@ templatic
+#: modules/package/db_package.php:33
+msgid "Price Package"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_add.php:66
+msgid "Updated Succesfully"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_add.php:72
+msgid "Payment Method"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_add.php:78
+#: modules/paymethods/admin_paymethods_list.php:258
+msgid "Activate"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_add.php:79
+#: modules/paymethods/admin_paymethods_list.php:255
+msgid "Deactivate"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_add.php:119
+msgid "Please enter Payment Method"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:35
+#: modules/paymethods/admin_paymethods_list.php:71
+msgid "Merchant Id"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:38
+msgid "Example : myaccount@paypal.com"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:41
+msgid "Cancel Url"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:44
+#: modules/paymethods/admin_paymethods_list.php:50
+#: modules/paymethods/admin_paymethods_list.php:56
+#: modules/paymethods/admin_paymethods_list.php:148
+#, php-format
+msgid "Example : %s"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:47
+msgid "Return Url"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:53
+#: modules/paymethods/admin_paymethods_list.php:145
+msgid "Notify Url"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:60
+msgid "Paypal"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:74
+#: modules/paymethods/admin_paymethods_list.php:99
+msgid "Example : 1234567890"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:78
+msgid "Google Checkout"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:90
+msgid "Login ID"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:93
+msgid "Example : yourname@domain.com"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:96
+msgid "Transaction Key"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:103
+msgid "Authorize.net"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:115
+msgid "Instant Id"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:118
+msgid "Example : 123456"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:121
+msgid "Account Id"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:124
+msgid "Example : 12345"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:128
+msgid "Worldpay"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:139
+msgid "Vendor ID"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:142
+msgid "Enter Vendor ID Example : 1303908"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:152
+msgid "2CO (2Checkout)"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:165
+msgid "Bank Information"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:168
+msgid "Enter the bank name to which you want to transfer payment"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:171
+msgid "Account ID"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:174
+msgid "Enter your bank Account ID"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:178
+msgid "Pre Bank Transfer"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:189
+msgid "Pay Cash On Delivery"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:224
+msgid "Method Name"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/admin_paymethods_list.php:226
+msgid "Sort Order"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/paymethods_functons.php:2
+#: modules/paymethods/paymethods_functons.php:58
+msgid "Payment Options"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/paymethods_functons.php:58
+msgid "Manage Payment Options"
+msgstr ""
+
+#@ templatic
+#: modules/paymethods/paymethods_functons.php:157
+msgid "Please select payment method on preview page."
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:57
+msgid "Edit Custom User Meta"
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:60
+msgid "Add Custom User Meta"
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:141
+msgid "Title : "
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:147
+msgid "Field Description : "
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:149
+msgid "Field Description which will display below field tag"
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:193
+msgid "Show On Registration Page ? : "
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:199
+msgid "Want to show this on Registration page ?"
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:203
+msgid "Show On Profile Page ? : "
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_edit.php:209
+msgid "Want to show this on Profile page ?"
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:78
+msgid "Is Require"
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:83
+msgid "Display On Registration?"
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/admin_custom_usermeta_list.php:84
+msgid "Display On Profile?"
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/db_custom_usermeta.php:35
+msgid "Manage Custom Usermeta"
+msgstr ""
+
+#@ templatic
+#: modules/registration/custom_usermeta/db_custom_usermeta.php:35
+msgid "Custom Usermeta"
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration.php:161
+msgid ""
+"<p>Dear [#$user_name#],</p>\n"
+"\t\t<p>Your login information:</p>\n"
+"\t\t<p>Username: [#$user_login#]</p>\n"
+"\t\t<p>Password: [#$user_password#]</p>\n"
+"\t\t<p>You can login from [#$store_login_url#] or the URL is : [#$store_login_url_link#].</p>\n"
+"\t\t<p>We hope you enjoy. Thanks!</p>\n"
+"\t\t<p>[#$store_name#]</p>"
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration.php:245
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:4
+#: modules/registration/registration_language.php:12
+msgid "E-mail"
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:7
+msgid "Remember me on this computer"
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:10
+msgid "Sign Up Now"
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:11
+msgid "Personal Information"
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:13
+msgid "Full Name"
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:14
+msgid "(Note: A password will be e-mailed to you for future reference.)"
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:15
+msgid "Register Now"
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:20
+msgid "Invalid Username/Password."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:21
+msgid "Registration complete. Please check your e-mail for login details."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:22
+msgid "We just sent you a new password. Kindly check your e-mail now."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:23
+msgid "A confirmation link has been sent to you via email. Kindly check your e-mail now."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:24
+msgid "User registration has been disabled by the admin."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:25
+msgid "You are now logged out."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:26
+msgid "Please enter your e-mail address as username. You will receive a new password via e-mail."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:27
+msgid "Invalid Email, please check"
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:28
+msgid "Check your e-mail for your new password."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:30
+msgid "Email ID already exists. Please select a different Email."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:31
+msgid "New user registration disabled."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:36
+msgid "Confirm Password"
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:38
+msgid "Profile edited successfully."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:39
+msgid "Please enter Email."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:40
+msgid "Email already exists, please choose another."
+msgstr ""
+
+#@ templatic
+#: modules/registration/registration_language.php:41
+msgid "Password and Confirm Password should same."
+msgstr ""
+
+#@ templatic
+#: pagination.php:3
+msgid "Previous Page"
+msgstr ""
+
+#@ templatic
+#: pagination.php:4
+msgid "Next Page"
+msgstr ""
+
+#@ templatic
+#: pagination.php:8
+msgid "LOAD MORE"
+msgstr ""
+
+#@ templatic
+#: search.php:10
+#: search.php:23
+msgid "Search Result for category"
+msgstr ""
+
+#@ templatic
+#: search.php:10
+#: search.php:23
+msgid "Search Result for date"
+msgstr ""
+
+#@ templatic
+#: search.php:10
+#: search.php:23
+msgid "Search Result for author"
+msgstr ""
+
+#@ templatic
+#: search.php:10
+#: search.php:23
+msgid "Search Result for "
+msgstr ""
+
+#@ templatic
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#@ templatic
+#: tpl_advanced_search.php:31
+msgid "Search this website"
+msgstr ""
+
+#@ templatic
+#: tpl_advanced_search.php:37
+msgid "Please enter word you want to search"
+msgstr ""
+
+#@ templatic
+#: tpl_advanced_search.php:70
+msgid "Date"
+msgstr ""
+
+#@ templatic
+#: tpl_advanced_search.php:75
+msgid "<span>to</span>"
+msgstr ""
+
+#@ templatic
+#: tpl_advanced_search.php:81
+msgid "Author"
+msgstr ""
+
+#@ templatic
+#: tpl_advanced_search.php:84
+msgid "Exact author"
+msgstr ""
+
+#@ templatic
+#: tpl_sitemap.php:54
+msgid "Meta"
+msgstr ""
+
+#@ templatic
+#: tpl_sitemap.php:57
+#: tpl_sitemap.php:58
+#: tpl_sitemap.php:59
+msgid "RSS"
+msgstr ""
+
+#@ templatic
+#: tpl_sitemap.php:57
+msgid "1.0 feed"
+msgstr ""
+
+#@ templatic
+#: tpl_sitemap.php:58
+msgid "0.92 feed"
+msgstr ""
+
+#@ templatic
+#: tpl_sitemap.php:59
+msgid "2.0 feed"
+msgstr ""
+
+#@ templatic
+#: tpl_sitemap.php:60
+msgid "Atom feed"
+msgstr ""
+
+#@ templatic
+#: tpl_sitemap.php:66
+msgid "<strong>Tags: </strong>"
+msgstr ""
+
+#@ templatic
+#: admin/auto_update_framework.php:92
+msgid "Currently Unavailable"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/login.php:127
+msgid "Your login Information :"
+msgstr ""
+
+#@ templatic
+#: admin/widgets/twitter.php:8
+msgid "Enter your Twitter login ID and it will show latest tweet at your site."
+msgstr ""
+
+#@ templatic
+#: admin/widgets/twitter.php:9
+msgid "T &rarr; Twitter Feed"
+msgstr ""
+
+#@ templatic
+#: comments.php:12
+#, php-format
+msgid "%1$s comments"
+msgstr ""
+
